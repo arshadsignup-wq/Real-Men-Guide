@@ -86,7 +86,7 @@ export default function TermsPage() {
         <section>
           <h2 className="mb-2 text-xl font-bold text-foreground">Contact</h2>
           <p>
-            Questions? Email us at hello@realmenguide.com.
+            Questions? Email us at realmenguide@gmail.com.
           </p>
         </section>
       </div>

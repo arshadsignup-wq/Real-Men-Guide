@@ -63,14 +63,14 @@ export default function PrivacyPage() {
           <h2 className="mb-2 text-xl font-bold text-foreground">Your Rights</h2>
           <p>
             You can unsubscribe from our newsletter at any time using the link in any
-            email. To request data deletion, contact us at hello@realmenguide.com.
+            email. To request data deletion, contact us at realmenguide@gmail.com.
           </p>
         </section>
 
         <section>
           <h2 className="mb-2 text-xl font-bold text-foreground">Contact</h2>
           <p>
-            Questions about this policy? Email us at hello@realmenguide.com.
+            Questions about this policy? Email us at realmenguide@gmail.com.
           </p>
         </section>
       </div>

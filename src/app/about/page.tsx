@@ -55,7 +55,7 @@ export default function AboutPage() {
           <p className="mt-1 text-sm">
             We&apos;re always looking to build more useful tools.
             Drop us a line at{' '}
-            <span className="text-accent">hello@realmenguide.com</span>
+            <span className="text-accent">realmenguide@gmail.com</span>
           </p>
         </div>
       </div>
