@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { categories } from '@/lib/site-config';
 
@@ -10,9 +11,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-        <Link href="/" className="flex items-center gap-2 text-lg font-bold text-foreground">
-          <span className="text-accent">■</span>
-          <span>Real Men Guide</span>
+        <Link href="/" className="flex items-center">
+          <Image src="/logo.png" alt="Real Men Guide" width={140} height={40} className="h-8 w-auto invert" priority />
         </Link>
 
         {/* Desktop nav */}
