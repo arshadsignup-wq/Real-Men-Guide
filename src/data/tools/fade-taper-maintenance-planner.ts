@@ -163,24 +163,24 @@ export const fadeTaperMaintenancePlannerConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Fades and tapers look incredible on day one, but they grow out fast. The difference between a sharp fade and a fuzzy mess is knowing exactly when to rebook. This planner calculates your ideal maintenance schedule based on your specific fade type, growth rate, and standards, so you always look like you just left the barber chair.',
+      'Fades and tapers look incredible on day one, but they grow out fast. The difference between a sharp fade and a fuzzy mess is knowing exactly when to rebook. This fade maintenance planner calculates your ideal schedule based on fade type, growth rate, and your standards. For overall haircut timing, also check our <a href="/haircut-frequency-calculator">Haircut Frequency Calculator</a>.',
     howToUse:
-      'Select your fade or taper type, how fresh you like to keep it, your hair growth speed, and whether you do edge cleanup at home. The planner will calculate how many days you can go between barber visits, how many times per month and year you will need to go, and give you practical lineup advice. Set a repeating reminder based on your result.',
+      'Select your fade or taper type, freshness preference, growth speed, and whether you do edge cleanup at home. The planner calculates days between visits, monthly frequency, and lineup advice. Use our <a href="/hair-clipper-guard-converter">Hair Clipper Guard Converter</a> if you handle touch-ups yourself.',
     faq: [
       {
         question: 'What is the difference between a fade and a taper?',
         answer:
-          'A taper gradually shortens hair from top to bottom and usually keeps some length at the shortest point. A fade takes the hair down much shorter, often to the skin. Within fades, the name refers to where the fade starts: a low fade begins above the ears, a mid fade starts at the temples, and a high fade starts near the top of the head. A skin fade goes all the way down to bare skin at the bottom.',
+          'A <a href="https://en.wikipedia.org/wiki/Regular_haircut#Taper" target="_blank" rel="noopener">taper</a> gradually shortens hair and keeps some length at the bottom. A fade goes much shorter, often to skin. Low fades start above the ears, mid fades at the temples, and high fades near the top. Use our <a href="/barber-instruction-generator">Barber Instruction Generator</a> to communicate exactly which type you want.',
       },
       {
         question: 'Can I really do my own lineup at home?',
         answer:
-          'Yes, and it is easier than most guys think. All you need is a cordless T-blade trimmer, a hand mirror for the back, and ten minutes. Start conservative by only removing obvious strays along your existing hairline. Do not try to reshape your hairline or create new angles - just maintain what your barber set up. After a few attempts, you will be saving yourself a trip to the barber every month.',
+          'Yes, and it is easier than most guys think. All you need is a cordless T-blade trimmer, a hand mirror, and ten minutes. Start conservative by removing obvious strays along your existing hairline. Do not reshape it - just maintain what your barber set up. Our <a href="/hair-clipper-guard-converter">Hair Clipper Guard Converter</a> helps you choose the right guard for cleanup.',
       },
       {
         question: 'What should I do between barber visits to maintain my fade?',
         answer:
-          'Three things keep your fade looking fresh longer. First, keep your hairline and neckline clean with a trimmer every few days. Second, use a good pomade or styling product on top to maintain shape and direction. Third, sleep on a silk or satin pillowcase to reduce friction that causes frizz and uneven growth. These habits can easily add three to five extra good-looking days to any fade.',
+          'Three things keep a fade looking fresh. First, clean your hairline and neckline with a trimmer every few days. Second, use a good pomade or styling product to maintain shape. Third, sleep on a silk or satin pillowcase to reduce frizz. These habits add three to five extra good-looking days. Pair with our <a href="/skincare-routine-builder">Skincare Routine Builder</a> to keep the skin around your fade line healthy.',
       },
     ],
     relatedTools: [

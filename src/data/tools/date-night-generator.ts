@@ -492,24 +492,24 @@ export const dateNightGeneratorConfig: GeneratorConfig = {
   ],
   supportingContent: {
     intro:
-      'Great relationships need great dates. Whether you are trying to impress someone new or reconnect with your long-term partner, the right date idea makes all the difference. This generator gives you creative, tried-and-tested date ideas filtered to your budget, the vibe you want, and where you are in the relationship. No more "I don\'t know, what do you want to do?" Just hit generate and get planning.',
+      'Great relationships need great dates. Whether you are trying to impress someone new or reconnect with your long-term partner, the right date night ideas for couples make all the difference. This generator gives you creative, tried-and-tested options filtered to your budget, the vibe you want, and where you are in the relationship. Not sure what her <a href="/love-language-quiz">love language</a> is? Figure that out first, then come back and pick a date that speaks it. No more "I don\'t know, what do you want to do?" Just hit generate and get planning.',
     howToUse:
-      'Use the filters to narrow down your options. Select your budget range, the kind of energy you want for the evening, and your relationship stage. Then hit Generate to get three curated date ideas. Each one comes with an estimated budget, time commitment, and who it works best for. Save the ones you like and start planning.',
+      'Use the filters to narrow down your options. Select your budget range, the kind of energy you want for the evening, and your relationship stage. Then hit Generate to get three curated romantic date ideas. Each one comes with an estimated budget, time commitment, and who it works best for. Need <a href="/conversation-starter-generator">conversation starters for dates</a>? Grab a few before you head out. Save the ones you like and start planning.',
     faq: [
       {
         question: 'How do I make a date feel special without spending a lot of money?',
         answer:
-          'The secret is effort, not expense. A free sunset hike with a handmade picnic shows more thought than an expensive dinner you booked five minutes ago. Plan ahead, add small personal touches (their favorite snack, a playlist you made), and be fully present with no phone checking.',
+          'The secret is effort, not expense. A free sunset hike with a handmade picnic shows more thought than an expensive dinner you booked five minutes ago. Plan ahead, add small personal touches (their favorite snack, a playlist you made), and be fully present with no phone checking. If you need a gift to go with it, try our <a href="/gift-finder-quiz">Gift Finder Quiz</a> for ideas that actually land.',
       },
       {
         question: 'What makes a good first date versus a long-term relationship date?',
         answer:
-          'First dates should be low-pressure, time-flexible (easy to extend or cut short), and activity-based so conversation flows naturally. Long-term dates should break routine and create new shared experiences. The worst long-term date is doing the same dinner-and-movie loop forever.',
+          'First dates should be low-pressure, time-flexible, and activity-based so conversation flows naturally. Think fun first date ideas like a food truck tour or an escape room. Long-term relationship dates should break routine and create new shared experiences. <a href="https://www.gottman.com/blog/relationship-and-opportunity/" target="_blank" rel="noopener">The Gottman Institute</a> emphasizes novelty as key to keeping long-term sparks alive.',
       },
       {
         question: 'How often should we be going on dates?',
         answer:
-          'Research suggests couples who have a regular date night at least once a week report significantly higher relationship satisfaction. If weekly feels like too much, aim for twice a month at minimum. The consistency matters more than the extravagance.',
+          'Research from the <a href="https://nationalmarriageproject.org/" target="_blank" rel="noopener">National Marriage Project</a> suggests couples who have a regular date night at least once a week report significantly higher relationship satisfaction. If weekly feels like too much, aim for twice a month at minimum. The consistency matters more than the extravagance. Even a simple at-home date night counts.',
       },
     ],
     relatedTools: [

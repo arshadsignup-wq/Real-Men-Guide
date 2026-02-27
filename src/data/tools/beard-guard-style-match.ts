@@ -138,24 +138,24 @@ export const beardGuardStyleMatchConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Finding the right trimmer guard setting for your desired beard style can be confusing, especially when every brand uses slightly different numbering. This tool takes the guesswork out by matching your target beard style, hair density, and face shape to the exact guard range and millimeter length you should be aiming for. Whether you are going for clean stubble or a full beard, you will know exactly which guard to snap on.',
+      'Finding the right beard trimmer guard setting can be confusing, especially across different brands. This beard guard style match tool pairs your target style, hair density, and face shape with the exact guard range and millimeter length to aim for. Not sure which style suits you? Take our <a href="/beard-style-selector">Beard Style Selector</a> quiz first, then come back for the technical settings.',
     howToUse:
-      'Select your target beard style, your natural beard density, and your face shape. The calculator instantly returns the guard range, the millimeter length window, how often to trim for maintenance, and a personalized face shape tip to help you look your best. Use this alongside a quality adjustable trimmer for the best results.',
+      'Select your target beard style, natural density, and face shape. The calculator returns the guard range, length window, trim frequency, and a face shape tip. For zone-by-zone guard settings (cheeks, jaw, chin), use our <a href="/beard-trim-settings-calculator">Beard Trim Settings Calculator</a> next.',
     faq: [
       {
         question: 'What if my beard is patchy and I want a full beard?',
         answer:
-          'Patchy beards can still look great at shorter lengths. The key is to keep the length where your coverage is consistent and not go so long that the gaps become visible. A short beard or heavy stubble at 3 to 6mm often looks fuller than a patchy medium beard at 15mm. You can also use beard filler products to cover minor gaps, and consistent grooming with a boar bristle brush can train hairs to cover sparse areas over time.',
+          'Patchy beards look best at shorter lengths where coverage is consistent. A short beard at 3-6mm often appears fuller than a patchy medium beard at 15mm. A boar bristle brush trains hairs to cover sparse areas over time. For more detail on growing through patches, use our <a href="/beard-growth-time-calculator">Beard Growth Time Calculator</a> to set realistic expectations.',
       },
       {
         question: 'How do I find and shape my neckline properly?',
         answer:
-          'Place two fingers above your Adam\'s apple. That is where your neckline should be. Draw an imaginary curved line from behind each ear, down to that two-finger point, and back up to the other ear. Everything below that line gets shaved clean. A well-defined neckline is the single biggest difference between a beard that looks intentional and one that looks neglected.',
+          'Place two fingers above your Adam\'s apple - that is your neckline center. Draw an imaginary curve from behind each ear down to that point and back. Everything below gets shaved clean. A defined neckline is the biggest difference between an intentional beard and a neglected one. Our <a href="/beard-trim-settings-calculator">Beard Trim Settings Calculator</a> includes neckline guidance for every style.',
       },
       {
         question: 'Should I use beard oil or balm with a trimmed beard?',
         answer:
-          'Yes, both serve different purposes. Beard oil moisturizes the skin underneath and reduces itch, making it essential even for stubble. Beard balm adds light hold and helps shape longer beards. For stubble and short beards, oil alone is enough. For medium and full beards, use oil first for moisture and balm on top for shaping and control. Apply oil right after a shower when the hair is damp for the best absorption.',
+          'Yes. <a href="https://www.menshealth.com/grooming/g19518770/best-beard-oil/" target="_blank" rel="noopener">Beard oil</a> moisturizes the skin underneath and reduces itch, essential even for stubble. Balm adds hold for shaping longer beards. For stubble and short beards, oil alone works. For medium and full beards, apply oil first for moisture, then balm for control. Apply right after a shower when hair is damp.',
       },
     ],
     relatedTools: [

@@ -298,24 +298,24 @@ export const skincareRoutineBuilderConfig: BuilderConfig = {
   },
   supportingContent: {
     intro:
-      'Most guys either do nothing for their skin or overcomplicate it with a 12-step routine they saw on TikTok. This builder creates a practical, personalized skincare routine based on your actual skin type, concerns, budget, and time. The result is a routine you will actually stick with - because that is the only routine that works.',
+      'Building a men\'s skincare routine does not need to be complicated. This builder creates a practical, personalized routine based on your skin type, concerns, budget, and time. Whether you are dealing with acne, aging, or just want healthier skin, the result is a daily skincare routine for men you will actually stick with. Pair it with our <a href="/razor-burn-risk-checker">Razor Burn Risk Checker</a> if shaving irritation is part of the problem.',
     howToUse:
-      'Select your skin type, up to 2 concerns, your monthly budget, and how much time you are willing to spend. The builder generates a step-by-step routine with specific product recommendations at your price point. Save the results and use them as a shopping list for your next drugstore or online order.',
+      'Select your skin type, up to 2 concerns, your monthly budget, and how much time you are willing to spend. The builder generates a step-by-step routine with specific product recommendations. Save the results as a shopping list. For shaving-related skin issues, also check our <a href="/razor-blade-replacement-calculator">Razor Blade Replacement Calculator</a>.',
     faq: [
       {
         question: 'Do I really need a skincare routine as a guy?',
         answer:
-          'Yes. Men\'s skin produces more oil, is thicker, and is regularly damaged by shaving. A basic routine (cleanser, moisturizer, sunscreen) takes under 2 minutes and prevents acne, premature aging, and skin damage. Think of it like brushing your teeth - the minimum effort prevents major problems down the road.',
+          'Yes. According to the <a href="https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-for-men" target="_blank" rel="noopener">American Academy of Dermatology</a>, men\'s skin produces more oil, is thicker, and is regularly damaged by shaving. A basic routine (cleanser, moisturizer, sunscreen) takes under 2 minutes and prevents acne, premature aging, and skin damage. Think of it like brushing your teeth - the minimum effort prevents major problems.',
       },
       {
         question: 'How long until I see results?',
         answer:
-          'Your skin cell turnover cycle is about 28 days, so give any new routine at least 4-6 weeks before judging results. Moisturizer and sunscreen show improvements in days (hydration, sun protection), but acne treatments and anti-aging products need 6-12 weeks for visible changes. Consistency is everything.',
+          'Your skin cell turnover cycle is about 28 days, so give any new routine at least 4-6 weeks before judging results. Moisturizer and sunscreen show improvements in days, but acne treatments and anti-aging products need 6-12 weeks for visible changes. Consistency matters more than product count. Our <a href="/hair-wash-schedule-quiz">Hair Wash Schedule Quiz</a> can also help you balance overall grooming habits.',
       },
       {
         question: 'Can I use the same products morning and night?',
         answer:
-          'Your cleanser and moisturizer can be the same AM and PM. However, sunscreen is morning-only, and active treatments like retinol should only be used at night because they make your skin sun-sensitive. Vitamin C serums are best used in the morning for their antioxidant daytime protection.',
+          'Your cleanser and moisturizer can be the same AM and PM. However, sunscreen is morning-only, and active treatments like retinol should only be used at night because they increase sun sensitivity. Vitamin C serums work best in the morning for antioxidant protection. For a complete grooming plan, pair this routine with our <a href="/fragrance-finder">Fragrance Finder</a>.',
       },
     ],
     relatedTools: [

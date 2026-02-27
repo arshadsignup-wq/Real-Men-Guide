@@ -191,24 +191,24 @@ export const denimCareScheduleCalculatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Most guys wash their jeans way too often, fading the color, degrading the fabric, and shortening the lifespan of every pair they own. On the flip side, never washing them is not the answer either (sorry, raw denim purists). This calculator gives you a science-backed wash schedule tailored to your specific denim type, how often you wear them, and how active you are in them.',
+      'Most guys wash their jeans way too often, fading the color and shortening the lifespan of every pair. This denim care calculator gives you a wash schedule tailored to your specific denim type, wear frequency, and activity level. Whether you own <a href="https://en.wikipedia.org/wiki/Selvage_denim" target="_blank" rel="noopener">raw selvedge</a> or stretch jeans, the right wash cadence keeps them looking sharp longer. Pair this with our <a href="/clean-sheets-calculator">Clean Sheets Calculator</a> for a full laundry routine.',
     howToUse:
-      'Select your denim type, enter how many days per week you wear that pair, choose your typical activity level while wearing them, and note whether they currently have visible stains. The calculator tells you exactly how many wears you should get between washes, translates that to a weekly schedule, and provides the optimal wash method for your denim type.',
+      'Select your denim type, enter how many days per week you wear them, choose your activity level, and note any visible stains. The calculator tells you how many wears between washes, translates that to a weekly schedule, and provides the optimal wash method. Check our <a href="/towel-gym-wash-planner">Towel &amp; Gym Wash Planner</a> to round out your laundry plan.',
     faq: [
       {
         question: 'Does freezing your jeans actually kill bacteria?',
         answer:
-          'No. This is one of the most persistent denim myths. Freezing jeans does not kill odor-causing bacteria; it only puts them into a dormant state. As soon as the jeans warm back up, the bacteria reactivate. If your jeans smell, hang them outside in fresh air and sunlight, which actually does have antibacterial properties from UV exposure, or give them a proper cold-water wash.',
+          'No. This is one of the most persistent denim myths. Freezing only puts bacteria into a dormant state — they reactivate as the jeans warm up. If your jeans smell, hang them outside in sunlight, which has real <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4899806/" target="_blank" rel="noopener">UV antibacterial properties</a>, or give them a proper cold-water wash.',
       },
       {
         question: 'How do I spot clean jeans without doing a full wash?',
         answer:
-          'Dampen a clean cloth with cold water, add a tiny drop of mild dish soap if needed, and gently dab (never rub) the stained area. For grease stains, sprinkle baking soda or cornstarch on the spot, let it absorb for 30 minutes, then brush off. For odor, mist lightly with a 50/50 mix of water and white vinegar and hang to air dry. These techniques can extend the time between full washes significantly.',
+          'Dampen a clean cloth with cold water, add a tiny drop of mild dish soap if needed, and gently dab (never rub). For grease stains, sprinkle baking soda on the spot for 30 minutes, then brush off. For odor, mist with a 50/50 water-vinegar mix and air dry. These techniques significantly extend time between full washes.',
       },
       {
         question: 'What is the best way to care for raw selvedge denim?',
         answer:
-          'Wear your raw denim for the first 3-6 months without washing to develop personalized fades and creases. When you do wash, soak inside out in a cold-water bath with a teaspoon of mild detergent for 30-45 minutes, gently agitate by hand, rinse, and hang dry by the waistband. Never machine wash on a regular cycle and never use a dryer. Between washes, hang them in fresh air and sunlight. Repair small holes early with darning or iron-on patches from the inside.',
+          'Wear your raw denim for the first 3-6 months without washing to develop personalized fades. When you wash, soak inside out in cold water with a teaspoon of mild detergent for 30-45 minutes, agitate by hand, rinse, and hang dry by the waistband. Never machine wash on a regular cycle or use a dryer. Between washes, hang in fresh air and sunlight.',
       },
     ],
     relatedTools: [

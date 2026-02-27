@@ -189,24 +189,24 @@ export const caffeineCutoffCalculatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Caffeine is the most widely used stimulant on the planet, and most men drink it without thinking about how it affects their sleep. The problem is that caffeine has a half-life of 5 to 7 hours for most people, meaning half the caffeine from your afternoon coffee is still circulating in your blood when you try to sleep. This calculator works backwards from your bedtime to tell you the exact time you should stop consuming caffeine so it clears your system before you need to sleep.',
+      'This caffeine half-life calculator works backwards from your bedtime to tell you when to stop drinking coffee, energy drinks, or tea. <a href="https://en.wikipedia.org/wiki/Caffeine#Pharmacology" target="_blank" rel="noopener">Caffeine has a half-life of 5 to 7 hours</a> for most people, meaning half of your afternoon dose is still in your blood at bedtime. Pair this tool with our <a href="/sleep-cycle-calculator">Sleep Cycle Calculator</a> to time both your caffeine cutoff and bedtime for the best possible sleep quality.',
     howToUse:
-      'Enter your target bedtime, your caffeine sensitivity level, your typical caffeinated drink, and how many you have per day. The calculator will compute your ideal cutoff time, total daily caffeine intake, and how much caffeine will remain in your system at bedtime. Use the cutoff time as a hard stop for all caffeine consumption each day.',
+      'Enter your target bedtime, caffeine sensitivity level, your typical caffeinated drink, and how many you have per day. The caffeine cutoff calculator computes your ideal stop time, total daily intake, and how much caffeine remains in your system at bedtime. Use the cutoff as a hard stop each day.',
     faq: [
       {
         question: 'How does caffeine actually affect sleep quality?',
         answer:
-          'Even if you can fall asleep after drinking caffeine, it significantly reduces the amount of deep sleep (slow-wave sleep) you get. Studies show that caffeine consumed 6 hours before bed can reduce total sleep time by over an hour and decrease sleep quality by 20%. You may not feel tired the next day, but your recovery, hormone production, and cognitive performance all take a hit.',
+          'Even if you fall asleep after caffeine, it significantly reduces deep sleep (slow-wave sleep). A <a href="https://pubmed.ncbi.nlm.nih.gov/24235903/" target="_blank" rel="noopener">study in the Journal of Clinical Sleep Medicine</a> found that caffeine consumed 6 hours before bed can reduce total sleep by over an hour. Your recovery, hormone production, and cognitive performance all take a hit.',
       },
       {
         question: 'Does decaf coffee still have caffeine?',
         answer:
-          'Yes. A typical 8-ounce cup of decaf coffee contains 2 to 15 milligrams of caffeine. While this is dramatically less than regular coffee, highly sensitive individuals may still notice an effect, especially if drinking multiple cups. If you have high caffeine sensitivity, be mindful of decaf consumption in the evening as well.',
+          'Yes. A typical 8-ounce cup of decaf contains 2 to 15 milligrams of caffeine. While far less than regular coffee, highly sensitive individuals may still notice an effect from multiple cups. If caffeine keeps you wired, be mindful of decaf in the evening and use our <a href="/sleep-cycle-calculator">Sleep Cycle Calculator</a> to optimize your schedule.',
       },
       {
         question: 'Can you build a tolerance to caffeine?',
         answer:
-          'Yes, regular caffeine use leads to tolerance, meaning you need more to get the same alertness boost. However, tolerance does not significantly change how caffeine affects your sleep architecture. Even habitual coffee drinkers experience reduced deep sleep from late-day caffeine. Your brain adapts to feeling alert on caffeine, but your sleep quality still suffers.',
+          'Yes, regular use leads to tolerance — you need more for the same alertness boost. However, tolerance does not change how caffeine affects your <a href="https://www.sleepfoundation.org/nutrition/caffeine-and-sleep" target="_blank" rel="noopener">sleep architecture</a>. Even habitual coffee drinkers experience reduced deep sleep from late-day caffeine. Your brain adapts to feeling alert, but sleep quality still suffers.',
       },
     ],
     relatedTools: ['sleep-cycle-calculator', 'morning-routine-builder', 'hangover-recovery-calculator'],

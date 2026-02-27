@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   description:
     'Free interactive tools for men. Body fat calculator, TDEE calculator, face shape analyzer, outfit builder, and more tools to help you level up.',
-  keywords: ['men tools', 'style guide men', 'fitness calculator', 'grooming tips', 'self improvement men'],
+  keywords: ['body fat calculator men', 'TDEE calculator', 'face shape analyzer', 'beard style quiz', 'capsule wardrobe men', 'cologne finder', 'macro calculator', 'sleep cycle calculator', 'men grooming tools', 'self improvement tools for men', 'love language quiz', 'outfit builder men', 'skincare routine men'],
   metadataBase: new URL('https://realmenguide.com'),
   robots: {
     index: true,

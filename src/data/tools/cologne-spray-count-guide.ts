@@ -207,24 +207,24 @@ export const cologneSprayCountGuideConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'The difference between smelling great and clearing a room comes down to how many times you press that nozzle. This cologne spray count guide calculates the ideal number of sprays based on your fragrance concentration, the occasion, the season, and your skin type. No more guessing, no more overspraying.',
+      'How many sprays of cologne should you use? The difference between smelling great and clearing a room comes down to spray count. This guide calculates the ideal number of sprays based on your fragrance concentration, occasion, season, and skin type. Not sure which cologne to wear? Take our <a href="/fragrance-finder">Fragrance Finder</a> quiz first.',
     howToUse:
-      'Select your fragrance concentration type (check the bottle label if you are unsure), choose the occasion, the current season, and your skin type. The calculator will tell you exactly how many sprays to apply and where to place them for maximum effect without overwhelming anyone around you.',
+      'Select your fragrance concentration (check the bottle label), occasion, season, and skin type. The calculator tells you exactly how many sprays and where to place them. To see how long your bottle will last at this rate, run it through our <a href="/cologne-bottle-lifespan-calculator">Cologne Bottle Lifespan Calculator</a>.',
     faq: [
       {
         question: 'What are pulse points and why should I spray there?',
         answer:
-          'Pulse points are areas where blood vessels sit close to the skin surface, generating warmth that helps diffuse fragrance throughout the day. The main pulse points for men are the sides of the neck, the inner wrists, the chest, and behind the ears. Spraying on these spots projects the scent naturally as your body heat activates the fragrance molecules. The neck and chest are the most effective for projecting to people nearby.',
+          '<a href="https://en.wikipedia.org/wiki/Pulse_point" target="_blank" rel="noopener">Pulse points</a> are areas where blood vessels sit close to the skin, generating warmth that diffuses fragrance. The main pulse points are the neck, inner wrists, chest, and behind the ears. Spraying here lets your body heat naturally project the scent. The neck and chest are most effective for people nearby.',
       },
       {
         question: 'Can I reapply cologne during the day?',
         answer:
-          'Yes, but be strategic. Eau de Cologne and Eau de Toilette concentrations are designed for reapplication after 2-4 hours. Carry a travel atomizer (10ml or less) for a midday refresh. Apply only 1-2 sprays when reapplying. Do not reapply Eau de Parfum or Parfum concentrations unless the scent has completely faded, as the base notes may still be working even if you can no longer smell them yourself (nose blindness).',
+          'Yes, but be strategic. EDT and EDC concentrations are designed for reapplication after 2-4 hours. Carry a travel atomizer for a midday refresh with 1-2 sprays. Do not reapply EDP or Parfum unless the scent has completely faded - nose blindness may fool you. Our <a href="/cologne-sprays-per-ml-converter">Sprays per ML Converter</a> helps you plan travel atomizer refills.',
       },
       {
         question: 'Does layering fragrances change how many sprays I need?',
         answer:
-          'Layering (wearing a scented body wash, deodorant, or balm with your cologne) amplifies overall scent presence, so you should reduce your spray count by 1-2 when layering. Stick to products in the same fragrance family to avoid clashing. Many brands sell layering sets for this exact purpose. If you use a strongly scented deodorant, count that as replacing one spray location.',
+          'Layering with scented body wash, deodorant, or balm amplifies overall presence, so reduce your spray count by 1-2. Stick to the same fragrance family to avoid clashing. If you use a strongly scented deodorant, count that as replacing one spray location. Our <a href="/fragrance-finder">Fragrance Finder</a> helps you pick scents in compatible families.',
       },
     ],
     relatedTools: [

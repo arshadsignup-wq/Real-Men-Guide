@@ -285,24 +285,24 @@ export const hangoverRecoveryCalculatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Had a big night out? The Hangover Recovery Calculator estimates your current state and gives you a personalized recovery plan. Using the Widmark formula for BAC estimation along with factors like hydration, food intake, and drink type, it calculates how long until you are sober, how bad the hangover will be, and exactly what you should do right now to recover faster.',
+      'Had a big night out and need hangover cure tips? The Hangover Recovery Calculator estimates your current state and gives you a personalized recovery plan. Using the <a href="https://en.wikipedia.org/wiki/Blood_alcohol_content#Widmark_formula" target="_blank" rel="noopener">Widmark formula</a> for BAC estimation along with factors like hydration, food intake, and drink type, it calculates how long until you are sober, predicts your hangover severity, and tells you exactly what to do right now to recover faster. Once you are back on your feet, check out the <a href="/daily-man-challenge">Daily Man Challenge</a> to get your day back on track.',
     howToUse:
-      'Enter the details of your drinking session as accurately as you can remember. The more honest you are, the more accurate your results will be. The calculator will estimate your blood alcohol concentration, predict your hangover severity, tell you how much water you need, and give you a personalized recovery tip. Important: this is for entertainment and general guidance only - if you feel seriously unwell, seek medical attention.',
+      'Enter the details of your drinking session as accurately as you can remember. The more honest you are, the more accurate your hangover recovery estimate will be. The calculator predicts your blood alcohol concentration, hangover severity, how much water you need, and gives you a personalized recovery tip. Important: this is for entertainment and general guidance only — if you feel seriously unwell, seek medical attention.',
     faq: [
       {
         question: 'How accurate is the BAC estimate?',
         answer:
-          'The calculator uses the Widmark formula, which is the standard method for estimating BAC used by forensic toxicologists. However, individual metabolism varies significantly based on genetics, liver health, medications, and other factors. Treat the BAC estimate as a rough guideline, not a precise measurement. Never use it to determine if you are safe to drive - when in doubt, do not drive.',
+          'The calculator uses the <a href="https://en.wikipedia.org/wiki/Blood_alcohol_content" target="_blank" rel="noopener">Widmark formula</a>, the standard method for estimating BAC used by forensic toxicologists. However, individual metabolism varies based on genetics, liver health, medications, and other factors. Treat the BAC estimate as a rough guideline, not a precise measurement. Never use it to determine if you are safe to drive — when in doubt, do not drive.',
       },
       {
         question: 'Does "hair of the dog" actually work?',
         answer:
-          'Drinking more alcohol temporarily masks hangover symptoms by raising your BAC again, but it does not speed up recovery - it delays and extends it. You are essentially kicking the hangover down the road and often making the eventual crash worse. The science is clear: hydration, electrolytes, food, and time are the only real cures.',
+          'Drinking more alcohol temporarily masks hangover symptoms by raising your BAC again, but it does not speed up recovery — it delays and extends it. According to <a href="https://www.health.harvard.edu/staying-healthy/7-steps-to-cure-your-hangover" target="_blank" rel="noopener">Harvard Health</a>, the only real hangover remedies are hydration, electrolytes, food, and time. Skip the morning drink and focus on rehydrating instead.',
       },
       {
         question: 'Why does mixing drinks make it worse?',
         answer:
-          'Different alcoholic beverages contain different types and amounts of congeners (byproducts of fermentation). When you mix drink types, your body has to process a wider variety of congeners, which can increase inflammation and worsen hangover symptoms. Dark spirits like bourbon and red wine have more congeners than clear spirits like vodka.',
+          'Different alcoholic beverages contain different types and amounts of <a href="https://en.wikipedia.org/wiki/Congener_(alcohol)" target="_blank" rel="noopener">congeners</a> — byproducts of fermentation that worsen hangover symptoms. When you mix drink types, your body processes a wider variety of congeners, increasing inflammation. Dark spirits like bourbon and red wine have more congeners than clear spirits like vodka. Our <a href="/sleep-cycle-calculator">Sleep Cycle Calculator</a> can also help you time recovery sleep after a night out.',
       },
     ],
     relatedTools: [

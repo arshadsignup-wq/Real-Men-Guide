@@ -779,24 +779,24 @@ export const outfitBuilderConfig: BuilderConfig = {
   },
   supportingContent: {
     intro:
-      'Not sure what to wear? This outfit builder creates a complete, head-to-toe outfit recommendation based on where you are going, the weather, your personal style, and your budget. No more staring at your closet for twenty minutes or showing up under or overdressed.',
+      'Not sure what to wear? This men\'s outfit builder creates a complete, head-to-toe look based on your occasion, weather, personal style, and budget. Whether you need a date night outfit for men or a sharp business casual look, the builder removes the guesswork. Pair the results with our <a href="/capsule-wardrobe-builder">Capsule Wardrobe Builder</a> to make sure your closet covers every situation.',
     howToUse:
-      'Select your occasion, season, style preference, and budget across four quick steps. The builder will generate a complete outfit with specific pieces for your top, bottom, shoes, and accessories, along with brand suggestions at your price point. Save the result or screenshot it for your next shopping trip.',
+      'Select your occasion, season, style preference, and budget across four quick steps. The builder generates a complete outfit with specific pieces for your top, bottom, shoes, and accessories, along with brand suggestions at your price point. Use our <a href="/color-season-analyzer">Color Season Analyzer</a> to choose the most flattering colors.',
     faq: [
       {
         question: 'What if I do not own the recommended pieces?',
         answer:
-          'Use the recommendations as a shopping checklist. You do not need to buy everything at once - start with the pieces you are missing and build over time. The brand suggestions at your budget level are a great starting point. Many of these staples go on sale seasonally.',
+          'Use the recommendations as a shopping checklist. Start with the pieces you are missing and build over time. The brand suggestions at your budget level are a great starting point, and many staples go on sale seasonally. Our <a href="/capsule-wardrobe-builder">Capsule Wardrobe Builder</a> can help you prioritize which pieces to buy first.',
       },
       {
         question: 'Can I mix styles from different recommendations?',
         answer:
-          'Absolutely. These are starting points, not rigid rules. If you love the streetwear sneaker recommendation but prefer the smart-casual top, combine them. The best personal style comes from mixing influences. Just make sure the overall formality level stays consistent for the occasion.',
+          'Absolutely. These are starting points, not rigid rules. If you love the streetwear sneaker recommendation but prefer the smart-casual top, combine them. As <a href="https://www.gq.com/story/how-to-dress-well" target="_blank" rel="noopener">GQ notes</a>, the best personal style comes from mixing influences. Just keep the overall formality level consistent for the occasion.',
       },
       {
         question: 'How important is fit really?',
         answer:
-          'Fit is the single most important factor in looking good. A $30 T-shirt that fits perfectly will look better than a $200 one that is too big or too tight. When in doubt, size for your shoulders and chest, then get the waist and length tailored. Most alterations cost $10-20 and make a massive difference.',
+          'Fit is the single most important factor in looking good. A $30 T-shirt that fits perfectly will look better than a $200 one that is too big or too tight. When in doubt, size for your shoulders and chest, then get the waist and length tailored. Use our <a href="/dress-shirt-size-calculator">Dress Shirt Size Calculator</a> or <a href="/suit-size-estimator">Suit Size Estimator</a> to nail your measurements before you shop.',
       },
     ],
     relatedTools: [

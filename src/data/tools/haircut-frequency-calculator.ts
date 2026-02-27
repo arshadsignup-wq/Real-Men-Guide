@@ -142,24 +142,24 @@ export const haircutFrequencyCalculatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Knowing how often to get a haircut is the difference between always looking sharp and perpetually being two weeks overdue. This calculator factors in your hair type, style, growth rate, and personal standards to give you a personalized haircut schedule. Stop guessing and start planning your barber visits like a pro.',
+      'How often should men get a haircut? The answer depends on your hair type, style, and growth rate. This calculator builds a personalized haircut schedule so you stop guessing and start planning barber visits like a pro. If you rock a fade, also check our <a href="/fade-taper-maintenance-planner">Fade & Taper Maintenance Planner</a> for tighter scheduling.',
     howToUse:
-      'Select your hair type, current haircut style, how fast your hair grows, and how fresh you like to keep your look. The calculator will tell you exactly how many weeks to wait between cuts, how many times a year you will visit the barber, and what it will cost you annually. Use the result to set a recurring calendar reminder so you never miss your window.',
+      'Select your hair type, haircut style, growth rate, and freshness preference. The calculator tells you how many weeks to wait between cuts, annual visits, and yearly cost. Use our <a href="/barber-instruction-generator">Barber Instruction Generator</a> to walk into your next appointment with clear instructions.',
     faq: [
       {
         question: 'How accurate is this timing recommendation?',
         answer:
-          'This calculator gives you a solid baseline, but your ideal timing may vary by a week in either direction depending on factors like seasonal growth changes, product use, and how your specific hair responds to growing out. Use the recommendation as a starting point and adjust after two or three cycles based on when you personally start feeling like your cut has lost its shape.',
+          'This calculator gives a solid baseline, but your timing may vary by a week depending on seasonal growth changes and product use. Use it as a starting point and adjust after two or three cycles. For fade-specific timing, our <a href="/fade-taper-maintenance-planner">Fade & Taper Maintenance Planner</a> offers more precision.',
       },
       {
         question: 'What are the signs I need a haircut?',
         answer:
-          'The most reliable signs include: your hair no longer holds its styled shape by midday, the sides or back are starting to cover your ears or collar, your fade has visibly grown out and lost its gradient, you are using more product than usual to control your hair, and your neckline is looking fuzzy or undefined. If you notice two or more of these, it is time to book an appointment.',
+          'Key signs include: hair no longer holding its shape by midday, sides covering your ears, a fade losing its gradient, needing more product than usual, and a fuzzy neckline. If you notice two or more, book an appointment. Our <a href="/barber-instruction-generator">Barber Instruction Generator</a> helps you communicate exactly what you want when you go.',
       },
       {
         question: 'How can I save money on haircuts without looking worse?',
         answer:
-          'Three strategies work well. First, learn to do basic neckline and sideburn cleanup at home between barber visits to extend each cut by a week or two. Second, find a barber school near you where supervised students give cuts at a steep discount. Third, pick a style with a longer grow-out window like a medium-length textured crop instead of a skin fade that demands biweekly visits.',
+          'Three strategies work well. First, learn basic neckline cleanup at home to extend each cut by a week. Second, find a barber school near you for discounted cuts. Third, pick a style with a longer grow-out window. Our <a href="/hair-clipper-guard-converter">Hair Clipper Guard Converter</a> helps you understand guard sizes if you trim at home.',
       },
     ],
     relatedTools: [

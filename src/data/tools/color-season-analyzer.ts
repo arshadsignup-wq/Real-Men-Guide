@@ -226,24 +226,24 @@ export const colorSeasonAnalyzerConfig: QuizConfig = {
   ],
   supportingContent: {
     intro:
-      'Color season analysis helps you identify which clothing colors make you look your healthiest, most vibrant, and most put-together. Based on your skin undertone, eye color, hair color, and natural contrast level, you fall into one of four seasonal color palettes. Wearing your best colors is one of the simplest upgrades you can make to your appearance.',
+      'Color season analysis for men identifies which clothing colors make you look your healthiest and most put-together. Based on your skin undertone, eye color, hair color, and contrast level, you fall into one of four seasonal palettes. Understanding your color season is one of the simplest upgrades to your appearance. Apply the results directly in our <a href="/capsule-wardrobe-builder">Capsule Wardrobe Builder</a> to build a cohesive closet.',
     howToUse:
-      'Take this quiz in natural daylight, ideally near a window. Remove any tinted glasses or colored contacts. If you dye your hair, answer based on your natural color. The quiz analyzes your undertone, contrast level, and coloring to place you in your seasonal palette with specific color recommendations for clothing and accessories.',
+      'Take this quiz in natural daylight near a window. Remove tinted glasses or colored contacts. If you dye your hair, answer based on your natural color. The quiz analyzes your undertone, contrast, and coloring to assign your seasonal palette with specific color recommendations. Pair results with our <a href="/outfit-builder">Outfit Builder</a> for complete looks.',
     faq: [
       {
         question: 'What if I look good in colors from multiple seasons?',
         answer:
-          'Most men have a primary season with some overlap into an adjacent season (for example, Spring-Autumn or Summer-Winter). If your result does not feel like a perfect match, the quiz likely picked up on your secondary season. Focus on the recommended colors that you already know look good on you and experiment with the rest.',
+          'Most men have a primary season with overlap into an adjacent one, such as Spring-Autumn or Summer-Winter. If your result does not feel like a perfect match, the quiz likely picked up on your secondary season. Focus on the colors you already know look good and experiment with the rest. Our <a href="/capsule-wardrobe-builder">Capsule Wardrobe Builder</a> lets you apply your palette directly.',
       },
       {
         question: 'Does my color season change if I tan or go gray?',
         answer:
-          'Your underlying skin undertone (warm or cool) does not change with a tan, but your contrast level can shift. Gray hair typically moves men from their warm season toward a cooler one (Spring to Summer, Autumn to Winter) because gray hair has cool undertones. If your coloring changes significantly, retake the quiz.',
+          'Your underlying <a href="https://en.wikipedia.org/wiki/Skin_color#Undertone" target="_blank" rel="noopener">skin undertone</a> does not change with a tan, but your contrast level can shift. Gray hair typically moves men from warm seasons toward cooler ones because gray has cool undertones. If your coloring changes significantly, retake the quiz and update your wardrobe palette accordingly.',
       },
       {
         question: 'How do I use my color season when shopping?',
         answer:
-          'Save your recommended color palette to your phone and reference it when shopping. Start by building a wardrobe of basics in your best neutrals, then add accent pieces in your power colors. You do not need to overhaul your wardrobe overnight - just make better color choices going forward when replacing or adding items.',
+          'Save your recommended palette to your phone and reference it when shopping. Start by building basics in your best neutrals, then add accent pieces in your power colors. You do not need to overhaul your wardrobe overnight. Our <a href="/outfit-builder">Outfit Builder</a> and <a href="/capsule-wardrobe-builder">Capsule Wardrobe Builder</a> both incorporate color strategy.',
       },
     ],
     relatedTools: [

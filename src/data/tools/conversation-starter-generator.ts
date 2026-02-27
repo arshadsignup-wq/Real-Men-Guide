@@ -468,24 +468,24 @@ export const conversationStarterGeneratorConfig: GeneratorConfig = {
   ],
   supportingContent: {
     intro:
-      'The biggest fear in any social situation is not knowing what to say. Whether you are on a first date, at a networking event, or stuck in an awkward silence at a party, having a go-to conversation starter can completely change the dynamic. These are not cheesy icebreakers or generic small talk questions. They are designed to spark real, engaging conversations that make people want to keep talking to you.',
+      'The biggest fear in any social situation is not knowing what to say. Whether you need conversation starters for dates, networking events, or just to break an awkward silence at a party, having a go-to question changes everything. These are not cheesy icebreakers or generic small talk. They are designed to spark real, engaging conversations that make people want to keep talking to you. Pair these with a planned <a href="/date-night-generator">date night</a> and you will never run out of things to say.',
     howToUse:
-      'Filter by the situation you are in, then hit Generate to get five conversation starters. Each one comes with an explanation of why it works so you understand the psychology behind it. Do not memorize them word-for-word. Instead, read a few before you head out and pick the ones that feel natural to you. The best conversations feel organic, not rehearsed.',
+      'Filter by the situation you are in, then hit Generate to get five conversation starters for any occasion. Each one comes with an explanation of why it works so you understand the psychology behind it. Do not memorize them word-for-word. Read a few before you head out and pick the ones that feel natural. Heading to an <a href="/interview-prep-coach">interview</a>? Switch to the networking filter for professional settings.',
     faq: [
       {
         question: 'How do I transition from a conversation starter into a natural conversation?',
         answer:
-          'The key is to listen actively and ask follow-up questions based on what they say, not on your next scripted question. If they mention they traveled to Japan, ask what surprised them most. If they mention a hobby, ask how they got into it. The starter just opens the door. Genuine curiosity keeps it going.',
+          'The key is <a href="https://hbr.org/2018/05/the-surprising-power-of-questions" target="_blank" rel="noopener">active listening and asking follow-up questions</a> based on what they say, not on your next scripted question. If they mention a trip to Japan, ask what surprised them most. If they mention a hobby, ask how they got into it. The starter opens the door. Genuine curiosity keeps it going.',
       },
       {
         question: 'What if the other person gives a short or awkward answer?',
         answer:
-          'It happens. Some people need warming up. If a question gets a one-word answer, share your own answer first to model the kind of response you are looking for, then try a different angle. Not every question lands with every person, and that is completely fine.',
+          'It happens. Some people need warming up. If a question gets a one-word answer, share your own answer first to model the kind of response you are looking for, then try a different angle. Not every question lands with every person, and that is completely fine. Good conversation skills improve with practice.',
       },
       {
         question: 'Are these questions too personal for a first conversation?',
         answer:
-          'The questions are designed to be engaging without being invasive. They invite depth without requiring it. If someone is not ready to go deep, most of these can be answered at a surface level too. Read the room and adjust. If you are at a loud party, lean toward the funny ones. If you are in a quieter setting, the reflective ones work better.',
+          'The questions are designed to be engaging without being invasive. They invite depth without requiring it. If someone is not ready to go deep, most of these can be answered at a surface level too. Read the room and adjust. If you are on a first date, our <a href="/date-night-generator">Date Night Generator</a> can help you pick an activity where conversation flows naturally.',
       },
     ],
     relatedTools: [

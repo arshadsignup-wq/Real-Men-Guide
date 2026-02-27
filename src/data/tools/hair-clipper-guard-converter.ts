@@ -166,24 +166,24 @@ export const hairClipperGuardConverterConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Clipper guard numbers are the universal language of barbershops, but most guys have no idea what they actually mean in real measurements. This converter translates any guard number into millimeters and inches, tells you what each guard is commonly used for, and shows you which guards pair together for smooth blends and fades. Never be confused by guard numbers again.',
+      'Clipper guard numbers are the universal language of barbershops, but most guys have no idea what a #2 guard actually means in real measurements. This hair clipper guard converter translates any guard number into millimeters and inches, shows common uses, and reveals which guards pair together for smooth fades. Use it alongside our <a href="/barber-instruction-generator">Barber Instruction Generator</a> to communicate exactly what you want.',
     howToUse:
-      'Select the clipper guard number you want to look up and optionally choose your clipper brand for minor precision adjustments. The converter will show you the exact length in millimeters and inches, suggest blend partners for fades, and explain what that guard is typically used for. Use this before your next barber visit or when cutting your own hair at home.',
+      'Select the guard number and optionally choose your clipper brand for precision adjustments. The converter shows exact length in millimeters and inches, blend partners for fades, and typical use cases. Planning a beard trim instead? Our <a href="/beard-guard-style-match">Beard Guard Style Match</a> covers facial hair guard settings.',
     faq: [
       {
         question: 'Are guard sizes different between clipper brands?',
         answer:
-          'Guard sizes are largely standardized across major brands like Wahl, Andis, and Oster. The differences are typically fractions of a millimeter and not noticeable in practice. The bigger variable is the clipper lever position, which can add or subtract about 0.5mm from any guard setting. If your barber uses a different brand than what you use at home, the guard numbers will produce virtually the same result.',
+          'Guard sizes are largely standardized across Wahl, Andis, and Oster. Differences are fractions of a millimeter and not noticeable in practice. The bigger variable is the clipper lever position, which adds or subtracts about 0.5mm. If your barber uses a different brand than your home clipper, the guard numbers produce virtually the same result.',
       },
       {
         question: 'What does open lever vs closed lever mean?',
         answer:
-          'Most clippers have a lever on the side that adjusts the blade gap. When closed (pushed all the way up), the blade cuts at its shortest setting for that guard. When open (pushed down), the blade leaves slightly more hair, roughly 0.5mm extra. Barbers use the lever to create half-steps between guard sizes for smoother blends. For example, a #1 guard with the lever open cuts at about 3.5mm, splitting the difference between a #1 (3mm) and a #1.5 (4.5mm).',
+          'Most clippers have a side lever that adjusts the blade gap. Closed cuts at the shortest setting for that guard; open leaves about 0.5mm extra. Barbers use the lever to create half-steps for smoother blends. For example, a #1 guard with the lever open cuts at about 3.5mm. Our <a href="/fade-taper-maintenance-planner">Fade & Taper Maintenance Planner</a> explains how this affects your maintenance schedule.',
       },
       {
         question: 'How do barbers blend between guard sizes?',
         answer:
-          'Blending is the art of making the transition between two different lengths look seamless. Barbers do this by using the guard below and above, adjusting the lever position between open and closed, and using a rocking motion with the clipper to feather the transition zone. The key is working in small sections and checking the blend from multiple angles. For the smoothest result, never skip more than one guard size in a single transition.',
+          'Blending makes transitions between lengths look seamless. Barbers use adjacent guards, adjust the lever between open and closed, and rock the clipper to feather the transition zone. The key is working in small sections and never skipping more than one guard size. Use our <a href="/barber-instruction-generator">Barber Instruction Generator</a> to specify your preferred blend type.',
       },
     ],
     relatedTools: [

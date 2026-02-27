@@ -137,24 +137,24 @@ export const cologneBottleLifespanCalculatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Ever wonder how long that bottle of cologne will actually last? Stop guessing and start planning. This calculator estimates the exact lifespan of your fragrance bottle based on its size and your daily usage habits, so you know when to restock and whether that jumbo bottle is actually worth the investment.',
+      'How long does a bottle of cologne last? Stop guessing and start planning. This calculator estimates your fragrance bottle lifespan based on size and daily usage so you know when to restock. Not sure how many sprays to use? Our <a href="/cologne-spray-count-guide">Cologne Spray Count Guide</a> dials in the perfect amount for any occasion.',
     howToUse:
-      'Select your bottle size from the dropdown, enter how many sprays you use each day, and how many days per week you wear that fragrance. The calculator will show you the total sprays in your bottle, how many months it will last, and the exact date you can expect to run out.',
+      'Select your bottle size, enter daily sprays, and how many days per week you wear the fragrance. The calculator shows total sprays, months until empty, and the estimated run-out date. Use our <a href="/cologne-sprays-per-ml-converter">Sprays per ML Converter</a> to compare bottle values before your next purchase.',
     faq: [
       {
         question: 'Does cologne expire?',
         answer:
-          'Most fragrances last 3-5 years when stored properly, though some can last over a decade. Signs of expiration include a change in color (darkening), a sour or vinegar-like smell, or a noticeably weaker scent. Heat, light, and humidity accelerate degradation. If your cologne smells off, it is time to replace it rather than continue wearing a turned fragrance.',
+          'Most fragrances last 3-5 years when stored properly, though some last over a decade. Signs of expiration include darkening color, a sour smell, or noticeably weaker scent. Heat, light, and humidity accelerate degradation. If your cologne smells off, replace it. Our <a href="/fragrance-finder">Fragrance Finder</a> helps you discover a worthy replacement.',
       },
       {
         question: 'How should I store cologne to make it last longer?',
         answer:
-          'Store your bottles upright in a cool, dark, dry place. A dresser drawer or a closet shelf is ideal. Avoid the bathroom (humidity and temperature fluctuations) and windowsills (direct sunlight breaks down the molecules). Keep the cap on to prevent oxidation. Never store cologne in a car. Following these rules can extend the life of a bottle by years.',
+          'Store bottles upright in a cool, dark, dry place like a dresser drawer or closet shelf. Avoid the bathroom (humidity) and windowsills (sunlight breaks down fragrance molecules). Keep the cap on to prevent <a href="https://en.wikipedia.org/wiki/Oxidation" target="_blank" rel="noopener">oxidation</a>. Never store cologne in a car. Proper storage can extend bottle life by years.',
       },
       {
         question: 'Is decanting worth it?',
         answer:
-          'Decanting (transferring cologne into smaller travel atomizers) is absolutely worth it for two reasons. First, you protect your main bottle from light and air exposure that comes with daily use. Second, a 5-10 ml travel spray fits in your pocket for on-the-go reapplication. Use glass decant atomizers rather than plastic, as plastic can interact with the fragrance oils over time.',
+          'Absolutely. Decanting protects your main bottle from light and air exposure, and a 5-10 ml travel spray fits in your pocket for reapplication. Use glass atomizers rather than plastic, which can interact with fragrance oils. Our <a href="/cologne-sprays-per-ml-converter">Sprays per ML Converter</a> helps you figure out exactly how many sprays fit in your travel size.',
       },
     ],
     relatedTools: [

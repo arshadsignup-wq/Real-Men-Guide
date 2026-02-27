@@ -154,24 +154,24 @@ export const dressShirtSizeCalculatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'A well-fitting dress shirt is the foundation of any sharp outfit, but getting the right size is more than picking S, M, or L off a rack. Proper dress shirts are sized by neck and sleeve measurements, not generic letter sizes. This calculator converts your body measurements into precise dress shirt sizing with fit recommendations tailored to your build.',
+      'A well-fitting men\'s dress shirt is the foundation of any sharp outfit, but proper sizing goes beyond picking S, M, or L. Dress shirts are sized by neck and sleeve measurements, and this calculator converts your body measurements into precise sizing with fit recommendations for your build. Pair it with our <a href="/suit-size-estimator">Suit Size Estimator</a> for a complete formalwear fit.',
     howToUse:
-      'Measure your neck circumference at the base (where a collar sits), your arm length from center-back of your neck across the shoulder and down to the wrist bone, and your chest at the widest point. Enter these measurements in inches and select your build type. The calculator will provide your exact neck size, sleeve length, recommended fit style, and general letter size for brands that use generic sizing.',
+      'Measure your neck at the base where a collar sits, arm length from center-back of neck to wrist bone, and chest at the widest point. Enter measurements in inches and select your build. The calculator provides neck size, sleeve length, recommended fit, and general letter size. For matching accessories, use our <a href="/belt-size-finder">Belt Size Finder</a>.',
     faq: [
       {
         question: 'How do I properly measure my neck for a dress shirt?',
         answer:
-          'Wrap a soft measuring tape around the base of your neck where a shirt collar would sit, typically just below the Adam\'s apple. Keep the tape snug but not tight. You should be able to fit two fingers between the tape and your neck. Round up to the nearest half inch. Many men make the mistake of measuring too tightly, which leads to an uncomfortable collar that restricts movement and looks strained when buttoned.',
+          'Wrap a soft tape around the base of your neck where a collar sits, just below the Adam\'s apple. Keep it snug but not tight - you should fit two fingers between tape and neck. Round up to the nearest half inch. Measuring too tightly leads to an uncomfortable collar. Our <a href="/suit-size-estimator">Suit Size Estimator</a> uses a similar measurement approach for jackets.',
       },
       {
         question: 'What is the difference between slim fit, regular fit, and fitted shirts?',
         answer:
-          'Slim fit shirts are cut close to the body with minimal extra fabric, typically 2 inches of chest ease, and feature higher armholes and tapered sides. Regular fit shirts have about 4 inches of ease through the chest and a straighter cut from chest to hem. Fitted (or tailored) shirts fall between the two with about 3 inches of ease and light tapering. Athletic fit is similar to fitted but adds more room in the shoulders and chest while tapering aggressively at the waist.',
+          'Slim fit has about 2 inches of chest ease with higher armholes. Regular fit has 4 inches of ease and a straighter cut. Fitted (tailored) falls between with 3 inches and light tapering. Athletic fit adds shoulder room while tapering at the waist. <a href="https://www.gq.com/story/how-a-dress-shirt-should-fit" target="_blank" rel="noopener">GQ\'s fit guide</a> is a good visual reference for these differences.',
       },
       {
         question: 'Are non-iron shirts worth it?',
         answer:
-          'Non-iron shirts are treated with a chemical finish (usually formaldehyde-based) that prevents wrinkles. They are great for travel and low-maintenance wardrobes. The tradeoff is a slightly stiffer feel compared to untreated cotton. Higher-end non-iron shirts from brands like Brooks Brothers and Charles Tyrwhitt use better treatments that feel more natural. For a balance, look for "wrinkle-resistant" rather than "non-iron" which uses a lighter treatment that still reduces ironing by about 80%.',
+          'Non-iron shirts use a chemical treatment to prevent wrinkles. They are great for travel and low-maintenance wardrobes but feel slightly stiffer. Higher-end brands use better treatments that feel more natural. For a balance, look for "wrinkle-resistant" which reduces ironing by 80%. Our <a href="/capsule-wardrobe-builder">Capsule Wardrobe Builder</a> recommends dress shirts as a wardrobe essential.',
       },
     ],
     relatedTools: [

@@ -151,24 +151,24 @@ export const sleepCycleCalculatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Sleep happens in roughly 90-minute cycles, moving from light sleep through deep sleep and into REM. Waking up in the middle of a cycle is what makes you feel groggy — even after 8 hours. This calculator helps you time your sleep so you wake up at the end of a full cycle, feeling sharp and rested instead of sluggish.',
+      'This sleep cycle calculator helps you time your bedtime or wake-up so you finish a complete <a href="https://en.wikipedia.org/wiki/Sleep_cycle" target="_blank" rel="noopener">90-minute sleep cycle</a> instead of waking mid-cycle feeling groggy. Whether you need 5 cycles or 6, aligning your schedule to these natural rhythms is the key to waking sharp and rested. Pair this with our <a href="/caffeine-cutoff-calculator">Caffeine Cutoff Calculator</a> to make sure your last cup of coffee is not sabotaging your sleep quality.',
     howToUse:
-      'Choose whether you want to calculate a bedtime or a wake-up time, then enter the time. The calculator adds 15 minutes for the average time to fall asleep and works in 90-minute sleep cycles to give you four optimal options. Pick the time that fits your schedule — 5 or 6 full cycles is ideal for most men.',
+      'Choose whether to calculate a bedtime or wake-up time, then enter the time. The sleep cycle calculator adds 15 minutes to fall asleep and works in 90-minute cycles to give you four options. Pick the time that fits your schedule — 5 or 6 full cycles is ideal for recovery and performance.',
     faq: [
       {
         question: 'Why 90-minute cycles instead of 8 hours?',
         answer:
-          'Each sleep cycle lasts approximately 90 minutes and includes light sleep, deep sleep, and REM stages. Waking between cycles (at a natural transition point) lets you feel alert immediately. Waking mid-cycle — even if you slept longer — causes sleep inertia, that heavy, disoriented feeling. Timing your sleep to complete full cycles is more important than total hours.',
+          'Each <a href="https://www.sleepfoundation.org/stages-of-sleep" target="_blank" rel="noopener">sleep cycle</a> lasts about 90 minutes and includes light sleep, deep sleep, and REM. Waking between cycles lets you feel alert immediately. Waking mid-cycle causes sleep inertia — that heavy, disoriented feeling — even after a long night. Timing your sleep around complete cycles matters more than total hours.',
       },
       {
         question: 'How many sleep cycles do I actually need?',
         answer:
-          'Most adults need 5-6 full cycles (7.5-9 hours) per night for optimal health, recovery, and cognitive function. You can get by on 4 cycles (6 hours) occasionally, but chronic short sleep is linked to lower testosterone, impaired muscle recovery, and poor decision-making. Aim for 5 cycles minimum on training days.',
+          'Most adults need 5-6 full cycles (7.5-9 hours) per night for optimal health and recovery. You can manage 4 cycles occasionally, but chronic short sleep is linked to <a href="https://pubmed.ncbi.nlm.nih.gov/17520786/" target="_blank" rel="noopener">lower testosterone</a>, impaired muscle recovery, and poor decision-making. On training days, aim for 5 cycles minimum.',
       },
       {
         question: 'What if I take longer than 15 minutes to fall asleep?',
         answer:
-          'The 15-minute estimate works for most healthy adults. If you regularly take longer to fall asleep, go to bed earlier by the difference. For example, if you take 30 minutes to fall asleep, subtract an additional 15 minutes from the suggested bedtime. Reducing screen time 30 minutes before bed and keeping your room cool (65-68 F) can help you fall asleep faster.',
+          'The 15-minute estimate works for most healthy adults. If you regularly take longer, go to bed earlier by the difference. Reducing screen time 30 minutes before bed and keeping your room cool (65-68 F) helps. Our <a href="/caffeine-cutoff-calculator">Caffeine Cutoff Calculator</a> can also help identify if late caffeine is the culprit.',
       },
     ],
     relatedTools: ['tdee-calculator', 'body-fat-calculator', 'protein-macro-calculator'],

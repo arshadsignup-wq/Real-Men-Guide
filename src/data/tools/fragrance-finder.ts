@@ -226,24 +226,24 @@ export const fragranceFinderConfig: QuizConfig = {
   ],
   supportingContent: {
     intro:
-      'Finding the right cologne can feel overwhelming with thousands of options on the market. This quiz narrows it down by matching your lifestyle, preferences, and personality to one of four fragrance profiles. Each profile includes specific cologne recommendations you can sample or buy with confidence.',
+      'Finding the best cologne for men can feel overwhelming with thousands of options on the market. This quiz narrows it down by matching your lifestyle, preferences, and personality to one of four fragrance profiles. Each profile includes specific cologne recommendations you can sample or buy with confidence. Once you have your scent, use our <a href="/cologne-spray-count-guide">Cologne Spray Count Guide</a> to apply the perfect amount.',
     howToUse:
-      'Answer six quick questions about your daily life, scent preferences, and the impression you want to make. There are no wrong answers - just go with your instinct. Your result will include a fragrance profile, specific cologne recommendations, and tips for getting the most out of your scent.',
+      'Answer six quick questions about your daily life, scent preferences, and the impression you want to make. There are no wrong answers - just go with your instinct. Your result includes a fragrance profile, specific cologne recommendations, and application tips. For longevity details, check our <a href="/cologne-bottle-lifespan-calculator">Bottle Lifespan Calculator</a>.',
     faq: [
       {
         question: 'How many sprays of cologne should I use?',
         answer:
-          'For most fragrances, 2-4 sprays is the sweet spot. Start with 2 sprays on pulse points (neck and wrist) and increase if you find the scent fades too quickly. Stronger, sweeter fragrances need fewer sprays, while lighter, fresh scents can handle more. The goal is for people to smell you in close conversation, not from across the room.',
+          'For most fragrances, 2-4 sprays is the sweet spot. Start with 2 sprays on <a href="https://en.wikipedia.org/wiki/Pulse_point" target="_blank" rel="noopener">pulse points</a> (neck and wrist) and increase if the scent fades too quickly. Stronger, sweeter fragrances need fewer sprays, while lighter fresh scents can handle more. For precise guidance, try our <a href="/cologne-spray-count-guide">Cologne Spray Count Guide</a>.',
       },
       {
         question: 'What is the difference between EDT, EDP, and Parfum?',
         answer:
-          'EDT (Eau de Toilette) has 5-15% fragrance concentration and typically lasts 3-5 hours. EDP (Eau de Parfum) has 15-20% concentration and lasts 5-8 hours. Parfum (or Extrait) has 20-40% concentration and can last 8-12+ hours. EDP offers the best balance of longevity and value for most men.',
+          'EDT (Eau de Toilette) has 5-15% fragrance concentration and lasts 3-5 hours. EDP (Eau de Parfum) has 15-20% concentration and lasts 5-8 hours. Parfum (or Extrait) has 20-40% and can last 8-12+ hours. EDP offers the best balance of longevity and value for most men. Use our <a href="/cologne-sprays-per-ml-converter">Sprays per ML Converter</a> to compare bottle values across concentrations.',
       },
       {
         question: 'Should I have different colognes for different seasons?',
         answer:
-          'Ideally, yes. Fresh and citrus scents perform best in spring and summer when heat activates light notes. Woody, sweet, and spicy scents shine in fall and winter when cool air lets their depth develop without becoming overpowering. A two-fragrance rotation (one warm weather, one cold weather) covers most situations.',
+          'Ideally, yes. Fresh and citrus scents perform best in spring and summer when heat activates light notes. Woody, sweet, and spicy fragrances shine in fall and winter when cool air lets their depth develop. A two-fragrance seasonal rotation covers most situations. Pair your scent with a matching outfit using our <a href="/outfit-builder">Outfit Builder</a>.',
       },
     ],
     relatedTools: [

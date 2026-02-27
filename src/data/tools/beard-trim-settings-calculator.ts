@@ -161,24 +161,24 @@ export const beardTrimSettingsCalculatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Most men make the mistake of using one guard setting for their entire beard. A well-groomed beard actually uses different lengths on different zones: shorter on the cheeks, medium on the jawline, and often longer at the chin. This calculator gives you the exact guard settings for every area of your beard based on your style, current length, and the look you want, plus a maintenance schedule so you always look sharp.',
+      'Most men use one guard setting for their entire beard, but a well-groomed beard uses different lengths on different zones. This beard trim settings calculator gives you exact guard settings for cheeks, jawline, chin, and mustache based on your style and current length. Not sure which style to pursue? Start with our <a href="/beard-style-selector">Beard Style Selector</a> to find your best match.',
     howToUse:
-      'Select your target beard style, your current beard length, and the look you are going for. The calculator provides specific guard settings for your cheeks, jawline, chin, and mustache, along with neckline guidance and a maintenance schedule. Start with the cheeks and work down for the cleanest results. Always trim dry hair for accuracy since wet hair hangs longer.',
+      'Select your target beard style, current length, and desired look. The calculator provides zone-by-zone guard settings, neckline guidance, and a maintenance schedule. Start with cheeks and work down. Always trim dry hair for accuracy. For guard-to-millimeter conversions, reference our <a href="/beard-guard-style-match">Beard Guard Style Match</a>.',
     faq: [
       {
         question: 'Should I use scissors or a trimmer for beard maintenance?',
         answer:
-          'Use a trimmer with guards for overall length control and maintenance. Use scissors for detail work: trimming stray hairs that stick out, shaping the mustache above the lip line, and cleaning up edges. Scissors give more precision for small corrections, while trimmers give consistency for bulk shaping. Invest in small, sharp barber scissors rather than household scissors which are too large and imprecise for facial hair.',
+          'Use a trimmer with guards for overall length control and scissors for detail work like stray hairs and mustache shaping. Scissors give precision for small corrections, while trimmers give consistency for bulk shaping. Invest in small, sharp barber scissors rather than household ones. For overall grooming, pair your beard routine with our <a href="/skincare-routine-builder">Skincare Routine Builder</a>.',
       },
       {
         question: 'How do I find my natural neckline?',
         answer:
-          'Tilt your head down slightly and find your Adam\'s apple. Place two fingers horizontally above it. That point is the center of your neckline. From there, imagine a curved line that follows your jawbone and curves up behind each ear. Everything below that curve gets trimmed or shaved. The most common mistake is setting the neckline too high, which creates an unnatural double-chin look. When in doubt, go slightly lower.',
+          'Tilt your head down and find your Adam\'s apple. Place two fingers horizontally above it - that is your neckline center. Imagine a curved line following your jawbone up behind each ear. Everything below gets trimmed or shaved. The most common mistake is going too high, which creates a double-chin look. Our <a href="/beard-guard-style-match">Beard Guard Style Match</a> includes neckline tips by style.',
       },
       {
         question: 'Should I trim my beard wet or dry?',
         answer:
-          'Always trim dry. Wet hair stretches and hangs longer than dry hair, so if you trim wet, you will end up with a shorter result than expected once it dries. Wash and dry your beard first, brush or comb it in the direction it naturally grows, and then trim. The only exception is using scissors on a slightly damp beard to catch individual stray hairs that curl when dry.',
+          'Always trim dry. Wet hair stretches and hangs longer, so trimming wet leaves you shorter than expected. Wash and dry your beard, brush it in its natural direction, then trim. The only exception is using scissors on a slightly damp beard for stray hairs. For growth timelines and planning, check our <a href="/beard-growth-time-calculator">Beard Growth Time Calculator</a>.',
       },
     ],
     relatedTools: [

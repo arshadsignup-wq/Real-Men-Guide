@@ -185,24 +185,24 @@ export const suitSizeEstimatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Buying a suit without knowing your size is an expensive mistake. Suit sizing revolves around your chest measurement, the drop between your chest and waist, and your height, not generic S/M/L labels. This estimator translates your body measurements into a specific jacket size, length, and fit recommendation so you walk into any store knowing exactly what to try on.',
+      'Buying a men\'s suit without knowing your size is an expensive mistake. Suit sizing revolves around chest measurement, the drop between chest and waist, and height - not S/M/L labels. This suit size estimator translates your measurements into a specific jacket size, length, and fit recommendation. Pair it with our <a href="/dress-shirt-size-calculator">Dress Shirt Size Calculator</a> for the complete formalwear package.',
     howToUse:
-      'Measure your chest at the widest point (around the nipple line), your waist at the narrowest point, and your height in inches. Select the build that best describes your body type. The calculator will recommend a jacket size with length code (e.g. 42R for 42 Regular), your suit drop category, estimated trouser size, and a detailed fit recommendation based on your proportions.',
+      'Measure your chest at the widest point, waist at the narrowest, and height in inches. Select your build type. The calculator recommends jacket size with length code (e.g. 42R), suit drop, trouser size, and detailed fit advice. Use our <a href="/belt-size-finder">Belt Size Finder</a> and <a href="/shoe-size-converter">Shoe Size Converter</a> to complete your formalwear sizing.',
     faq: [
       {
         question: 'What is the difference between off-the-rack and tailored suits?',
         answer:
-          'Off-the-rack (OTR) suits are made in standard sizes and available immediately. Made-to-measure (MTM) suits start from a standard pattern but are adjusted to your measurements (4-6 weeks lead time, typically $400-800). Bespoke suits are built from scratch to your exact body (8-12 weeks, $2000+). For most men, the best value is buying OTR in the right size and paying $75-150 for alterations: hemming trousers, adjusting jacket sleeves, and taking in the waist. This gets you 90% of a custom look at a fraction of the price.',
+          'Off-the-rack suits come in standard sizes. Made-to-measure adjusts a pattern to your body ($400-800). <a href="https://en.wikipedia.org/wiki/Bespoke_tailoring" target="_blank" rel="noopener">Bespoke</a> is built from scratch ($2000+). For most men, the best value is buying OTR in the right size and paying $75-150 for alterations. Our <a href="/dress-shirt-size-calculator">Dress Shirt Size Calculator</a> helps you size the shirt underneath.',
       },
       {
         question: 'What is suit drop and why does it matter?',
         answer:
-          'Suit drop is the difference between your chest and trouser waist measurement. A drop of 6 is considered "regular" and is what most OTR suits are built around (e.g. a size 42 jacket comes with size 36 trousers). If your drop is 7 or higher (athletic build), the included trousers will be too big at the waist. If your drop is 4 or less, the trousers will be too tight. Knowing your drop tells you whether standard suits will fit or whether you need separates (buying jacket and trousers in different sizes).',
+          'Suit drop is the difference between chest and waist measurements. A drop of 6 is "regular" - what most OTR suits are built around. A drop of 7+ means included trousers will be too big at the waist; 4 or less means too tight. Knowing your drop tells you whether standard suits fit or if you need separates. Our <a href="/color-season-analyzer">Color Season Analyzer</a> helps you pick the most flattering suit color.',
       },
       {
         question: 'What should I know before buying my first suit?',
         answer:
-          'Start with a navy or charcoal suit in a solid color or subtle pattern. Two-button, single-breasted is the most versatile style. Prioritize fit over fabric or brand: a well-fitting $400 suit looks better than a poorly fitting $2000 suit. Make sure the jacket shoulders align with your natural shoulder line (this cannot be altered), and budget for tailoring. Have the jacket waist taken in, sleeves adjusted to show about 0.5" of shirt cuff, and trousers hemmed to a slight break. Wool or wool-blend fabrics drape best and work year-round.',
+          'Start with navy or charcoal in a solid color. Two-button, single-breasted is most versatile. Prioritize fit over brand: a well-fitting $400 suit beats a poorly fitting $2000 one. Budget for tailoring ($75-150) to adjust the waist, sleeves, and trouser hem. Wool or wool-blend fabrics drape best year-round. Our <a href="/outfit-builder">Outfit Builder</a> can help you plan suit-based looks for events.',
       },
     ],
     relatedTools: [

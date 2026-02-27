@@ -458,24 +458,24 @@ export const capsuleWardrobeBuilderConfig: BuilderConfig = {
   },
   supportingContent: {
     intro:
-      'A capsule wardrobe is a small collection of essential, versatile pieces that all work together. Instead of a closet full of clothes with nothing to wear, you get 20-25 strategic items that create 50+ outfits. This builder creates a personalized capsule wardrobe based on your lifestyle, climate, style, and preferred color palette.',
+      'A men\'s capsule wardrobe is a small collection of essential, versatile pieces that all work together. Instead of a closet full of clothes with nothing to wear, you get 20-25 strategic capsule wardrobe essentials that create 50+ outfits. This builder creates a personalized wardrobe based on your lifestyle, climate, style, and color palette. Use it alongside our <a href="/color-season-analyzer">Color Season Analyzer</a> to pick colors that actually suit you.',
     howToUse:
-      'Select your lifestyle, climate, style preference, and color palette. The builder generates a complete wardrobe with specific pieces for tops, bottoms, outerwear, shoes, and accessories. Use the result as a shopping checklist - start by identifying what you already own and filling in the gaps.',
+      'Select your lifestyle, climate, style preference, and color palette. The builder generates a complete wardrobe with pieces for tops, bottoms, outerwear, shoes, and accessories. Use the result as a shopping checklist and start by identifying what you already own. Our <a href="/outfit-builder">Outfit Builder</a> helps you combine these pieces into specific outfits.',
     faq: [
       {
         question: 'How many items should a men\'s capsule wardrobe have?',
         answer:
-          'A solid men\'s capsule wardrobe has 20-30 items (not counting underwear, workout clothes, or specialty items like suits). The key is that every piece works with multiple other pieces. With 25 well-chosen items, you can create over 50 unique outfits. Quality matters more than quantity.',
+          'A solid capsule wardrobe for men has 20-30 items, not counting underwear, workout clothes, or specialty items like suits. The key is that every piece works with multiple others. With 25 well-chosen items, you can create over 50 unique outfits. Quality matters more than quantity. Use our <a href="/outfit-builder">Outfit Builder</a> to see how different pieces combine.',
       },
       {
         question: 'How much should I spend on a capsule wardrobe?',
         answer:
-          'It depends on your budget, but the strategy is to invest more per piece since you are buying fewer items overall. A complete capsule wardrobe can be built for $300-500 at budget brands (Uniqlo, H&M, Zara), $800-1500 at mid-range brands (J.Crew, COS), or $2000+ at premium brands. Replace pieces gradually as they wear out rather than buying everything at once.',
+          'The strategy is to invest more per piece since you are buying fewer items. A complete capsule wardrobe can be built for $300-500 at budget brands (Uniqlo, H&M), $800-1500 at mid-range (J.Crew, COS), or $2000+ at premium brands. As <a href="https://www.gq.com/story/how-to-build-a-capsule-wardrobe" target="_blank" rel="noopener">GQ recommends</a>, replace pieces gradually as they wear out rather than buying everything at once.',
       },
       {
         question: 'How often should I update my capsule wardrobe?',
         answer:
-          'Most capsule wardrobe pieces are timeless and should last 1-3 years depending on quality and wear frequency. Update seasonally by swapping a few pieces (lighter fabrics in summer, heavier layers in winter). Replace items as they wear out rather than on a fixed schedule. Trendy pieces can be rotated annually, but core basics should last much longer.',
+          'Most capsule wardrobe essentials are timeless and last 1-3 years depending on quality and wear. Update seasonally by swapping a few pieces for lighter or heavier fabrics. Replace items as they wear out, not on a fixed schedule. For sizing help on new additions, use our <a href="/shoe-size-converter">Shoe Size Converter</a> or <a href="/belt-size-finder">Belt Size Finder</a>.',
       },
     ],
     relatedTools: [

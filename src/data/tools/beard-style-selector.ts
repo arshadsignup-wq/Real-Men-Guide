@@ -373,24 +373,24 @@ export const beardStyleSelectorConfig: QuizConfig = {
   ],
   supportingContent: {
     intro:
-      'The right beard style can sharpen your jawline, balance your face shape, and completely transform your look. But the wrong style - or one you cannot actually grow - does the opposite. This quiz matches your face shape, growth pattern, lifestyle, and grooming commitment to the beard style that will look best on you.',
+      'Finding the best beard style for your face shape can sharpen your jawline, add balance, and completely transform your look. But the wrong style - or one you cannot actually grow - does the opposite. This quiz matches your face shape, growth pattern, lifestyle, and grooming commitment to your ideal beard style. Not sure about your face shape? Take our <a href="/face-shape-analyzer">Face Shape Analyzer</a> first.',
     howToUse:
-      'Answer each question honestly, especially about your facial hair growth pattern. The best beard style is one you can actually grow and maintain. Your result will include specific grooming tips and product recommendations to help you achieve and maintain your ideal style.',
+      'Answer each question honestly, especially about your facial hair growth pattern. The best beard style is one you can actually grow and maintain. Your result includes grooming tips and product recommendations. Use our <a href="/beard-trim-settings-calculator">Beard Trim Settings Calculator</a> to dial in the exact guard settings for your style.',
     faq: [
       {
         question: 'How long does it take to grow a full beard?',
         answer:
-          'Most men need 2-4 months to grow a full beard. Facial hair grows about half an inch per month on average. The most important thing is to resist trimming for at least 4-6 weeks to let your beard fill in. Patchy spots often fill in once the surrounding hair gets long enough to cover them.',
+          'Most men need 2-4 months for a full beard. Facial hair grows about half an inch per month on average. Resist trimming for at least 4-6 weeks to let it fill in. For a detailed timeline based on your growth rate, use our <a href="/beard-growth-time-calculator">Beard Growth Time Calculator</a>. Patchy spots often fill in once surrounding hair gets long enough to cover them.',
       },
       {
         question: 'What if my beard grows patchy?',
         answer:
-          'Patchy growth is extremely common and not a reason to give up on facial hair. Options include: choosing a style that works with your growth pattern (like a goatee if cheeks are thin), growing it longer to cover patches, using a boar bristle brush to train coverage, and giving it more time. Minoxidil has also shown results for some men, though you should consult a dermatologist first.',
+          'Patchy growth is extremely common. Options include choosing a style that works with your pattern (like a goatee if cheeks are thin), growing it longer to cover patches, and using a boar bristle brush to train coverage. <a href="https://www.menshealth.com/grooming/a19517878/how-to-grow-a-beard/" target="_blank" rel="noopener">Men\'s Health recommends</a> giving it at least 6 weeks before judging. Our <a href="/beard-guard-style-match">Beard Guard Style Match</a> helps find the right guard setting for patchy beards.',
       },
       {
         question: 'How often should I trim my beard?',
         answer:
-          'It depends on the style. Stubble needs trimming every 2-3 days. A short boxed beard every 3-4 days. A full beard can go 1-2 weeks between trims but should be brushed and oiled daily. The neckline and cheek lines should be cleaned up at least twice a week regardless of style.',
+          'It depends on the style. Stubble needs trimming every 2-3 days, a short boxed beard every 3-4 days, and a full beard can go 1-2 weeks between trims but needs daily brushing and oiling. The neckline and cheek lines should be cleaned up twice a week regardless. For a personalized schedule, check our <a href="/beard-trim-settings-calculator">Beard Trim Settings Calculator</a>.',
       },
     ],
     relatedTools: [

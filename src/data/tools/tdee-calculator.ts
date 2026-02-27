@@ -152,24 +152,24 @@ export const tdeeCalculatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Your Total Daily Energy Expenditure (TDEE) is the total number of calories you burn each day, including exercise and daily activity. Knowing your TDEE is the foundation of any nutrition plan — whether you want to lose fat, build muscle, or maintain your current physique. This calculator uses the Mifflin-St Jeor equation, which research has shown to be the most accurate predictive formula for men.',
+      'Your Total Daily Energy Expenditure (TDEE) is the total number of calories you burn each day, including exercise and daily activity. This TDEE calculator for weight loss, muscle gain, or maintenance uses the <a href="https://en.wikipedia.org/wiki/Basal_metabolic_rate#BMR_estimation_formulas" target="_blank" rel="noopener">Mifflin-St Jeor equation</a>, which research has shown to be the most accurate predictive formula for men. Knowing your TDEE is the foundation of any nutrition plan — pair it with our <a href="/protein-macro-calculator">Protein &amp; Macro Calculator</a> for a complete daily target.',
     howToUse:
-      'Enter your age, weight in pounds, height in inches, and select your honest activity level. Then choose your current goal — the calculator will give you your BMR (calories burned at rest), your TDEE, a goal-adjusted calorie target, and a daily protein recommendation. Use the goal calories as your daily target and weigh yourself weekly to track progress.',
+      'Enter your age, weight, height, and select your honest activity level. Choose your goal and the calculator gives you your BMR, TDEE, goal-adjusted calories, and a daily protein recommendation. Use these calorie targets alongside our <a href="/body-fat-calculator">Body Fat Calculator</a> to track progress as you cut or bulk.',
     faq: [
       {
         question: 'What is the difference between BMR and TDEE?',
         answer:
-          'BMR (Basal Metabolic Rate) is the number of calories your body burns just to stay alive — breathing, pumping blood, maintaining body temperature. TDEE adds your daily activity and exercise on top of that. You should never eat below your BMR for extended periods, and your TDEE is the starting point for setting calorie goals.',
+          '<a href="https://www.ncbi.nlm.nih.gov/books/NBK535624/" target="_blank" rel="noopener">BMR (Basal Metabolic Rate)</a> is the number of calories your body burns just to stay alive — breathing, pumping blood, maintaining body temperature. TDEE adds daily activity and exercise on top of that. Never eat below your BMR for extended periods. Your TDEE is the starting point for setting calorie goals for fat loss or lean bulking.',
       },
       {
         question: 'How quickly should I expect to see results?',
         answer:
-          'With a 500-calorie daily deficit, expect to lose about 1 pound per week. With a 300-calorie surplus and proper training, expect to gain about 0.5-1 pound of muscle per month (the rest will be some fat). Weigh yourself at the same time each morning and use a 7-day average to track trends, since daily weight fluctuates due to water and food.',
+          'With a 500-calorie daily deficit, expect to lose about 1 pound per week. With a 300-calorie surplus and proper training, expect 0.5-1 pound of muscle per month. Weigh yourself each morning and use a 7-day average to track trends. For training guidance, check our <a href="/one-rep-max-calculator">1RM Calculator</a> to program your lifts.',
       },
       {
         question: 'Should I eat back the calories I burn during exercise?',
         answer:
-          'Your activity level selection already accounts for exercise calories in the TDEE calculation. Do not add extra calories on workout days unless you are doing significantly more activity than your selected level. If you find yourself losing weight too quickly (more than 1.5 lbs/week), increase your calories by 200-300 per day.',
+          'Your activity level selection already accounts for exercise calories in the TDEE calculation. Do not add extra calories on workout days unless you are doing significantly more than your selected level. If you are losing more than 1.5 lbs per week, increase calories by 200-300 per day and reassess.',
       },
     ],
     relatedTools: ['body-fat-calculator', 'protein-macro-calculator', 'sleep-cycle-calculator'],

@@ -162,24 +162,24 @@ export const bodyRoundnessIndexCalculatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'The Body Roundness Index (BRI) is a newer body composition metric that estimates body fat distribution using just your height and waist circumference. Unlike BMI, which treats all weight equally regardless of where it sits, BRI specifically captures how round your midsection is relative to your height, making it a better predictor of visceral fat and cardiometabolic risk. Research published in JAMA Network Open has shown that BRI is a stronger predictor of mortality risk than BMI. This calculator gives you your BRI score, health category, and actionable next steps.',
+      'The Body Roundness Index (BRI) estimates body fat distribution using just your height and waist circumference. Unlike BMI, BRI captures how round your midsection is relative to your height, making it a better predictor of visceral fat and <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2820842" target="_blank" rel="noopener">cardiometabolic risk</a>. For a complete body composition picture, pair this with our <a href="/body-fat-calculator">Body Fat Calculator</a> and <a href="/tdee-calculator">TDEE Calculator</a>.',
     howToUse:
-      'Enter your height and waist circumference, then select your unit system. The calculator uses the BRI formula to generate your score, categorize your body composition, and calculate your waist-to-height ratio. Track your BRI over time to monitor changes in body composition, especially if you are working on reducing visceral fat through diet and exercise.',
+      'Enter your height and waist circumference, then select your unit system. The BRI calculator generates your score, health category, and waist-to-height ratio. Track your BRI over time alongside results from our <a href="/body-fat-calculator">Body Fat Calculator</a> to monitor visceral fat reduction as you improve your diet and exercise.',
     faq: [
       {
         question: 'How is BRI different from BMI?',
         answer:
-          'BMI (Body Mass Index) divides your weight by your height squared, treating all weight the same whether it is muscle, bone, or fat. A muscular man can have a high BMI despite being lean. BRI uses waist circumference and height to model your body as an ellipse, specifically capturing central adiposity (belly fat). This makes BRI a better indicator of the dangerous visceral fat that surrounds your organs and drives metabolic disease. Two men with the same BMI can have very different BRI scores based on where they carry their weight.',
+          '<a href="https://en.wikipedia.org/wiki/Body_mass_index" target="_blank" rel="noopener">BMI</a> divides weight by height squared, treating all mass the same. A muscular man can score high despite being lean. BRI uses waist circumference and height to model your body as an ellipse, capturing central adiposity (belly fat). This makes it a better indicator of dangerous visceral fat. Two men with identical BMIs can have very different BRI scores.',
       },
       {
         question: 'What are the accuracy limitations of BRI?',
         answer:
-          'BRI is a field estimate, not a clinical measurement like a DEXA scan or MRI. It does not distinguish between subcutaneous fat (under the skin) and visceral fat (around organs), though waist circumference is well correlated with visceral fat in research. BRI also does not account for muscle mass, so a very muscular man with a thick core may get a slightly elevated score. For most men, BRI provides a useful and easily trackable metric that is more informative than BMI for health risk assessment.',
+          'BRI is a field estimate, not a clinical scan like DEXA or MRI. It does not distinguish subcutaneous from visceral fat, though waist circumference correlates well with visceral fat in <a href="https://pubmed.ncbi.nlm.nih.gov/25040597/" target="_blank" rel="noopener">research</a>. A very muscular man may score slightly elevated. For most men, BRI is more informative than BMI for health risk assessment.',
       },
       {
         question: 'How should I measure my waist properly?',
         answer:
-          'Stand upright with your feet shoulder-width apart. Use a flexible, non-stretchy tape measure. Place it horizontally around your waist at the level of your navel (belly button). Breathe out normally and take the measurement without sucking in your stomach or puffing it out. The tape should be snug against your skin without compressing it. Take the measurement twice and use the average. For tracking progress, always measure at the same time of day, ideally in the morning before eating or drinking.',
+          'Stand upright, feet shoulder-width apart. Use a flexible tape measure placed horizontally at navel level. Breathe out naturally — do not suck in. The tape should be snug without compressing skin. Measure twice and average the result. For consistent tracking, always measure in the morning before eating. Use the same technique for our <a href="/body-fat-calculator">Body Fat Calculator</a>.',
       },
     ],
     relatedTools: ['body-fat-calculator', 'tdee-calculator', 'protein-macro-calculator'],

@@ -467,24 +467,24 @@ export const giftFinderQuizConfig: QuizConfig = {
   ],
   supportingContent: {
     intro:
-      'Buying gifts for the women in your life should not be stressful. The problem is not that you do not care; it is that you have too many options and not enough direction. This quiz narrows it down fast. Answer six quick questions about who the gift is for, the occasion, their personality, and your budget, and we will point you to the exact category of gift that will land best.',
+      'Buying gifts for the women in your life should not be stressful. The problem is not that you do not care; it is that you have too many options and not enough direction. This gift ideas quiz narrows it down fast. Answer six quick questions about who the gift is for, the occasion, their personality, and your budget, and we will point you to the exact category of gift that will land best. Knowing her <a href="/love-language-quiz">love language</a> helps too. If her language is Receiving Gifts, this matters even more.',
     howToUse:
-      'Answer each question honestly based on what you actually know about the person. If you are not sure about something, go with your gut. The quiz takes about 60 seconds. At the end, you will get a personalized gift category with specific product suggestions and tips for making the gift feel extra thoughtful.',
+      'Answer each question honestly based on what you actually know about the person. If you are not sure about something, go with your gut. The quiz takes about 60 seconds. At the end, you will get a personalized gift category with specific gift suggestions for her and tips for making the gift feel extra thoughtful. Pair your gift with a planned <a href="/date-night-generator">date night</a> and you are golden.',
     faq: [
       {
         question: 'What if I still have no idea what to get after the quiz?',
         answer:
-          'If you are truly stuck, the safest move is always an experience gift (dinner, spa day, or event tickets) paired with a handwritten card. Nobody has ever been disappointed by a thoughtful experience. Avoid generic gift cards unless they specifically asked for one.',
+          'If you are truly stuck, the safest move is always an experience gift (dinner, spa day, or event tickets) paired with a handwritten card. Nobody has ever been disappointed by a thoughtful experience. Use our <a href="/date-night-generator">Date Night Generator</a> to plan the experience itself. Avoid generic gift cards unless they specifically asked for one.',
       },
       {
         question: 'How much should I spend on a gift?',
         answer:
-          'It depends on the relationship and occasion. For a girlfriend\'s birthday, $50-150 is a solid range. Anniversary with your wife, $100-300. Mom\'s birthday, $30-75. For a boss or coworker, keep it under $50 to stay appropriate. The thought always matters more than the price tag.',
+          'It depends on the relationship and occasion. For a girlfriend\'s birthday, $50-150 is a solid range. Anniversary with your wife, $100-300. Mom\'s birthday, $30-75. For a boss or coworker, keep it under $50 to stay appropriate. As <a href="https://www.psychologytoday.com/us/blog/the-science-behind-behavior/201512/the-psychology-of-gift-giving" target="_blank" rel="noopener">Psychology Today</a> notes, thoughtfulness always matters more than the price tag.',
       },
       {
         question: 'Should I ask them what they want or surprise them?',
         answer:
-          'Both approaches work, and the best strategy is a hybrid. Pay attention throughout the year when they mention wanting something or admiring an item. Screenshot it or write it down. That way your gift is a surprise, but it is also exactly what they wanted. The fact that you remembered is what makes it special.',
+          'Both approaches work, and the best strategy is a hybrid. Pay attention throughout the year when they mention wanting something or admiring an item. Screenshot it or write it down. That way your gift is a surprise, but it is also exactly what they wanted. The fact that you remembered is what makes a gift meaningful for her.',
       },
     ],
     relatedTools: [

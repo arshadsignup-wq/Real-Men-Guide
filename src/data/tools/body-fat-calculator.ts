@@ -145,24 +145,24 @@ export const bodyFatCalculatorConfig: CalculatorConfig = {
   affiliateIds: ['whey-protein', 'creatine'],
   supportingContent: {
     intro:
-      'The U.S. Navy body fat formula is one of the most widely used field methods for estimating body composition without expensive equipment. All you need is a tape measure and your height — no calipers, DEXA scans, or gym visits required. This calculator gives you your estimated body fat percentage, fat mass, lean mass, and a fitness classification so you know exactly where you stand.',
+      'This body fat percentage calculator for men uses the <a href="https://en.wikipedia.org/wiki/United_States_Navy_body_composition_assessment" target="_blank" rel="noopener">U.S. Navy body fat formula</a> — one of the most widely used field methods for estimating body composition without expensive equipment. All you need is a tape measure and your height. The calculator gives you your estimated body fat percentage, fat mass, lean mass, and a fitness classification. For a fuller picture, pair it with our <a href="/body-roundness-index-calculator">Body Roundness Index Calculator</a> to assess visceral fat risk.',
     howToUse:
-      'Select your unit system, then enter your waist circumference (measured at the navel while relaxed), neck circumference (measured just below the Adam\'s apple), height, and weight. Hit calculate and the tool will estimate your body fat percentage using the official Navy formula. Use the fitness category to gauge your current condition and set realistic goals.',
+      'Select your unit system, then enter your waist circumference (measured at the navel while relaxed), neck circumference (just below the Adam\'s apple), height, and weight. The tool estimates your body fat using the Navy formula. Use the fitness category to gauge your condition, then head to our <a href="/tdee-calculator">TDEE Calculator</a> to dial in your daily calories.',
     faq: [
       {
         question: 'How accurate is the U.S. Navy body fat method?',
         answer:
-          'The Navy method is generally accurate within 1-3% of DEXA scan results for most men. It tends to be most accurate for individuals in the average body fat range (15-25%) and may slightly underestimate or overestimate at the extremes. For a free, equipment-free method, it is one of the best options available.',
+          'The Navy method is generally accurate within 1-3% of <a href="https://en.wikipedia.org/wiki/Dual-energy_X-ray_absorptiometry" target="_blank" rel="noopener">DEXA scan</a> results for most men. It is most reliable in the 15-25% body fat range and may slightly over- or underestimate at the extremes. For a free, equipment-free body fat estimate, it remains one of the best options available.',
       },
       {
         question: 'When should I take my measurements?',
         answer:
-          'For the most consistent results, measure first thing in the morning before eating or drinking. Stand relaxed and do not flex or suck in your stomach. Take each measurement twice and use the average. Using the same conditions each time makes it easier to track progress over time.',
+          'Measure first thing in the morning before eating or drinking. Stand relaxed — do not flex or suck in your stomach. Take each measurement twice and use the average. Consistent conditions make it easier to track body composition changes over time alongside tools like our <a href="/protein-macro-calculator">Protein &amp; Macro Calculator</a>.',
       },
       {
         question: 'What body fat percentage should I aim for?',
         answer:
-          'For most men, a body fat percentage between 10-20% is considered healthy and looks good. Competitive athletes often sit between 6-13%, while a lean, fit appearance typically falls in the 10-17% range. Going below 5% is not sustainable long-term and can harm hormone levels and overall health.',
+          'For most men, a healthy body fat percentage is 10-20%. Competitive athletes often sit at 6-13%, while a lean, fit look falls around 10-17%. The <a href="https://www.acefitness.org/resources/everyone/tools-calculators/percent-body-fat-calculator/" target="_blank" rel="noopener">ACE body fat chart</a> is a solid reference. Going below 5% is not sustainable and can harm hormone levels.',
       },
     ],
     relatedTools: ['tdee-calculator', 'protein-macro-calculator', 'one-rep-max-calculator'],

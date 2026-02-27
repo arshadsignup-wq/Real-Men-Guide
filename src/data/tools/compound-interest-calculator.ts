@@ -171,24 +171,24 @@ export const compoundInterestCalculatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Compound interest is the single most powerful wealth-building force available to you. Einstein reportedly called it the eighth wonder of the world — and the math backs it up. This calculator shows you exactly how your money grows over time when you combine a starting investment, regular contributions, and the magic of compounding. Even small monthly amounts can turn into serious wealth given enough time.',
+      '<a href="https://en.wikipedia.org/wiki/Compound_interest" target="_blank" rel="noopener">Compound interest</a> is the single most powerful wealth-building force available to you. This compound interest calculator shows exactly how your money grows when you combine a starting investment, regular contributions, and the power of compounding. Even small monthly amounts turn into serious wealth given enough time. Building financial health is just as important as physical health — use our <a href="/tdee-calculator">TDEE Calculator</a> to invest in both.',
     howToUse:
-      'Enter your starting investment amount, how much you plan to contribute each month, your expected annual return rate (7% is a common inflation-adjusted benchmark for index funds), and how many years you plan to invest. Select your compounding frequency and hit calculate. The results show your final balance, how much you contributed versus how much compound interest earned for you, and the effective annual rate.',
+      'Enter your starting investment, monthly contribution, expected annual return rate (7% is a common inflation-adjusted benchmark for <a href="https://en.wikipedia.org/wiki/S%26P_500" target="_blank" rel="noopener">S&amp;P 500 index funds</a>), and investment period. Select compounding frequency and calculate. The results show your final balance, total contributions, compound interest earned, and effective annual rate.',
     faq: [
       {
         question: 'What annual return rate should I use?',
         answer:
-          'The S&P 500 has historically returned about 10% annually before inflation, or roughly 7% after inflation. If you want to see real purchasing power, use 7%. If you want nominal dollar amounts, use 10%. For a conservative estimate, use 6-7%. For bonds or savings accounts, 3-5% is more realistic. The key is to pick a rate and start investing — time in the market matters more than timing the market.',
+          'The S&amp;P 500 has historically returned about 10% annually before inflation, or roughly 7% after inflation. Use 7% for real purchasing power, 10% for nominal amounts, or 3-5% for bonds and savings accounts. The key is to start — <a href="https://www.investopedia.com/articles/investing/062714/100-years-sp-500-returns.asp" target="_blank" rel="noopener">time in the market</a> matters more than timing the market.',
       },
       {
         question: 'How much difference does starting early really make?',
         answer:
-          'Massive. Someone who invests $500/month starting at age 25 will have roughly $1.2 million by 60 (at 7% annual return). If they wait until 35 to start, they will have about $567,000 — less than half, despite only missing 10 years. The early investor contributed just $60,000 more but ended up with over $600,000 more. That is the power of compound interest and time.',
+          'Massive. Someone investing $500/month from age 25 will have roughly $1.2 million by 60 at 7% annual return. Starting at 35 instead yields about $567,000 — less than half, despite only missing 10 years. The early investor contributed just $60,000 more but ended up over $600,000 ahead. That is the power of compound interest and time.',
       },
       {
         question: 'Does compounding frequency make a big difference?',
         answer:
-          'The difference between monthly and annual compounding is relatively small — typically a fraction of a percent in effective annual return. For example, 7% compounded monthly gives an effective annual rate of about 7.23%, versus 7% compounded annually which stays at 7%. Over long periods this adds up, but the far more important factors are your contribution amount, rate of return, and time horizon.',
+          'The difference between monthly and annual compounding is relatively small — typically a fraction of a percent in effective annual return. For example, 7% compounded monthly gives an effective rate of about 7.23%, versus 7% flat annually. Over long periods this adds up, but contribution amount, rate of return, and time horizon matter far more.',
       },
     ],
     relatedTools: ['tdee-calculator', 'body-fat-calculator', 'protein-macro-calculator'],

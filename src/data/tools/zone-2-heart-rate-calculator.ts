@@ -173,24 +173,24 @@ export const zone2HeartRateCalculatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Zone 2 cardio has become one of the most talked-about training concepts in fitness and longevity science. It is the intensity where your body primarily burns fat, builds mitochondrial density, and improves cardiovascular efficiency without the stress of high-intensity work. The problem is that most men train too hard during their "easy" sessions, never actually spending time in Zone 2. This calculator gives you the exact heart rate range to target using three different proven methods.',
+      'Zone 2 cardio heart rate training has become one of the most talked-about concepts in fitness and <a href="https://peterattiamd.com/zone-2/" target="_blank" rel="noopener">longevity science</a>. It is the intensity where your body primarily burns fat, builds mitochondrial density, and improves cardiovascular efficiency without high-intensity stress. Most men train too hard during "easy" sessions, never actually staying in Zone 2. This calculator gives you the exact heart rate range using three proven methods.',
     howToUse:
-      'Enter your age and optionally your resting heart rate (measured first thing in the morning). Choose your preferred calculation method: Percentage of Max HR is the simplest, Karvonen is more accurate if you know your resting heart rate, and MAF is favored by endurance athletes. The calculator will show your Zone 2 range along with all five heart rate zones for reference.',
+      'Enter your age and optionally your resting heart rate (measured first thing in the morning). Choose your method: Percentage of Max HR is simplest, <a href="https://en.wikipedia.org/wiki/Karvonen_method" target="_blank" rel="noopener">Karvonen</a> is more personalized, and MAF is favored by endurance athletes. Use the Zone 2 range alongside our <a href="/tdee-calculator">TDEE Calculator</a> to balance cardio with nutrition.',
     faq: [
       {
         question: 'What is the talk test for Zone 2?',
         answer:
-          'The talk test is the simplest way to confirm you are in Zone 2 without a heart rate monitor. At the right intensity, you should be able to speak in full sentences but would not be able to sing. If you are breathing through your mouth or can only manage a few words between breaths, you are too high. If you can easily sing or chat without any effort, you are too low. Most people are surprised at how slow they need to go to stay in Zone 2.',
+          'The talk test is the simplest way to confirm you are in Zone 2 without a heart rate monitor. You should be able to speak in full sentences but not sing. If you can only manage a few words between breaths, you are too high. Most people are surprised at how slow they need to go. Zone 2 cardio heart rate training feels easy — that is the point.',
       },
       {
         question: 'How long should I train in Zone 2?',
         answer:
-          'Research from Dr. Peter Attia and Dr. Inigo San Millan suggests 3 to 4 hours of Zone 2 training per week for optimal metabolic and cardiovascular health. This can be split into 3-4 sessions of 45 to 60 minutes. Walking on an incline, easy cycling, light rowing, or slow jogging all work. Consistency matters more than duration, so start with what you can sustain weekly.',
+          'Research suggests 3 to 4 hours of Zone 2 per week for optimal <a href="https://www.ahajournals.org/doi/10.1161/CIR.0000000000001048" target="_blank" rel="noopener">cardiovascular health</a>. Split that into 3-4 sessions of 45-60 minutes — walking on an incline, easy cycling, light rowing, or slow jogging all work. Pair Zone 2 days with strength training programmed using our <a href="/one-rep-max-calculator">1RM Calculator</a>.',
       },
       {
         question: 'Is Zone 2 training effective for fat loss?',
         answer:
-          'Zone 2 is the intensity where your body uses the highest percentage of fat as fuel, making it excellent for improving fat oxidation over time. However, it burns fewer total calories per minute than higher intensities. The real benefit is metabolic: regular Zone 2 training increases the number and efficiency of your mitochondria, meaning your body becomes better at burning fat 24/7, not just during exercise. For fat loss, combine Zone 2 with a moderate caloric deficit.',
+          'Zone 2 is where your body uses the highest percentage of fat as fuel, improving fat oxidation over time. The real benefit is metabolic: regular training increases mitochondrial density, so your body burns fat more efficiently 24/7. For fat loss, combine Zone 2 with a moderate caloric deficit from our <a href="/tdee-calculator">TDEE Calculator</a>.',
       },
     ],
     relatedTools: ['body-fat-calculator', 'one-rep-max-calculator', 'tdee-calculator'],

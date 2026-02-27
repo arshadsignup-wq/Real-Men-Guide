@@ -33,7 +33,7 @@ export default function HomePage() {
             Free Tools to <span className="text-accent">Level Up</span> Your Life
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted">
-            Calculators, quizzes, and builders for style, grooming, fitness, dating, and more. 100% free, works instantly.
+            Body fat calculators, beard style quizzes, TDEE calculators, cologne finders, capsule wardrobe builders, and more. No sign-up required.
           </p>
 
           {/* Search */}

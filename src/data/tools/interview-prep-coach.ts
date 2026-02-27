@@ -370,24 +370,24 @@ export const interviewPrepCoachConfig: QuizConfig = {
   ],
   supportingContent: {
     intro:
-      'Interview prep is one of the highest-ROI activities you can do. A single great interview can change your career trajectory, your income, and your confidence for years to come. Yet most people wing it: they skim the job posting the night before, rehearse a few generic answers in their head, and hope for the best. This tool gives you a targeted prep strategy based on your specific situation so you walk in knowing exactly what to focus on.',
+      'Interview prep is one of the highest-ROI activities you can do. A single great interview can change your career trajectory, your income, and your confidence for years to come. Yet most people wing it: they skim the job posting the night before, rehearse a few generic answers, and hope for the best. This tool gives you targeted job interview tips for men based on your specific role, industry, and experience level so you walk in knowing exactly what to focus on. Looking sharp matters too, so check our <a href="/outfit-builder">Outfit Builder</a> before you go.',
     howToUse:
-      'Answer six questions about the role, industry, interview format, your biggest concern, timeline, and experience level. The quiz takes about 60 seconds. You will receive a personalized interview prep strategy with specific, actionable tips you can start using immediately. Read through the tips, pick the 3-4 that are most relevant to your situation, and work on them before your interview.',
+      'Answer six questions about the role, industry, interview format, your biggest concern, timeline, and experience level. The quiz takes about 60 seconds. You will receive a personalized interview prep strategy with specific, actionable tips. Sharpen your communication skills with our <a href="/conversation-starter-generator">Conversation Starter Generator</a> for networking situations. Read through the tips, pick the 3-4 most relevant to your situation, and work on them before your interview.',
     faq: [
       {
         question: 'How long should I prepare for an interview?',
         answer:
-          'Minimum 3-5 hours of focused preparation for any important interview. This includes: 1 hour researching the company and interviewers, 1-2 hours practicing answers out loud (not just in your head), and 1-2 hours on technical prep if applicable. If you have a week, spread this across several days. If you have 24 hours, do a focused 3-hour session.',
+          'Minimum 3-5 hours of focused preparation for any important interview. This includes: 1 hour researching the company, 1-2 hours practicing answers out loud, and 1-2 hours on technical prep if applicable. <a href="https://hbr.org/2021/11/10-common-job-interview-questions-and-how-to-answer-them" target="_blank" rel="noopener">Harvard Business Review</a> recommends practicing answers out loud rather than just in your head. Spread prep across several days if you have time.',
       },
       {
         question: 'What is the most common interview mistake men make?',
         answer:
-          'Talking too much. The average interviewer decides about a candidate in the first 10 minutes, then spends the rest of the time confirming their initial impression. Long, rambling answers kill momentum. Practice keeping every answer under 2 minutes. Be concise, specific, and then stop talking. Silence is not awkward; it shows confidence.',
+          'Talking too much. The average interviewer decides about a candidate in the first 10 minutes, then spends the rest confirming their initial impression. Long, rambling answers kill momentum. Practice keeping every answer under 2 minutes. Be concise, specific, and then stop talking. Silence is not awkward; it shows confidence during a job interview.',
       },
       {
         question: 'How do I handle a question I have no answer for?',
         answer:
-          'Pause for 3 seconds (it feels like forever but looks thoughtful). Then try one of these: "That is a great question. Let me think about that." Then give your best answer. Or: "I have not encountered that exact situation, but in a similar scenario I..." and bridge to a related experience. The worst thing you can do is panic, bluff, or say "I have no idea." Honesty plus a pivot always beats a bad fabrication.',
+          'Pause for 3 seconds (it feels like forever but looks thoughtful). Then try: "That is a great question. Let me think about that." Or bridge to a related experience: "I have not encountered that exact situation, but in a similar scenario I..." Honesty plus a pivot always beats a bad fabrication. Build your <a href="/morning-routine-builder">morning routine</a> around prep days to start focused.',
       },
     ],
     relatedTools: [

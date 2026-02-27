@@ -389,24 +389,24 @@ export const manArchetypeQuizConfig: QuizConfig = {
   ],
   supportingContent: {
     intro:
-      'Every man operates from a dominant archetype - a core pattern that shapes how he leads, loves, fights, and finds meaning. The Man Archetype Quiz draws from classical archetypes and modern masculine psychology to reveal which of six archetypes drives your personality. Understanding your archetype helps you lean into your strengths, recognize your blind spots, and become a more intentional version of yourself.',
+      'Ever asked yourself "what is my masculine archetype?" Every man operates from a dominant archetype — a core pattern that shapes how he leads, loves, fights, and finds meaning. This masculine archetype quiz draws from <a href="https://en.wikipedia.org/wiki/Jungian_archetypes" target="_blank" rel="noopener">Jungian archetypes</a> and modern masculine psychology to reveal which of six archetypes drives your personality. Understanding your archetype helps you lean into your strengths, recognize your blind spots, and become a more intentional version of yourself. Once you know your type, take our <a href="/life-audit-score">Life Audit Score</a> to see how your archetype plays out across all areas of your life.',
     howToUse:
-      'Answer all 8 questions honestly based on how you actually behave, not how you wish you behaved. There are no right or wrong answers. Each question explores a different dimension of your personality: leadership, conflict, values, social behavior, hobbies, decision-making, leisure, and role models. Your result will reveal your dominant archetype along with detailed tips for growth.',
+      'Answer all 8 questions honestly based on how you actually behave, not how you wish you behaved. There are no right or wrong answers. Each question explores a different dimension of your personality: leadership, conflict, values, social behavior, hobbies, decision-making, leisure, and role models. Your result reveals your dominant male personality archetype along with detailed tips for growth.',
     faq: [
       {
         question: 'Can I be more than one archetype?',
         answer:
-          'Absolutely. Most men are a blend of two or three archetypes with one being dominant. Your quiz result shows your primary archetype, but you likely have strong secondary traits from others. Read through all the results and see which secondary archetype resonates. The goal is self-awareness, not fitting into a single box.',
+          'Absolutely. Most men are a blend of two or three archetypes with one being dominant. Your quiz result shows your primary archetype, but you likely have strong secondary traits from others. Read through all the results and see which secondary archetype resonates. For a broader view of how your personality shows up in daily life, try the <a href="/daily-man-challenge">Daily Man Challenge</a> and see which categories you gravitate toward.',
       },
       {
         question: 'Can my archetype change over time?',
         answer:
-          'Yes. Your dominant archetype can shift as you go through different life phases. A young Warrior may evolve into a King as he gains experience, or a Creator may develop stronger Sage qualities over time. Retake the quiz every year or two to see how you have grown.',
+          'Yes. Your dominant archetype can shift as you go through different life phases. A young Warrior may evolve into a King as he gains experience, or a Creator may develop stronger Sage qualities over time. Research in <a href="https://www.psychologytoday.com/us/basics/personality" target="_blank" rel="noopener">personality psychology</a> confirms that traits evolve with age and experience. Retake the quiz every year or two to track how you have grown.',
       },
       {
         question: 'What are these archetypes based on?',
         answer:
-          'The archetypes are inspired by Jungian psychology, the work of Robert Moore and Douglas Gillette on masculine archetypes, and modern personality frameworks. They represent universal patterns of masculine identity that have appeared across cultures and throughout history.',
+          'The archetypes are inspired by <a href="https://en.wikipedia.org/wiki/Carl_Jung" target="_blank" rel="noopener">Carl Jung\'s</a> psychological framework, the work of Robert Moore and Douglas Gillette on masculine archetypes in <em>King, Warrior, Magician, Lover</em>, and modern personality frameworks. They represent universal patterns of masculine identity that have appeared across cultures and throughout history.',
       },
     ],
     relatedTools: [

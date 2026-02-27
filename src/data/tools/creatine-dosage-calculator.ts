@@ -156,24 +156,24 @@ export const creatineDosageCalculatorConfig: CalculatorConfig = {
   affiliateIds: ['creatine'],
   supportingContent: {
     intro:
-      'Creatine monohydrate is the most researched and proven sports supplement in existence. It increases strength, power output, and muscle recovery by replenishing your muscles\' primary energy source for short, intense efforts. Despite its reputation, dosing is straightforward: you need a specific daily amount based on your body weight, and you need to take it consistently. This calculator gives you personalized loading and maintenance doses so you get the full benefit without wasting money on excessive scoops.',
+      '<a href="https://examine.com/supplements/creatine/" target="_blank" rel="noopener">Creatine monohydrate</a> is the most researched sports supplement in existence, shown to increase strength, power output, and muscle recovery. This creatine dosage calculator gives you personalized loading and maintenance doses based on your body weight so you get the full benefit without wasting money. Pair your creatine protocol with targets from our <a href="/protein-macro-calculator">Protein &amp; Macro Calculator</a> for a complete supplement and nutrition plan.',
     howToUse:
-      'Enter your body weight, select your weight unit, choose whether you want to include a loading phase, and select your training experience level. The calculator will give you your daily maintenance dose, optional loading protocol, monthly usage estimate, and cost projection. Advanced lifters with more muscle mass are given slightly higher doses within the evidence-based range.',
+      'Enter your body weight, select your unit, choose whether to include a creatine loading phase, and select your training level. The calculator outputs your daily maintenance dose, optional loading protocol, monthly usage, and cost projection. Track your progress with our <a href="/one-rep-max-calculator">1RM Calculator</a> to see strength gains over time.',
     faq: [
       {
         question: 'Is the loading phase necessary?',
         answer:
-          'No, the loading phase is not required. It simply saturates your muscles with creatine faster, in about 5 to 7 days instead of 3 to 4 weeks of taking the maintenance dose alone. If you are patient, skipping the loading phase and taking your maintenance dose daily will get you to the same place, it just takes longer. Some people experience minor bloating or stomach discomfort during loading due to the higher doses, which is another reason to skip it.',
+          'The creatine loading phase is not required. It saturates your muscles in about 5-7 days instead of 3-4 weeks at the maintenance dose. According to the <a href="https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0173-z" target="_blank" rel="noopener">ISSN position stand</a>, both approaches reach the same endpoint. Some people experience minor bloating during loading, which is another reason to skip it.',
       },
       {
         question: 'Will creatine cause water weight gain?',
         answer:
-          'Yes, creatine pulls water into your muscle cells, which typically adds 2 to 5 pounds of water weight in the first week or two. This is not fat gain and is actually a good sign that the creatine is working. The intracellular water creates a more anabolic environment for muscle growth. This water weight is inside the muscle, not under the skin, so it tends to make muscles look fuller rather than bloated.',
+          'Yes, creatine pulls water into your muscle cells, typically adding 2-5 pounds in the first week or two. This is not fat — it is intracellular water that creates a more anabolic environment. Use our <a href="/body-fat-calculator">Body Fat Calculator</a> to confirm your actual composition has not changed. The water is inside the muscle, making them look fuller rather than bloated.',
       },
       {
         question: 'Is creatine monohydrate better than other forms?',
         answer:
-          'Creatine monohydrate is the gold standard and the form used in the vast majority of research studies. Forms like creatine HCL, buffered creatine, and creatine ethyl ester have not been shown to be more effective in peer-reviewed research, despite being more expensive. Monohydrate is the cheapest, most studied, and most proven form. There is no scientific reason to pay more for alternative forms.',
+          'Creatine monohydrate is the gold standard used in the vast majority of <a href="https://pubmed.ncbi.nlm.nih.gov/33557850/" target="_blank" rel="noopener">research studies</a>. Forms like creatine HCL and buffered creatine have not been shown to be more effective despite costing more. Monohydrate is the cheapest, most studied, and most proven form available.',
       },
     ],
     relatedTools: ['protein-macro-calculator', 'one-rep-max-calculator', 'body-fat-calculator'],

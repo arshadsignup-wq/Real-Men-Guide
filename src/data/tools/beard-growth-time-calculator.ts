@@ -177,24 +177,24 @@ export const beardGrowthTimeCalculatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Growing a beard is a patience game, and not knowing how long it will take is the number one reason men quit too early. This calculator estimates exactly how many days and weeks it will take to reach your target beard length based on your current length, natural growth speed, and age. It also maps out key checkpoints and warns you about the awkward phase so you know exactly what to expect on the journey.',
+      'How long does it take to grow a beard? Not knowing the timeline is the top reason men quit too early. This beard growth calculator estimates exactly how many days and weeks to reach your target length based on current length, growth speed, and age. It maps out checkpoints and warns you about the awkward phase. Once you hit your goal, use our <a href="/beard-trim-settings-calculator">Beard Trim Settings Calculator</a> to maintain it.',
     howToUse:
-      'Enter your current beard length in millimeters (0 if clean-shaven), your target length, your growth speed, and your age range. The calculator returns the total days to your goal, weekly and monthly checkpoints showing how your beard will progress, and tips for getting through the hardest parts of the grow. Use a ruler or caliper to measure your current length for the most accurate estimate.',
+      'Enter your current beard length in millimeters (0 if clean-shaven), target length, growth speed, and age range. The calculator returns total days, checkpoints, and tips for the hardest parts. Use a ruler or caliper for accurate measurement. Once you reach your target, our <a href="/beard-guard-style-match">Beard Guard Style Match</a> helps you maintain the length.',
     faq: [
       {
         question: 'Does shaving make your beard grow back thicker or faster?',
         answer:
-          'No, this is one of the most persistent grooming myths. Shaving cuts the hair at its thickest point, so when it grows back, the blunt tip feels coarser and looks darker. But the actual growth rate, thickness, and density of your beard is determined by genetics and hormones, not by shaving. If you want a fuller beard, the only solution is to let it grow and give it time.',
+          'No. According to <a href="https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/hair-removal/faq-20058427" target="_blank" rel="noopener">the Mayo Clinic</a>, shaving does not change growth rate, thickness, or density. The blunt tip just feels coarser. Growth rate is determined by genetics and hormones. If you want a fuller beard, the only solution is patience. Our <a href="/beard-style-selector">Beard Style Selector</a> helps you find a style that works with your natural growth pattern.',
       },
       {
         question: 'What can I do about a patchy beard during the growth phase?',
         answer:
-          'First, give it time. Many beards that look patchy at 2 weeks fill in significantly by week 6 to 8 as longer hairs cover sparse areas. Use a boar bristle brush daily to train hairs to lay over patchy spots. Beard oil keeps the skin healthy and supports growth. If patches persist after 3 months, consider styles that work with your growth pattern rather than fighting it. Minoxidil has shown results for some men, but consult a dermatologist before use.',
+          'Give it time. Many beards that look patchy at 2 weeks fill in by week 6-8 as longer hairs cover sparse areas. Use a boar bristle brush daily and beard oil to keep skin healthy. If patches persist after 3 months, consider styles that work with your growth pattern. Our <a href="/beard-style-selector">Beard Style Selector</a> recommends styles based on your coverage pattern.',
       },
       {
         question: 'Do supplements actually help beard growth?',
         answer:
-          'Biotin, zinc, and vitamin D can support healthy hair growth if you are deficient in them, but they will not make a thin beard thick or speed up genetics. The biggest impact comes from a solid diet with enough protein, adequate sleep, regular exercise (which boosts testosterone), and managing stress levels. Supplements are a supplement, not a solution. Focus on the fundamentals first.',
+          'Biotin, zinc, and vitamin D support hair growth only if you are deficient. The biggest impact comes from a solid diet with protein, adequate sleep, regular exercise, and stress management. The <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6380979/" target="_blank" rel="noopener">NIH confirms</a> that nutrition plays a role in hair health, but supplements cannot override genetics. Focus on fundamentals first.',
       },
     ],
     relatedTools: [

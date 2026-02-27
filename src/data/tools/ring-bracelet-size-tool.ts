@@ -184,24 +184,24 @@ export const ringBraceletSizeToolConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Whether you are buying a wedding band, a statement ring, or your first bracelet, getting the size right matters. Too tight and it is uncomfortable; too loose and you risk losing it. This tool converts your finger or wrist circumference into US, UK, and EU sizes, accounts for your preferred fit, and gives you the exact measurements you need for online ordering.',
+      'Getting the right men\'s ring size or bracelet size matters - too tight is uncomfortable, too loose risks losing it. This tool converts your finger or wrist circumference into US, UK, and EU sizes with fit adjustments for online ordering. Sizing other accessories too? Our <a href="/glasses-frame-size-calculator">Glasses Frame Size Calculator</a> and <a href="/hat-size-calculator">Hat Size Calculator</a> round out your accessory measurements.',
     howToUse:
-      'Select whether you are sizing a ring or bracelet. Measure the circumference of your finger or wrist in millimeters using a flexible measuring tape or a strip of paper (wrap it around, mark the overlap, and measure flat with a ruler). Enter the measurement, choose your preferred fit (snug, comfort, or loose), and the calculator will show your size in every major system along with the inner diameter.',
+      'Select ring or bracelet, measure your circumference in millimeters with a flexible tape or paper strip, choose your fit preference, and get sizes in every major system. For rings, measure at the end of the day when fingers are largest. For complete outfit accessories, check our <a href="/outfit-builder">Outfit Builder</a>.',
     faq: [
       {
         question: 'How do I measure my ring size with string at home?',
         answer:
-          'Cut a thin strip of paper or use a piece of non-stretchy string. Wrap it around the base of the finger you want to size, just below the knuckle. Mark where the material overlaps, then lay it flat and measure the length in millimeters. This is your circumference. For the most accurate reading, measure at the end of the day when fingers are at their largest, and measure three times to confirm.',
+          'Wrap a non-stretchy string or paper strip around the finger base, just below the knuckle. Mark the overlap, lay it flat, and measure in millimeters. Measure at the end of the day when fingers are largest, and measure three times to confirm. This at-home method is accurate within half a US size. <a href="https://en.wikipedia.org/wiki/Ring_size" target="_blank" rel="noopener">Ring sizing standards</a> vary by country, which is why this tool converts across systems.',
       },
       {
         question: 'Does a wide band ring need a different size?',
         answer:
-          'Yes. Rings wider than 6mm feel tighter than a standard-width ring at the same size because they cover more surface area on your finger. As a general rule, go up half a US size for bands 6-8mm wide, and a full size up for bands wider than 8mm. This applies to wedding bands, signet rings, and chunky fashion rings.',
+          'Yes. Bands wider than 6mm feel tighter because they cover more finger surface. Go up half a US size for 6-8mm bands and a full size for bands over 8mm. This applies to wedding bands, signet rings, and chunky fashion rings. Our <a href="/hat-size-calculator">Hat Size Calculator</a> uses a similar approach of adjusting for material and style.',
       },
       {
         question: 'Can rings be resized, and how much does it cost?',
         answer:
-          'Most gold, silver, and platinum rings can be resized up or down by one to two sizes. The cost typically ranges from $30 to $100 depending on the metal, complexity, and whether the ring has stones. Titanium, tungsten, and ceramic rings generally cannot be resized. If you are ordering a ring in a hard-to-resize material, measure carefully and consider ordering a comfort fit.',
+          'Most gold, silver, and platinum rings can be resized 1-2 sizes for $30-100 depending on metal and complexity. Titanium, tungsten, and ceramic rings generally cannot be resized. If ordering a hard-to-resize material, measure carefully and consider comfort fit. For other accessory sizing, try our <a href="/glasses-frame-size-calculator">Glasses Frame Size Calculator</a>.',
       },
     ],
     relatedTools: [

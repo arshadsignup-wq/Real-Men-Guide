@@ -162,24 +162,24 @@ export const razorBladeReplacementCalculatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Using a dull razor blade is one of the most common causes of razor burn, ingrown hairs, and a bad shave. Most men either change blades too infrequently (using a dull blade for weeks) or too often (wasting money). This calculator tells you exactly how many shaves you should get per blade and how often to change it based on your blade type, hair thickness, shaving frequency, and how much area you cover.',
+      'A dull razor blade is one of the most common causes of razor burn, ingrown hairs, and a bad shave. This razor blade replacement calculator tells you exactly how many shaves per blade to expect and when to swap based on your blade type, hair thickness, and shaving area. Struggling with irritation? Take our <a href="/razor-burn-risk-checker">Razor Burn Risk Checker</a> to diagnose the full problem.',
     howToUse:
-      'Enter how many times per week you shave, select your blade type, hair thickness, and the area you shave. The calculator returns how many shaves per blade you should aim for, how often to swap in a fresh one, how many blades you will use per year, and the estimated annual cost. Use this to set a blade-change schedule and stop guessing.',
+      'Enter shaves per week, blade type, hair thickness, and shaving area. The calculator returns shaves per blade, change frequency, annual blade count, and estimated yearly cost. Pair this with our <a href="/razor-burn-risk-checker">Razor Burn Risk Checker</a> and <a href="/skincare-routine-builder">Skincare Routine Builder</a> for a complete shaving and skin care plan.',
     faq: [
       {
         question: 'How do I know when a blade is dull?',
         answer:
-          'There are three clear signs: tugging or pulling instead of smooth gliding, needing multiple passes over the same area to get a clean shave, and increased nicks or irritation after shaving. A sharp blade should cut through hair on the first pass with almost no pressure. If you find yourself pressing harder, the blade is done. Some men also notice the blade sounds different when dull, a scraping noise instead of a quiet cut.',
+          'Three clear signs: tugging instead of gliding, needing multiple passes for a clean shave, and increased nicks or irritation. A sharp blade cuts on the first pass with almost no pressure. If you press harder, the blade is done. For shaving technique improvements, our <a href="/razor-burn-risk-checker">Razor Burn Risk Checker</a> evaluates your full routine.',
       },
       {
         question: 'How can I make my blades last longer?',
         answer:
-          'Rinse the blade thoroughly after every few strokes and after finishing to remove hair and shaving cream buildup. Pat it dry after use rather than leaving it wet, since moisture causes oxidation and microchipping on the blade edge. Store your razor upright in a dry area, not in the shower where constant humidity accelerates rust. Some men run the blade backward along a pair of jeans to realign the edge, which can add a few extra shaves.',
+          'Rinse the blade thoroughly after every few strokes. Pat dry after use rather than leaving it wet, since moisture causes oxidation. Store your razor upright in a dry area, not in the shower. Some men run the blade backward along denim to realign the edge. Our <a href="/skincare-routine-builder">Skincare Routine Builder</a> includes post-shave care that also protects your skin.',
       },
       {
         question: 'Are expensive blades worth the price compared to safety razors?',
         answer:
-          'From a pure cost perspective, safety razors win by a massive margin. Double-edge blades cost around 10 to 25 cents each versus 2 to 5 dollars per cartridge. Over a year, the savings add up to hundreds of dollars. Safety razors also provide a closer shave and less irritation once you master the technique. The tradeoff is a steeper learning curve and slightly more time per shave. If you are spending more than $100 a year on cartridges, a safety razor pays for itself in months.',
+          'From a cost perspective, <a href="https://en.wikipedia.org/wiki/Safety_razor" target="_blank" rel="noopener">safety razors</a> win by a massive margin. Double-edge blades cost 10-25 cents each versus $2-5 per cartridge. They also provide a closer shave with less irritation once you learn the technique. If you spend over $100 a year on cartridges, a safety razor pays for itself in months.',
       },
     ],
     relatedTools: [

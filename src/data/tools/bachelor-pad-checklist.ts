@@ -368,24 +368,24 @@ export const bachelorPadChecklistConfig: QuizConfig = {
   ],
   supportingContent: {
     intro:
-      'Your apartment says more about you than you think. When someone walks in, whether it is a friend, a date, or your parents, they form an impression in about 10 seconds. The good news is that making your place look put together does not require an interior design degree or a massive budget. It requires knowing what to prioritize, what to skip, and what small upgrades make the biggest difference. This quiz gives you a personalized room-by-room checklist based on your actual living situation.',
+      'Your apartment says more about you than you think. When someone walks in, whether it is a friend, a date, or your parents, they form an impression in about 10 seconds. This bachelor pad essentials checklist helps you figure out exactly what to prioritize, what to skip, and what small upgrades make the biggest difference. You do not need an interior design degree or a massive budget. Just answer a few questions and get a personalized, room-by-room apartment checklist for guys based on your actual living situation and goals.',
     howToUse:
-      'Answer six quick questions about your space, budget, lifestyle, and goals. We will give you a personalized checklist tailored to exactly where you are right now: whether you are starting from scratch or adding finishing touches. Use the checklist as a shopping list and tackle it in priority order. The biggest-impact items are listed first.',
+      'Answer six quick questions about your space, budget, lifestyle, and goals. We will give you a personalized bachelor pad checklist tailored to exactly where you are right now. Use it as a shopping list and tackle items in priority order. Already have the essentials? Level up your <a href="/morning-routine-builder">morning routine</a> and <a href="/skincare-routine-builder">skincare routine</a> to match. The biggest-impact items are listed first.',
     faq: [
       {
         question: 'What is the single most impactful thing I can do to upgrade my space?',
         answer:
-          'Lighting. It sounds simple, but swapping your harsh overhead bulbs for warm-toned bulbs (2700K), adding a floor lamp or table lamp, and introducing candles transforms any room instantly. After that, good bedding is second. Quality sheets and a real duvet cover make your bedroom feel like a hotel instead of a dorm room.',
+          'Lighting. Swapping harsh overhead bulbs for warm-toned bulbs (2700K), adding a floor lamp, and introducing candles transforms any room instantly. <a href="https://www.architecturaldigest.com/story/how-to-light-a-room" target="_blank" rel="noopener">Architectural Digest</a> calls lighting the single fastest way to change a room\'s mood. After that, good bedding is second. Quality sheets make your bedroom feel like a hotel.',
       },
       {
         question: 'How do I make my apartment smell good?',
         answer:
-          'Three layers: First, keep it clean (take out the trash regularly, do dishes immediately, laundry on schedule). Second, use a signature candle in the living room and bathroom. Third, add a subtle ongoing scent like a reed diffuser or essential oil diffuser. The goal is a pleasant subtle scent, not air freshener masking something bad.',
+          'Three layers: First, keep it clean (take out the trash regularly, do dishes immediately, laundry on schedule). Second, use a signature candle in the living room and bathroom. Third, add a subtle ongoing scent like a reed diffuser. Try our <a href="/fragrance-finder">Fragrance Finder</a> to pick a cologne that complements your space\'s scent.',
       },
       {
         question: 'What should I prioritize if I am on a tight budget?',
         answer:
-          'In order: clean matching bedding (under $50 for a full set), bathroom basics (matching towels, hand soap, trash can with lid), and a single source of warm lighting for the living room. These three things, totaling about $100, will make the biggest visual and experiential difference. Everything else can come later.',
+          'In order: clean matching bedding (under $50 for a full set), bathroom basics (matching towels, hand soap, trash can with lid), and a single source of warm lighting for the living room. These three essentials, totaling about $100, will make the biggest visual and experiential difference in any bachelor apartment. Everything else can come later.',
       },
     ],
     relatedTools: [

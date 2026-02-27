@@ -397,24 +397,24 @@ export const morningRoutineBuilderConfig: BuilderConfig = {
   },
   supportingContent: {
     intro:
-      'Your morning sets the tone for your entire day. The most successful and productive men in the world all have one thing in common: a deliberate morning routine. But this is not about copying someone else\'s 4 AM ice bath ritual. This builder creates a personalized routine based on your actual wake-up time, the time you have available, your goals, and the specific activities that matter to you. The result is a timed, realistic routine you will actually follow.',
+      'Your morning sets the tone for your entire day. The most successful and productive men in the world share one thing in common: a deliberate morning routine for men that is built around their actual life, not someone else\'s. This is not about copying a 4 AM ice bath ritual from social media. This builder creates a personalized morning routine based on your wake-up time, available time, goals, and the specific activities that matter to you. The result is a timed, realistic schedule you will actually follow. Pair it with a solid <a href="/skincare-routine-builder">skincare routine</a> and you are starting the day right.',
     howToUse:
-      'Walk through the four steps: pick your wake-up time, how much time you have, your primary goal, and which activities you want to include. The builder will generate a timed schedule with specific instructions for each activity, tailored to your goal. Print it, screenshot it, or save it somewhere you will see it every morning.',
+      'Walk through the four steps: pick your wake-up time, how much time you have, your primary goal, and which activities you want to include. The builder generates a timed morning schedule with specific instructions for each activity, tailored to your goal. Use our <a href="/caffeine-cutoff-calculator">Caffeine Cutoff Calculator</a> to make sure last night\'s coffee is not sabotaging your wake-up. Print it, screenshot it, or save it somewhere you will see it every morning.',
     faq: [
       {
         question: 'What if I am not a morning person?',
         answer:
-          'Nobody is born a morning person. It is a trained habit. Start by waking up just 15 minutes earlier than you currently do, and do one simple activity (like drinking water and stretching). Gradually move your wake time earlier and add activities over weeks. The consistency of the routine will train your body to wake up naturally.',
+          'Nobody is born a morning person. It is a trained habit. <a href="https://hubermanlab.com/" target="_blank" rel="noopener">Dr. Andrew Huberman</a> recommends getting sunlight within the first 10 minutes of waking to reset your circadian rhythm. Start by waking up just 15 minutes earlier than you currently do and do one simple activity. Gradually add more over weeks. Consistency trains your body.',
       },
       {
         question: 'Should I do the same routine on weekends?',
         answer:
-          'Ideally, yes, at least the wake-up time. Consistency is what makes your circadian rhythm work for you instead of against you. You can do a lighter version of the routine on weekends, but try to wake up within 30 minutes of your weekday time to avoid "social jet lag."',
+          'Ideally, yes, at least the wake-up time. Consistency is what makes your <a href="https://en.wikipedia.org/wiki/Circadian_rhythm" target="_blank" rel="noopener">circadian rhythm</a> work for you instead of against you. You can do a lighter version of the routine on weekends, but try to wake up within 30 minutes of your weekday time to avoid what researchers call "social jet lag."',
       },
       {
         question: 'What if I do not have time for all the activities I want?',
         answer:
-          'Start with the non-negotiable ones and rotate the rest. For example, exercise Monday-Wednesday-Friday and reading-meditation Tuesday-Thursday-Saturday. The routine does not have to be identical every day as long as the structure and timing stay consistent.',
+          'Start with the non-negotiable ones and rotate the rest. For example, exercise Monday-Wednesday-Friday and reading-meditation Tuesday-Thursday-Saturday. The morning routine does not have to be identical every day as long as the structure and timing stay consistent. Our <a href="/bachelor-pad-checklist">Bachelor Pad Checklist</a> can help you set up your space to support better habits.',
       },
     ],
     relatedTools: [

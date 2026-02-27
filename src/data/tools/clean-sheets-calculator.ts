@@ -165,24 +165,24 @@ export const cleanSheetsCalculatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'How often should you wash your sheets? It depends on more than you think. Your sleep situation, sweat level, showering habits, allergies, and climate all factor in. Most guys wait way too long (the average is every 24 days, which is genuinely gross). This calculator gives you a personalized schedule based on your actual lifestyle so your bed stays fresh, smells good, and does not become a petri dish of dead skin cells and dust mites.',
+      'How often should you wash your sheets? Most guys wait way too long — the average is every 24 days, which <a href="https://www.mayoclinic.org/diseases-conditions/dust-mites/symptoms-causes/syc-20352173" target="_blank" rel="noopener">dust mites</a> love. Your sleep situation, sweat level, showering habits, allergies, and climate all factor in. This calculator gives you a personalized bed sheet wash schedule so your bed stays fresh. Pair it with our <a href="/towel-gym-wash-planner">Towel &amp; Gym Wash Planner</a> for a complete laundry routine.',
     howToUse:
-      'Answer the five questions about your sleeping habits and environment. The calculator computes your ideal sheet-washing frequency in days, along with how often to wash your pillowcases (they need it more often since they collect face oils and drool), your monthly and annual wash count, and a practical laundry tip. Use the results to set a recurring reminder on your phone.',
+      'Answer five questions about your sleeping habits and environment. The calculator computes your ideal sheet-washing frequency, pillowcase schedule, monthly and annual wash count, and a practical laundry tip. Keep your bedding fresh alongside a proper towel rotation from our <a href="/towel-gym-wash-planner">Towel &amp; Gym Wash Planner</a>.',
     faq: [
       {
         question: 'Should I wash sheets in hot or cold water?',
         answer:
-          'Warm water (around 130F / 54C) is the best balance. It kills most bacteria and dust mites without causing excessive shrinkage or fading. Hot water is only necessary if you are sick or dealing with a bed bug situation. Cold water saves energy but does not sanitize as effectively. If you use cold water, add an antibacterial laundry additive and dry on high heat to compensate.',
+          'Warm water (about 130F / 54C) is the best balance — it kills most <a href="https://www.mayoclinic.org/diseases-conditions/dust-mites/symptoms-causes/syc-20352173" target="_blank" rel="noopener">dust mites</a> and bacteria without excessive shrinkage. Hot water is only necessary when sick or dealing with bed bugs. Cold water saves energy but does not sanitize as well; add an antibacterial additive and dry on high heat to compensate.',
       },
       {
         question: 'Why should I wash my pillowcase more often than my sheets?',
         answer:
-          'Your pillowcase absorbs facial oils, drool, sweat, hair products, and skin cells every night, far more concentrated than what contacts your fitted sheet. This buildup can cause acne breakouts, clogged pores, and worsen allergies. Washing or swapping your pillowcase every 2-4 days is one of the simplest things you can do for clearer skin. Some guys keep a stack of cheap pillowcases to swap out easily.',
+          'Your pillowcase absorbs facial oils, drool, sweat, and hair products every night — far more concentrated than your fitted sheet. This buildup causes acne breakouts and worsens allergies. Swapping your pillowcase every 2-4 days is one of the simplest things you can do for clearer skin. Check our <a href="/skincare-routine-builder">Skincare Routine Builder</a> for more tips.',
       },
       {
         question: 'Do I need a mattress protector?',
         answer:
-          'Absolutely yes. A waterproof, breathable mattress protector stops sweat, body oils, dead skin, and spills from soaking into your mattress, which is nearly impossible to clean. It also blocks dust mites and allergens. A good mattress protector extends the life of your mattress by years and makes your sleep environment significantly cleaner. Wash the protector monthly.',
+          'Yes. A waterproof, breathable mattress protector stops sweat, oils, dead skin, and spills from soaking into your mattress. It also blocks dust mites and allergens. A good protector extends mattress life by years and improves your <a href="/sleep-cycle-calculator">sleep environment</a>. Wash the protector monthly alongside your regular sheet schedule.',
       },
     ],
     relatedTools: [

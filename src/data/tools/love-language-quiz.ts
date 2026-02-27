@@ -704,24 +704,24 @@ export const loveLanguageQuizConfig: QuizConfig = {
   ],
   supportingContent: {
     intro:
-      'The concept of love languages, developed by Dr. Gary Chapman, is one of the most useful relationship frameworks ever created. The idea is simple: people give and receive love in five different ways, and most people have one or two primary languages. The problem is that you tend to give love the way you want to receive it, which means you could be pouring effort into your partner in a way they barely register. Understanding your love language (and theirs) is a genuine cheat code for better relationships.',
+      'The concept of <a href="https://en.wikipedia.org/wiki/The_Five_Love_Languages" target="_blank" rel="noopener">love languages</a>, developed by Dr. Gary Chapman, is one of the most useful relationship frameworks ever created. This love language test for men helps you figure out how you give and receive love. Most people have one or two primary languages, and the problem is you tend to show love the way you want to receive it, which means you could be pouring effort into your partner in a way they barely register. Understanding your love language (and theirs) is a genuine cheat code for stronger relationships.',
     howToUse:
-      'Answer each question based on your honest, gut reaction. Do not overthink it or answer based on what sounds best. There are no wrong answers. The quiz takes about 3 minutes. When you finish, you will get your primary love language along with detailed tips for how to communicate it to your partner and how to love someone with each language.',
+      'Answer each question based on your honest, gut reaction. Do not overthink it or answer based on what sounds best. There are no wrong answers. This love language quiz takes about 3 minutes. When you finish, you will get your primary love language along with detailed tips for communicating it to your partner. Then use the results to plan better <a href="/date-night-generator">date nights</a> and <a href="/gift-finder-quiz">gifts</a> that actually resonate.',
     faq: [
       {
         question: 'Can I have more than one love language?',
         answer:
-          'Absolutely. Most people have a primary and a secondary love language. If your scores are close across two or three categories, it means you are multilingual in love, which is actually a strength. Pay attention to the top two.',
+          'Absolutely. Most people have a primary and a secondary love language. If your scores are close across two or three categories, it means you are multilingual in love, which is actually a strength. Pay attention to the top two and share the results with your partner so you both know what matters most.',
       },
       {
         question: 'What if my partner and I have different love languages?',
         answer:
-          'This is extremely common and is not a problem as long as you both understand the difference. The key is to love your partner in their language, not yours. If their language is Acts of Service and yours is Words of Affirmation, you need to put in the effort to show love through action even though that is not what you naturally do.',
+          'This is extremely common and is not a problem as long as you both understand the difference. The key is to love your partner in their language, not yours. As <a href="https://www.gottman.com/" target="_blank" rel="noopener">The Gottman Institute</a> research supports, couples who learn to speak each other\'s love language build stronger emotional connection over time.',
       },
       {
         question: 'Can my love language change over time?',
         answer:
-          'Yes. Life circumstances can shift your primary language. During stressful periods, Acts of Service might become more important. After time apart, Quality Time might jump to the top. It is worth retaking this quiz every year or so and having a fresh conversation with your partner.',
+          'Yes. Life circumstances can shift your primary language. During stressful periods, Acts of Service might become more important. After time apart, Quality Time might jump to the top. Retake this love language quiz every year or so and have a fresh conversation with your partner about what you each need.',
       },
     ],
     relatedTools: [

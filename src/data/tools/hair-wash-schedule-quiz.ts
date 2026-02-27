@@ -358,24 +358,24 @@ export const hairWashScheduleQuizConfig: QuizConfig = {
   ],
   supportingContent: {
     intro:
-      'Most guys either wash their hair every single day out of habit or have no real schedule at all. Both approaches are wrong for most hair types. Over-washing strips your scalp of natural oils and triggers overproduction, while under-washing leads to buildup, odor, and a dull appearance. This quiz figures out the exact wash frequency that keeps your hair looking and feeling its best based on your unique combination of hair type, lifestyle, and environment.',
+      'How often should men wash their hair? Most guys either wash daily out of habit or have no schedule at all. Both approaches are wrong for most hair types. Over-washing strips natural oils and triggers excess oil production, while under-washing leads to buildup and dullness. This quiz determines your ideal hair wash frequency based on your hair type, lifestyle, and environment. Pair it with our <a href="/shampoo-selector-quiz">Shampoo Selector Quiz</a> to find the right product for your wash days.',
     howToUse:
-      'Answer six quick questions about your hair type, scalp condition, activity level, product use, environment, and any specific concerns. The quiz will recommend a wash schedule with a weekly routine and practical tips for both wash days and non-wash days. Give the recommended frequency at least two weeks before judging the results, as your scalp needs time to adjust.',
+      'Answer six quick questions about your hair type, scalp, activity level, product use, environment, and concerns. The quiz recommends a wash schedule with tips for wash days and off days. Give the recommendation at least two weeks before judging results. Need a shampoo recommendation too? Take our <a href="/shampoo-selector-quiz">Shampoo Selector Quiz</a> next.',
     faq: [
       {
         question: 'Can washing my hair too much actually make it greasier?',
         answer:
-          'Yes, this is one of the most common hair mistakes men make. When you wash daily with a harsh shampoo, you strip your scalp of its natural sebum. Your scalp responds by producing even more oil to compensate, creating a cycle where your hair feels greasier and you feel like you need to wash more often. Gradually extending time between washes allows your scalp to recalibrate its oil production. It takes about two to three weeks for your scalp to adjust, and in that transition period your hair may feel oilier than usual.',
+          'Yes. When you wash daily with harsh shampoo, you strip your scalp of natural <a href="https://en.wikipedia.org/wiki/Sebaceous_gland" target="_blank" rel="noopener">sebum</a>. Your scalp responds by overproducing oil, creating a greasy cycle. Gradually extending time between washes lets your scalp recalibrate. It takes two to three weeks to adjust. Our <a href="/shampoo-selector-quiz">Shampoo Selector Quiz</a> helps you find a gentler formula for this transition.',
       },
       {
         question: 'Does water temperature matter when washing hair?',
         answer:
-          'Yes. Warm water opens the hair cuticle and helps shampoo clean effectively, so use warm water when you are shampooing. Cold water closes the cuticle, which locks in moisture and adds shine. The ideal approach is to shampoo with warm water, condition with warm water, then do a final cold water rinse at the end. You do not need to use ice-cold water - cool is enough. Avoid very hot water as it can strip oils, dry out your scalp, and make hair more brittle over time.',
+          'Yes. Warm water opens the hair cuticle and helps shampoo clean effectively. Cold water closes the cuticle, locking in moisture and adding shine. The ideal approach is to shampoo with warm water, condition with warm water, then finish with a cool rinse. Avoid very hot water, which strips oils and dries out your scalp over time.',
       },
       {
         question: 'Can I just use conditioner and skip shampoo on off days?',
         answer:
-          'Absolutely. Rinsing with water and applying conditioner on non-shampoo days is a great approach. Water alone removes most loose dirt and sweat, and conditioner keeps your hair moisturized and manageable. This method is especially beneficial for wavy, curly, and coily hair types that are prone to dryness. Just make sure you are still shampooing on your scheduled wash days to prevent product and oil buildup on the scalp.',
+          'Absolutely. Rinsing with water and applying conditioner on non-shampoo days is a great approach, especially for wavy, curly, and coily hair. Water removes loose dirt and sweat while conditioner keeps hair moisturized. Just shampoo on your scheduled days to prevent buildup. For a complete grooming routine, pair this schedule with our <a href="/skincare-routine-builder">Skincare Routine Builder</a>.',
       },
     ],
     relatedTools: [

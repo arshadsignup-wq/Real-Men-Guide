@@ -186,24 +186,24 @@ export const towelGymWashPlannerConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Towels are one of the most-used and least-thought-about items in your home. A damp towel hanging in a steamy bathroom is a breeding ground for bacteria, mildew, and funky smells. Most guys use their bath towels way too many times before washing, and gym towels often get stuffed in a bag and forgotten. This planner calculates a custom wash schedule for every towel type in your home so everything stays fresh without running your washing machine constantly.',
+      'A damp towel in a steamy bathroom is a breeding ground for <a href="https://www.cdc.gov/hygiene/about/when-and-how-to-wash-your-hands.html" target="_blank" rel="noopener">bacteria</a>, mildew, and funky smells. Most guys reuse bath towels too many times and stuff gym towels in a bag and forget them. This towel and gym towel wash planner calculates a custom schedule for every towel type so everything stays fresh. Pair it with our <a href="/clean-sheets-calculator">Clean Sheets Calculator</a> for a complete home hygiene routine.',
     howToUse:
-      'Enter how many times per week you shower (bath towel uses), your gym sessions per week, how heavily your hand and kitchen towels are used, and your household size. The calculator computes how often to wash each type of towel, estimates your weekly and monthly laundry loads, and provides a water-saving tip tailored to your situation.',
+      'Enter your weekly shower count (bath towel uses), gym sessions, hand and kitchen towel usage, and household size. The planner computes how often to wash each towel type, estimates weekly and monthly laundry loads, and provides a water-saving tip. Combine with our <a href="/denim-care-schedule-calculator">Denim Care Calculator</a> to organize all your laundry in one plan.',
     faq: [
       {
         question: 'Why do my towels smell musty even after washing?',
         answer:
-          'Musty towel smell is caused by bacteria and mildew that survive the wash cycle. The fix: wash towels on the hottest setting the fabric allows with your regular detergent plus one cup of white vinegar (skip fabric softener this time). Run a second wash with half a cup of baking soda and no detergent. Dry completely on high heat. Going forward, always hang towels spread out to dry fully between uses and never leave wet towels in the washer or crumpled in a hamper.',
+          'Musty smell comes from bacteria and mildew surviving the wash. Fix it: wash on the hottest setting with detergent plus one cup of white vinegar (skip fabric softener). Run a second wash with half a cup of baking soda, no detergent. Dry completely on high heat. Going forward, always hang towels spread out to dry fully and never leave wet towels in the washer.',
       },
       {
         question: 'Should I use fabric softener on towels?',
         answer:
-          'No. Fabric softener coats towel fibers with a waxy residue that reduces absorbency over time and traps bacteria. Your towels will feel soft initially but become less effective at drying you and more prone to smelling. Instead, add half a cup of white vinegar to the rinse cycle once a month to strip buildup and keep towels naturally soft. Wool dryer balls in the dryer also help soften towels without chemicals.',
+          'No. Fabric softener coats fibers with a waxy residue that <a href="https://www.goodhousekeeping.com/home/cleaning/a25615963/are-fabric-softeners-bad/" target="_blank" rel="noopener">reduces absorbency</a> and traps bacteria. Your towels feel soft initially but become less effective and more prone to odor. Instead, add half a cup of white vinegar to the rinse cycle monthly to strip buildup. Wool dryer balls help soften without chemicals.',
       },
       {
         question: 'Is hot or warm water better for washing towels?',
         answer:
-          'Warm water (about 105-110F / 40-43C) is ideal for regular towel washes. It cleans effectively without excessive shrinkage or energy use. Use hot water (130-140F / 54-60C) for white towels or when someone in the house is sick to sanitize properly. Colored towels should stick to warm to prevent fading. Always wash towels separately from clothing to avoid lint transfer and to allow proper agitation.',
+          'Warm water (105-110F / 40-43C) is ideal for regular washes — effective cleaning without shrinkage. Use hot water (130-140F) for white towels or when someone is sick. Colored towels should stick to warm to prevent fading. Always wash towels separately from clothing to avoid lint transfer and ensure proper agitation.',
       },
     ],
     relatedTools: [

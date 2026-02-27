@@ -157,24 +157,24 @@ export const shoeSizeConverterConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Shoe sizes vary wildly between countries. A US 10 is not the same as a UK 10 or an EU 10. This converter instantly translates men\'s shoe sizes between the US, UK, European, and CM (Mondopoint) systems so you can order shoes from anywhere in the world with confidence.',
+      'Men\'s shoe sizes vary wildly between countries. A US 10 is not the same as a UK 10 or an EU 10. This shoe size converter instantly translates between the US, UK, European, and CM (Mondopoint) systems so you can order shoes from anywhere in the world with confidence. Building a wardrobe? Our <a href="/capsule-wardrobe-builder">Capsule Wardrobe Builder</a> helps you pick the right footwear for your style.',
     howToUse:
-      'Enter your current shoe size, select the system it is in (US, UK, EU, or CM), and choose the system you want to convert to. The calculator instantly shows your converted size plus the equivalent in all four systems. For the most accurate fit, measure your foot in CM and convert from there.',
+      'Enter your current shoe size, select the system it is in (US, UK, EU, or CM), and choose the target system. The calculator shows your converted size plus equivalents in all four systems. For the most accurate fit, measure your foot in CM and convert from there. Pair this with our <a href="/outfit-builder">Outfit Builder</a> to match shoes to outfits.',
     faq: [
       {
         question: 'Why do shoe sizes differ between brands?',
         answer:
-          'Even within the same sizing system, brands use different lasts (foot molds) to build their shoes. Nike tends to run small and narrow, Adidas runs true to size but slightly wide, and New Balance runs half a size large. Always check brand-specific size guides in addition to converting sizes. When in doubt, order a half size up and use insoles to adjust.',
+          'Even within the same sizing system, brands use different <a href="https://en.wikipedia.org/wiki/Last" target="_blank" rel="noopener">lasts (foot molds)</a> to build their shoes. Nike tends to run small and narrow, Adidas runs true to size but slightly wide, and New Balance runs half a size large. Always check brand-specific size guides in addition to converting sizes. When in doubt, order a half size up.',
       },
       {
         question: 'What is the most accurate way to measure my shoe size?',
         answer:
-          'Trace your foot on paper while standing (not sitting), mark the longest point from heel to longest toe, and measure in centimeters. Do this for both feet in the afternoon (feet swell during the day). Use the larger foot measurement and convert from CM for the most accurate result across all systems.',
+          'Trace your foot on paper while standing, mark the longest point from heel to toe, and measure in centimeters. Do this for both feet in the afternoon when feet are largest. Use the larger measurement and convert from CM for the most accurate result. Our <a href="/belt-size-finder">Belt Size Finder</a> uses a similar measurement-first approach for belts.',
       },
       {
         question: 'Should I size up or down if I am between sizes?',
         answer:
-          'Almost always size up. A shoe that is slightly too big can be adjusted with insoles or thicker socks. A shoe that is too small will cause blisters, bunions, and discomfort. This is especially true for dress shoes and boots, which do not stretch as much as sneakers. For width concerns, look for brands that offer wide (W) options.',
+          'Almost always size up. A slightly large shoe can be adjusted with insoles or thicker socks, but a too-small shoe causes blisters and discomfort. This is especially true for dress shoes and boots, which stretch less than sneakers. For width concerns, look for brands offering wide (W) options.',
       },
     ],
     relatedTools: [

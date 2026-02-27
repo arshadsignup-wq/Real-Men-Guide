@@ -151,24 +151,24 @@ export const pupillaryDistanceHelperConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Pupillary distance (PD) is the measurement between the centers of your pupils in millimeters. It is the one number you absolutely need to order glasses online, yet most eye doctors do not include it on your prescription (because they want you to buy glasses from them). This tool validates your PD measurement, categorizes it, calculates your near PD for progressive lenses, and tells you exactly what to enter on online eyewear sites.',
+      '<a href="https://en.wikipedia.org/wiki/Pupillary_distance" target="_blank" rel="noopener">Pupillary distance (PD)</a> is the one measurement you need to order glasses online, yet most eye doctors leave it off your prescription. This PD helper validates your measurement, categorizes it, calculates near PD for progressive lenses, and tells you exactly what to enter on eyewear sites. Pair it with our <a href="/glasses-frame-size-calculator">Glasses Frame Size Calculator</a> for a complete online ordering toolkit.',
     howToUse:
-      'Enter your PD measurement in millimeters. If you do not know your PD, you can measure it at home using a ruler and mirror: hold a millimeter ruler against your brow, close your right eye and align the zero with the center of your left pupil, then open your right eye and close your left to read the measurement at your right pupil. Select how you measured and what type of glasses you are ordering to get tailored advice.',
+      'Enter your PD in millimeters. To measure at home, hold a mm ruler against your brow, close your right eye to align zero with your left pupil, then switch eyes to read the right pupil measurement. Select your method and glasses type for tailored advice. For frame sizing, use our <a href="/glasses-frame-size-calculator">Glasses Frame Size Calculator</a> alongside this tool.',
     faq: [
       {
         question: 'Why do I need my PD for online glasses?',
         answer:
-          'Your PD ensures the optical center of each lens lines up exactly with your pupils. If the PD is off, you will look through the wrong part of the lens, causing eye strain, headaches, and blurred vision. It is especially critical for progressive lenses where the reading zone, intermediate zone, and distance zone must all align precisely. Single-vision lenses are more forgiving but still need to be within 2mm.',
+          'PD ensures the optical center of each lens aligns with your pupils. If it is off, you get eye strain, headaches, and blurred vision. It is critical for progressive lenses where reading, intermediate, and distance zones must align. Single-vision lenses are more forgiving but still need to be within 2mm. Our <a href="/glasses-frame-size-calculator">Glasses Frame Size Calculator</a> handles the frame dimensions side of the equation.',
       },
       {
         question: 'What is the difference between monocular and binocular PD?',
         answer:
-          'Binocular PD is the total distance between both pupils (one number, like 64mm). Monocular PD is the distance from each pupil to the center of the nose bridge (two numbers, like 31.5mm and 32.5mm). Most people are not perfectly symmetrical. Monocular PD is more accurate and is what opticians measure. If you only have a binocular PD, dividing it by two gives you a close approximation of each eye.',
+          'Binocular PD is the total distance between both pupils (one number, like 64mm). Monocular PD measures each pupil to the nose bridge center (two numbers, like 31.5 and 32.5mm). Monocular is more accurate since most faces are not perfectly symmetrical. If you only have binocular PD, dividing by two gives a close approximation for each eye.',
       },
       {
         question: 'What are the most common mistakes when measuring PD at home?',
         answer:
-          'The three biggest mistakes are: measuring too high or low (aim for the center of the pupil, not the edge of the iris), not keeping the ruler straight and level against the brow, and measuring with your head tilted. Also, do not have someone else measure you while standing very close, as the parallax from their viewing angle will throw off the reading. Use a mirror instead, or use a phone app like GlassesOn or EyeMeasure for a more reliable result.',
+          'The three biggest mistakes: measuring too high or low (aim for the pupil center, not the iris edge), not keeping the ruler level, and tilting your head. Do not have someone measure you from close range - parallax throws off the reading. Use a mirror instead, or try a phone app like GlassesOn. Our <a href="/face-shape-analyzer">Face Shape Analyzer</a> also uses mirror-based observation for best results.',
       },
     ],
     relatedTools: [

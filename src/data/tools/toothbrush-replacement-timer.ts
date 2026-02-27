@@ -201,24 +201,24 @@ export const toothbrushReplacementTimerConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Most men use their toothbrush way longer than they should. The ADA recommends replacing your toothbrush or electric brush head every 3 to 4 months, but factors like brushing frequency, pressure, and bristle condition all affect the real timeline. This calculator assesses your current brush situation and tells you exactly when to replace it, so you are always brushing with an effective tool.',
+      'Most men use their toothbrush way longer than they should. The <a href="https://www.ada.org/resources/ada-library/oral-health-topics/toothbrushes" target="_blank" rel="noopener">ADA recommends</a> replacing your toothbrush or electric brush head every 3 to 4 months, but brushing frequency, pressure, and bristle condition all affect the real timeline. This toothbrush replacement calculator tells you exactly when to swap, so you are always brushing with an effective tool. Pair it with our <a href="/morning-routine-builder">Morning Routine Builder</a> for a complete daily hygiene plan.',
     howToUse:
-      'Select your brush type, how often you brush each day, the current condition of your bristles, and when you last replaced your brush or head. The calculator will estimate how many days you have left before a replacement is needed, give you a target date, and assess your current bristle condition. If your bristles are already worn, it will tell you to replace immediately regardless of the timeline.',
+      'Select your brush type, brushing frequency, current bristle condition, and when you last replaced. The calculator estimates days remaining, gives you a target replacement date, and assesses bristle health. If your bristles are already worn, it tells you to replace immediately. Set a reminder using the date provided.',
     faq: [
       {
         question: 'Why does the ADA recommend replacing every 3 months?',
         answer:
-          'After about 3 months of regular use, toothbrush bristles become frayed and lose their stiffness. Research shows that worn bristles are significantly less effective at removing plaque, especially along the gumline and between teeth. The 3-month guideline is based on average twice-daily brushing with normal pressure. If you brush harder or more often, your bristles may wear out sooner.',
+          'After about 3 months of regular use, bristles become frayed and lose stiffness. <a href="https://pubmed.ncbi.nlm.nih.gov/23488980/" target="_blank" rel="noopener">Research shows</a> worn bristles are significantly less effective at removing plaque, especially along the gumline. The 3-month guideline assumes twice-daily brushing with normal pressure. Heavier brushers may wear out bristles sooner.',
       },
       {
         question: 'Should I replace my toothbrush after being sick?',
         answer:
-          'Yes. After recovering from an illness like the flu, a cold, or a mouth infection, replace your toothbrush even if it is not yet 3 months old. Bacteria and viruses can linger on bristles and potentially reinfect you. This applies to both manual toothbrushes and electric brush heads.',
+          'Yes. After recovering from the flu, a cold, or a mouth infection, replace your toothbrush even if it is not yet 3 months old. The <a href="https://www.cdc.gov/oral-health/prevention/index.html" target="_blank" rel="noopener">CDC</a> notes that bacteria and viruses can linger on bristles and potentially reinfect you. This applies to both manual and electric brush heads.',
       },
       {
         question: 'Do electric toothbrush heads last longer than manual brushes?',
         answer:
-          'Standard electric brush heads generally last about the same 3 months as manual brushes. Premium heads with indicator bristles that fade over time may last slightly longer, around 3 to 4 months, because they are often made with higher-quality materials. However, the smaller head size means the bristles do more work per brushing session, so follow the same replacement schedule.',
+          'Standard electric heads last about the same 3 months as manual brushes. Premium heads with indicator bristles may last 3-4 months due to higher-quality materials. However, the smaller head does more work per session, so follow the same replacement schedule. Check our <a href="/skincare-routine-builder">Skincare Routine Builder</a> for a complete grooming plan.',
       },
     ],
     relatedTools: ['skincare-routine-builder', 'morning-routine-builder', 'haircut-frequency-calculator'],

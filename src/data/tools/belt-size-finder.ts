@@ -155,24 +155,24 @@ export const beltSizeFinderConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'A belt that fits properly should fasten at the middle hole with no extra tail flopping around. Most men buy the wrong belt size because they assume it matches their pants size. It does not. This calculator converts your pants size or waist measurement into the correct belt size, accounting for your preferred fit.',
+      'How to find your belt size: it is not the same as your pants size. A properly fitting men\'s belt fastens at the middle hole with no extra tail. This belt size calculator converts your pants size or waist measurement into the correct belt size for any fit preference. Building a wardrobe? Our <a href="/capsule-wardrobe-builder">Capsule Wardrobe Builder</a> includes belt recommendations that match your style.',
     howToUse:
-      'Choose whether you want to calculate from your pants size or a direct waist measurement. If using pants size, enter the number on your jeans or trousers tag. If measuring your waist, wrap a tape measure around your waist over a tucked-in shirt at the height where you wear your belt. Select your fit preference and the calculator gives you the exact belt size to buy.',
+      'Choose to calculate from your pants size or a waist measurement. If measuring, wrap a tape around your waist over a tucked-in shirt where you wear your belt. Select your fit preference and get the exact size to buy. Need to size other accessories? Try our <a href="/dress-shirt-size-calculator">Dress Shirt Size Calculator</a> or <a href="/suit-size-estimator">Suit Size Estimator</a>.',
     faq: [
       {
         question: 'Why is my belt size different from my pants size?',
         answer:
-          'Your belt needs to go around the waistband of your pants, which adds material thickness. The standard rule is that your belt size is 2 inches larger than your pants size. So if you wear size 34 pants, you need a size 36 belt. This accounts for the extra circumference created by the pants fabric, belt loops, and shirt tucked underneath. This rule works for about 90% of men and standard-cut pants.',
+          'Your belt goes around the waistband, which adds material thickness. The standard rule: belt size equals pants size plus 2 inches. Size 34 pants need a size 36 belt. This accounts for fabric, belt loops, and a tucked shirt. The rule works for about 90% of men. For dress outfits, our <a href="/suit-size-estimator">Suit Size Estimator</a> helps you match trouser and belt sizing.',
       },
       {
         question: 'Does leather stretch over time?',
         answer:
-          'Yes, genuine leather belts stretch 0.5 to 1 inch over the first few months of regular wear. Full-grain leather stretches the least and holds its shape best, while bonded or genuine leather (lower grades) can stretch more and lose structure. Buy your belt so it fits at the middle hole when new. As it breaks in, you will move to the next tighter hole. Synthetic and faux-leather belts do not stretch and may crack instead.',
+          'Yes. <a href="https://en.wikipedia.org/wiki/Full_grain_leather" target="_blank" rel="noopener">Full-grain leather</a> stretches 0.5-1 inch over the first few months, while bonded leather stretches more and loses structure. Buy so it fits at the middle hole when new, then move tighter as it breaks in. Synthetic belts do not stretch and may crack instead.',
       },
       {
         question: 'When should I size up instead of using the standard rule?',
         answer:
-          'Size up if you wear your pants higher on your waist (above the hip bones), if you plan to wear the belt with heavier fabrics like denim or wool trousers, or if you carry extra weight around the midsection. Also size up if you are between two even numbers. It is always easier to punch an extra hole in a belt than to stretch one that is too tight.',
+          'Size up if you wear pants higher on your waist, plan to pair the belt with heavier fabrics like denim or wool, or carry extra weight around the midsection. Also size up if you are between two even numbers. It is always easier to punch an extra hole than to stretch a tight belt. Our <a href="/shoe-size-converter">Shoe Size Converter</a> takes a similar better-safe-than-sorry approach.',
       },
     ],
     relatedTools: [

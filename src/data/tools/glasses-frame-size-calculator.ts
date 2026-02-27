@@ -157,24 +157,24 @@ export const glassesFrameSizeCalculatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Buying glasses online is a gamble if you do not know your frame size. Too wide and they slide down your nose; too narrow and they pinch your temples. Every pair of glasses has three key measurements printed on the inside of the temple arm: lens width, bridge width, and temple length. This calculator figures out your ideal measurements based on your face width, nose bridge, and head size so you can shop online with confidence.',
+      'Buying glasses online without knowing your frame size is a gamble. This glasses frame size calculator figures out your ideal lens width, bridge width, and temple length based on your face measurements. Knowing your face shape helps too - our <a href="/face-shape-analyzer">Face Shape Analyzer</a> recommends which frame shapes suit you best. Together, these tools make online glasses shopping much easier.',
     howToUse:
-      'Measure your face width from temple to temple using a ruler held horizontally across the widest part of your face (usually right in front of your ears). You can also measure the full width of an existing pair of glasses that fits well. Select your nose bridge width and head size from the dropdowns. The calculator outputs your recommended lens width, bridge width, temple length, and the standard frame size string you can match against any glasses listing.',
+      'Measure your face width from temple to temple with a ruler, or measure an existing pair that fits well. Select nose bridge width and head size. The calculator outputs your recommended frame measurements and the standard size string to match against any listing. Need your PD too? Use our <a href="/pupillary-distance-helper">Pupillary Distance Helper</a>.',
     faq: [
       {
         question: 'Where do I find frame measurements on my current glasses?',
         answer:
-          'Look on the inside of the temple arm (the piece that goes over your ear). You will see three numbers separated by dashes or squares, like "52-18-140". The first number is the lens width, the second is the bridge width, and the third is the temple length, all in millimeters. Some frames also print the measurements on the inside of the nose bridge.',
+          'Look on the inside of the temple arm for three numbers like "52-18-140". That is lens width, bridge width, and temple length in millimeters. Some frames print them on the nose bridge instead. These numbers are the standard for comparing frames across retailers like <a href="https://www.warbyparker.com" target="_blank" rel="noopener">Warby Parker</a>, Zenni, and EyeBuyDirect.',
       },
       {
         question: 'How do I order the right frame size online?',
         answer:
-          'Use this calculator to get your ideal measurements, then compare them to the frame dimensions listed on the retailer website. Stay within 2mm of your recommended lens width, 1mm of bridge width, and 5mm of temple length. Most online retailers like Warby Parker, Zenni, and EyeBuyDirect list these measurements on every product page. When in doubt, many offer virtual try-on tools.',
+          'Compare this calculator\'s output to measurements listed on the retailer site. Stay within 2mm of lens width, 1mm of bridge width, and 5mm of temple length. Most online retailers list these on every product page. You will also need your PD for prescription lenses - use our <a href="/pupillary-distance-helper">Pupillary Distance Helper</a> for that.',
       },
       {
         question: 'Can the temple arms be adjusted if they are too long or short?',
         answer:
-          'Yes. Metal temple arms can be adjusted by an optician in minutes, usually for free. Plastic (acetate) temples can be heated and bent to adjust. If temples are too long, an optician can curve them to fit behind your ears. If they are too short (under 130mm for average heads), the glasses will feel like they are squeezing your head and cannot be adjusted much. It is better to get the right temple length from the start.',
+          'Yes. Metal temples can be adjusted by an optician in minutes, usually for free. Acetate (plastic) temples can be heated and bent. Too-short temples (under 130mm) cannot be extended much, so getting the right length from the start is important. Our <a href="/face-shape-analyzer">Face Shape Analyzer</a> helps you choose frame shapes that complement your proportions.',
       },
     ],
     relatedTools: [

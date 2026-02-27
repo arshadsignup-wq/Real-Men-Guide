@@ -119,24 +119,24 @@ export const cologneSprayPerMlConverterConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Not all spray bottles are created equal. The number of sprays you get per milliliter depends on the atomizer type, and knowing your total spray count is essential for comparing bottle values, planning travel decants, and figuring out how long your collection will last. This converter gives you the exact spray math for any bottle size and atomizer type.',
+      'How many sprays are in a bottle of cologne? It depends on the atomizer type. This cologne sprays per ml converter gives you the exact spray count for any bottle size and atomizer, making it easy to compare values, plan travel decants, and estimate how long your collection will last. Pair it with our <a href="/cologne-bottle-lifespan-calculator">Bottle Lifespan Calculator</a> for a full usage forecast.',
     howToUse:
-      'Enter your bottle size in milliliters (printed on the bottle or box) and select your atomizer type. Standard spray is the most common type found on designer and niche bottles. Fine mist atomizers (common on travel sprays) deliver smaller droplets, while heavy spray atomizers (some niche houses) deliver larger doses. The calculator shows total sprays and how your bottle compares to common sizes.',
+      'Enter your bottle size in milliliters and select atomizer type. Standard spray is most common on designer bottles; fine mist is common on travel sprays. The calculator shows total sprays and size comparisons. To figure out the right number of daily sprays, use our <a href="/cologne-spray-count-guide">Cologne Spray Count Guide</a>.',
     faq: [
       {
         question: 'What is the difference between atomizer types?',
         answer:
-          'A standard atomizer delivers roughly 0.1 ml per spray (10 sprays per ml) and is found on most designer and niche bottles. Fine mist atomizers, common on travel sprays and some luxury brands, deliver about 0.08 ml per spray (12 sprays per ml) in a wider, lighter pattern. Heavy spray atomizers deliver about 0.125 ml per spray (8 sprays per ml) and are found on some artisan and vintage bottles. The difference matters because a "4 spray" recommendation assumes a standard atomizer.',
+          'A standard atomizer delivers about 0.1 ml per spray (10 sprays/ml) and is found on most designer bottles. Fine mist atomizers deliver about 0.08 ml (12 sprays/ml). Heavy spray atomizers deliver 0.125 ml (8 sprays/ml). This matters because spray count recommendations from our <a href="/cologne-spray-count-guide">Cologne Spray Count Guide</a> assume a standard atomizer.',
       },
       {
         question: 'How much cologne can I bring on a plane?',
         answer:
-          'TSA allows up to 3.4 oz (100 ml) per container in your carry-on, and each container must fit in a single quart-size clear bag. For checked luggage, there is no liquid limit. The practical move is to use a 5-10 ml travel atomizer in your carry-on. This gives you 50-100 sprays, which is more than enough for any trip. Decant from your main bottle at home to keep your full-size bottle safe.',
+          '<a href="https://www.tsa.gov/travel/security-screening/liquids-rule" target="_blank" rel="noopener">TSA allows</a> up to 3.4 oz (100 ml) per container in carry-on. The practical move is a 5-10 ml travel atomizer, which gives you 50-100 sprays - more than enough for any trip. Decant from your main bottle at home to keep the full-size bottle safe and out of your luggage.',
       },
       {
         question: 'How do I refill a travel atomizer?',
         answer:
-          'Most travel atomizers refill by removing the main bottle cap, placing the atomizer opening over the spray tube, and pumping up and down. Some higher-end travel atomizers have a twist-to-fill mechanism. Avoid pouring directly as you will lose fragrance to evaporation and spillage. If your main bottle has a removable sprayer head, you can also use a small funnel. Fill to about 80% capacity to allow for pressure changes during travel.',
+          'Most travel atomizers refill by removing the main bottle cap, placing the atomizer over the spray tube, and pumping up and down. Some have a twist-to-fill mechanism. Avoid pouring directly to prevent evaporation and spillage. Fill to about 80% for pressure changes during travel. Our <a href="/cologne-bottle-lifespan-calculator">Bottle Lifespan Calculator</a> tracks your main bottle usage so you know when to refill.',
       },
     ],
     relatedTools: [

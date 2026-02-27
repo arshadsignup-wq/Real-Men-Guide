@@ -353,24 +353,24 @@ export const razorBurnRiskCheckerConfig: QuizConfig = {
   ],
   supportingContent: {
     intro:
-      'Razor burn affects the majority of men who shave, yet most assume it is just part of the process. It is not. Razor burn, razor bumps, and ingrown hairs are almost entirely caused by poor technique, dull blades, lack of prep, and bad aftercare. This quick 6-question quiz analyzes your shaving routine and tells you your risk level along with specific, actionable steps to fix the problem. Even men who have dealt with irritation for years can see major improvement by changing a few key habits.',
+      'Razor burn affects the majority of men who shave, yet most assume it is unavoidable. It is not. Razor burn, razor bumps, and ingrown hairs are almost entirely caused by poor technique, dull blades, and bad aftercare. This 6-question quiz analyzes your shaving routine and pinpoints your risk level with actionable fixes. For blade timing, also use our <a href="/razor-blade-replacement-calculator">Razor Blade Replacement Calculator</a>.',
     howToUse:
-      'Answer each question honestly based on what you actually do, not what you know you should do. The quiz takes about 1 minute. Your result will include your risk level and 6 targeted tips to immediately improve your shaving experience. Share your result with friends who complain about razor burn.',
+      'Answer honestly based on what you actually do, not what you know you should do. The quiz takes about 1 minute and returns your risk level plus 6 targeted tips. For a complete post-shave plan, pair your result with our <a href="/skincare-routine-builder">Skincare Routine Builder</a>.',
     faq: [
       {
         question: 'What is the difference between ingrown hairs and razor burn?',
         answer:
-          'Razor burn is a general irritation that appears as redness, stinging, and a burning sensation immediately after shaving. It is caused by friction, dull blades, and lack of lubrication. Ingrown hairs are specific bumps that form when a shaved hair curls back into the skin instead of growing outward, causing inflammation and sometimes infection. They are caused by shaving too close, especially against the grain, and are more common in men with curly or coarse hair. Both can be prevented with proper technique.',
+          'Razor burn is general redness and stinging caused by friction and dull blades. <a href="https://www.aad.org/public/diseases/hair-loss/treatment/ingrown-hairs" target="_blank" rel="noopener">Ingrown hairs</a> are specific bumps where a shaved hair curls back into the skin. They are more common with curly or coarse hair and from shaving against the grain. Both can be prevented with proper technique. Our <a href="/razor-blade-replacement-calculator">Razor Blade Replacement Calculator</a> helps you keep a sharp blade, which reduces both.',
       },
       {
         question: 'Is an electric razor better than a manual razor for sensitive skin?',
         answer:
-          'For men with very sensitive skin, an electric razor can be a better option because it does not cut as close to the skin surface, reducing irritation and ingrown hairs. However, the shave is not as smooth. Modern foil shavers provide the closest electric shave. If you prefer the smoothness of a manual razor, a single-blade safety razor with proper prep and aftercare will cause less irritation than a multi-blade cartridge. The worst option for sensitive skin is a multi-blade cartridge with no prep.',
+          'For very sensitive skin, an electric razor causes less irritation because it does not cut as close. Modern foil shavers provide the closest electric shave. If you prefer manual, a single-blade safety razor with proper prep causes less irritation than multi-blade cartridges. Our <a href="/skincare-routine-builder">Skincare Routine Builder</a> can build a post-shave routine for any razor type.',
       },
       {
         question: 'What should a proper post-shave routine look like?',
         answer:
-          'Immediately after shaving, rinse your face with cold water to close the pores and reduce inflammation. Pat dry with a clean towel, do not rub. Apply an alcohol-free aftershave balm that contains soothing ingredients like aloe vera, witch hazel, or chamomile. Follow with a lightweight moisturizer if your skin feels dry. On non-shaving days, exfoliate gently to prevent ingrown hairs. The entire post-shave routine takes about 60 seconds and makes a massive difference.',
+          'Rinse with cold water, pat dry, apply alcohol-free aftershave balm with aloe vera or witch hazel, then moisturize. On non-shaving days, exfoliate gently to prevent ingrowns. The entire routine takes 60 seconds. For a full daily skincare plan that includes post-shave care, use our <a href="/skincare-routine-builder">Skincare Routine Builder</a>.',
       },
     ],
     relatedTools: [

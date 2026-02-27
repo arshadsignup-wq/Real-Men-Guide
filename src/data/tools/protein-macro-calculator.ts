@@ -190,24 +190,24 @@ export const proteinMacroCalculatorConfig: CalculatorConfig = {
   affiliateIds: ['whey-protein'],
   supportingContent: {
     intro:
-      'Hitting your macros is the difference between spinning your wheels in the gym and actually seeing results. This calculator gives you a precise daily breakdown of protein, carbohydrates, and fat tailored to your body weight, body composition, and fitness goal. Whether you are cutting, bulking, or recomping, these numbers give you a clear target to hit every day.',
+      'Wondering how much protein per day you actually need? This protein and macro calculator gives you a precise daily breakdown of protein, carbohydrates, and fat tailored to your body weight, composition, and fitness goal. Whether you are cutting, bulking, or doing a body recomp, these numbers give you a clear target. Pair it with our <a href="/tdee-calculator">TDEE Calculator</a> for a complete nutrition plan.',
     howToUse:
-      'Enter your body weight and optionally your body fat percentage for a more accurate calculation based on lean body mass. Select your primary goal and training frequency, then hit calculate. The tool will output your daily calorie target and a full macro breakdown in grams. For best results, spread your protein across 4 meals per day and prioritize hitting your protein target above all other macros.',
+      'Enter your body weight and optionally your body fat percentage (use our <a href="/body-fat-calculator">Body Fat Calculator</a> if you need it). Select your goal and training frequency, then calculate. Spread your protein across 4 meals per day for optimal <a href="https://pubmed.ncbi.nlm.nih.gov/29497353/" target="_blank" rel="noopener">muscle protein synthesis</a> and prioritize hitting your protein target above all other macros.',
     faq: [
       {
         question: 'Do I really need that much protein?',
         answer:
-          'Research consistently shows that 0.8-1.2 grams of protein per pound of body weight is optimal for men who train with weights. The exact amount depends on your goal: cutting and recomping require more protein to preserve or build muscle, while maintenance needs are slightly lower. If you struggle to hit your target through food alone, a quality whey protein supplement can help you fill the gap.',
+          '<a href="https://pubmed.ncbi.nlm.nih.gov/28698222/" target="_blank" rel="noopener">Research consistently shows</a> that 0.8-1.2 grams of protein per pound of body weight is optimal for men who train. Cutting and recomping require more protein to preserve muscle, while maintenance needs are slightly lower. If you struggle to hit your target through food alone, a quality whey protein supplement can fill the gap.',
       },
       {
         question: 'What if my body fat percentage drops my protein number lower than expected?',
         answer:
-          'When body fat is provided, the calculator bases protein on your lean body mass with a slightly higher per-pound multiplier. This accounts for the fact that muscle tissue — not fat — is what actually needs protein. The result should be in a similar range but more precisely tuned to your actual muscle mass. If you are unsure of your body fat, leave it blank and the calculator will use your total body weight.',
+          'When body fat is provided, the calculator bases protein on your lean body mass with a higher per-pound multiplier. Muscle tissue — not fat — is what needs protein. The result is more precisely tuned to your actual muscle mass. If you are unsure of your body fat, use our <a href="/body-fat-calculator">Body Fat Calculator</a> or leave it blank to estimate from total weight.',
       },
       {
         question: 'How important are carbs and fat compared to protein?',
         answer:
-          'Protein is the most important macro for body composition. After protein, total calories matter most. Carbs and fat are relatively flexible — carbs fuel your workouts and recovery, while fat supports testosterone production and overall hormone health. Never drop fat below 0.3g per pound of body weight, as this can negatively impact hormone levels.',
+          'Protein is the most important macro for body composition. After that, total calories matter most. Carbs fuel your workouts and recovery, while fat supports <a href="https://pubmed.ncbi.nlm.nih.gov/34030906/" target="_blank" rel="noopener">testosterone production</a> and hormone health. Never drop fat below 0.3g per pound of body weight, as this can negatively impact hormone levels.',
       },
     ],
     relatedTools: ['tdee-calculator', 'body-fat-calculator', 'one-rep-max-calculator'],

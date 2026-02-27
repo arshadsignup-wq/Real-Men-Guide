@@ -328,24 +328,24 @@ export const lifeAuditScoreConfig: QuizConfig = {
   ],
   supportingContent: {
     intro:
-      'The Life Audit Score is your personal scorecard across the 8 areas that matter most in a man\'s life: Health & Fitness, Career & Finances, Relationships, Personal Growth, Social Life, Mental Health, Style & Grooming, and Fun & Adventure. Rate yourself honestly in each area to get your overall score and discover exactly where you need to level up. This is not about judgment - it is about awareness and action.',
+      'The Life Audit Score is a comprehensive life assessment quiz for men — your personal scorecard across the 8 areas that matter most: Health & Fitness, Career & Finances, Relationships, Personal Growth, Social Life, Mental Health, Style & Grooming, and Fun & Adventure. Rate yourself honestly in each area to get your overall score and discover exactly where you need to level up. This is not about judgment — it is about self-awareness and action. Pair it with the <a href="/man-archetype-quiz">Man Archetype Quiz</a> to understand <em>why</em> you score the way you do.',
     howToUse:
-      'Rate each of the 8 life areas on a scale from 1 to 10 based on where you honestly are right now, not where you were or where you want to be. Be brutally honest - inflating your scores defeats the purpose. Your overall result is based on your average score across all areas. Pay special attention to your lowest-scoring areas, as these represent your biggest opportunities for transformation.',
+      'Rate each of the 8 life areas on a scale from 1 to 10 based on where you honestly are right now, not where you were or where you want to be. Be brutally honest — inflating your scores defeats the purpose of this personal development scorecard. Your overall result is based on your average across all areas. Pay special attention to your lowest-scoring areas, as these represent your biggest opportunities for growth.',
     faq: [
       {
         question: 'How often should I retake the Life Audit?',
         answer:
-          'We recommend retaking it every 90 days. This gives you enough time to make meaningful progress in your focus areas while keeping you accountable. Many men screenshot their results and compare them quarter over quarter to track their growth trajectory.',
+          'We recommend retaking this life assessment every 90 days. This gives you enough time to make meaningful progress in your focus areas while keeping you accountable. Many men screenshot their results and compare them quarter over quarter. Between retakes, use the <a href="/daily-man-challenge">Daily Man Challenge</a> to stay on track with daily improvements.',
       },
       {
         question: 'What if all my scores are low?',
         answer:
-          'That is more common than you think, and it is not a reason to feel defeated. It means you have massive upside potential. Focus on one area at a time, starting with Health & Fitness or Mental Health, as improvements in these areas tend to create a positive ripple effect across everything else.',
+          'That is more common than you think, and it is not a reason to feel defeated. It means you have massive upside potential. Focus on one area at a time — starting with Health & Fitness or Mental Health, as <a href="https://www.health.harvard.edu/topics/exercise-and-fitness" target="_blank" rel="noopener">research from Harvard Health</a> shows improvements in these areas tend to create a positive ripple effect across everything else.',
       },
       {
         question: 'Is this scientifically validated?',
         answer:
-          'The Life Audit is a self-assessment tool designed for personal awareness and motivation, not a clinical diagnostic. The 8 life areas are based on well-established frameworks used in life coaching and personal development. The value comes from honest self-reflection and using your results to set intentional goals.',
+          'The Life Audit is a self-assessment tool designed for personal awareness and motivation, not a clinical diagnostic. The 8 life areas are based on well-established frameworks used in <a href="https://en.wikipedia.org/wiki/Life_coaching" target="_blank" rel="noopener">life coaching</a> and personal development. The value comes from honest self-reflection and using your results to set intentional goals for self improvement.',
       },
     ],
     relatedTools: [

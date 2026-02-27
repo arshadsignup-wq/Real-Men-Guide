@@ -181,24 +181,24 @@ export const barbellPlateLoadingCalculatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Loading a barbell sounds simple until you are standing in front of the rack trying to figure out which plates add up to 275 pounds per side while the gym is crowded and someone is waiting for the squat rack. This calculator does the plate math for you instantly. Enter your target weight, select your bar, and get an exact plate-by-plate breakdown for each side. It handles both pound and kilogram plates and tells you if your target weight is not achievable with standard plates.',
+      'This barbell plate loading calculator does the plate math for you instantly. Enter your target weight, select your bar, and get an exact plate-by-plate breakdown for each side. It handles both pound and kilogram plates and tells you if your target is not achievable with standard increments. Use it alongside our <a href="/one-rep-max-calculator">1RM Calculator</a> to find your working percentages, then load the bar with confidence.',
     howToUse:
-      'Enter the total weight you want on the bar (including the bar itself), select your bar weight, and choose your unit system. The calculator will show you exactly which plates to put on each side using a largest-first approach. If your target is not perfectly achievable with standard plate increments, it will show you the nearest achievable weight.',
+      'Enter the total weight you want on the bar (including the bar), select your bar weight, and choose your unit system. The calculator shows exactly which plates to load on each side. If your target is not perfectly achievable, it shows the nearest loadable weight. Pair with our <a href="/one-rep-max-calculator">1RM Calculator</a> for percentage-based training.',
     faq: [
       {
         question: 'What is the difference between Olympic and standard bars?',
         answer:
-          'Olympic barbells weigh 45 pounds (20 kg) for men and 35 pounds (15 kg) for women, with 2-inch diameter sleeves that accept Olympic plates. Standard barbells are lighter, typically 15-25 pounds, with 1-inch diameter sleeves. Nearly all commercial gyms use Olympic equipment. If you are in a home gym with a standard bar, select the 15 or 25 lb bar option and note that your plates need to match the bar sleeve diameter.',
+          '<a href="https://en.wikipedia.org/wiki/Barbell" target="_blank" rel="noopener">Olympic barbells</a> weigh 45 lbs (20 kg) for men and 35 lbs (15 kg) for women, with 2-inch sleeves for Olympic plates. Standard bars are lighter (15-25 lbs) with 1-inch sleeves. Nearly all commercial gyms use Olympic equipment. For home gym setups with a standard bar, select the appropriate bar weight option.',
       },
       {
         question: 'What do the different plate colors mean?',
         answer:
-          'Competition bumper plates follow an International Weightlifting Federation color code: red is 25 kg (55 lbs), blue is 20 kg (45 lbs), yellow is 15 kg (35 lbs), green is 10 kg (22 lbs), and white is 5 kg (11 lbs). In most commercial gyms, iron plates are not color-coded and simply have the weight stamped on them. Bumper plates are rubber-coated and designed to be dropped safely from overhead.',
+          'Competition bumper plates follow the <a href="https://en.wikipedia.org/wiki/International_Weightlifting_Federation" target="_blank" rel="noopener">IWF</a> color code: red is 25 kg, blue is 20 kg, yellow is 15 kg, green is 10 kg, and white is 5 kg. Most commercial gym iron plates are not color-coded and just have the weight stamped on them. Bumper plates are rubber-coated and designed to be dropped safely.',
       },
       {
         question: 'Should I warm up before loading my target weight?',
         answer:
-          'Absolutely. Never jump straight to your working weight. A standard warm-up protocol is to do a set with just the bar (10-15 reps), then 50% of your target (8 reps), 70% (5 reps), 85% (3 reps), and finally your working weight. This progressively activates your muscles, lubricates your joints, and prepares your nervous system for heavy loads. Warming up also helps you identify any pain or tightness before loading up.',
+          'Always. The <a href="https://www.nsca.com/" target="_blank" rel="noopener">NSCA</a> recommends a progressive warm-up: bar only (10-15 reps), then 50% (8 reps), 70% (5 reps), 85% (3 reps), and finally your working weight. This activates your muscles, lubricates joints, and prepares your nervous system for heavy loads.',
       },
     ],
     relatedTools: ['one-rep-max-calculator', 'protein-macro-calculator', 'tdee-calculator'],

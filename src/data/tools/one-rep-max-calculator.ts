@@ -131,24 +131,24 @@ export const oneRepMaxCalculatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Your one-rep max (1RM) is the most weight you can lift for a single repetition with proper form. Knowing it is essential for programming your training — percentages of your 1RM determine whether you are training for strength, hypertrophy, or endurance. This calculator uses the Epley formula to estimate your 1RM from any set you have done, so you never have to risk a true max attempt just to program your workouts.',
+      'Your one-rep max (1RM) is the most weight you can lift for a single repetition with proper form. This 1RM calculator uses the <a href="https://en.wikipedia.org/wiki/One-repetition_maximum#Epley_formula" target="_blank" rel="noopener">Epley formula</a> to estimate your max from any submaximal set, so you never have to risk a true max attempt. Knowing your 1RM is essential for programming strength, hypertrophy, or endurance work. Use our <a href="/barbell-plate-loading-calculator">Barbell Plate Loading Calculator</a> to load the exact plates for each percentage.',
     howToUse:
-      'Enter the weight you lifted and how many reps you completed with good form. Select the exercise for your reference. The calculator will estimate your 1RM and show you exact weights for common training percentages. Use these numbers to program your working sets — for example, 80% of your 1RM for sets of 8, or 85% for sets of 5-6.',
+      'Enter the weight you lifted and how many reps you completed with good form. Select the exercise for reference. The 1RM calculator estimates your max and shows exact weights for common training percentages. Program your working sets — 80% for sets of 8, or 85% for sets of 5-6 — and fuel them with targets from our <a href="/protein-macro-calculator">Protein &amp; Macro Calculator</a>.',
     faq: [
       {
         question: 'How accurate is the Epley formula?',
         answer:
-          'The Epley formula is most accurate for rep ranges between 2 and 10. Beyond 10 reps, the estimate becomes less reliable because muscular endurance becomes a bigger factor than pure strength. For the most accurate result, use a weight you can lift for 3-6 reps with solid form. The formula tends to slightly overestimate for higher rep ranges.',
+          'The Epley formula is most accurate for rep ranges between 2 and 10. Beyond 10 reps, muscular endurance becomes a bigger factor than pure strength, reducing reliability. For the best estimate, use a weight you can lift for 3-6 reps with solid form. The formula tends to slightly overestimate at higher rep ranges.',
       },
       {
         question: 'Should I actually test my one-rep max in the gym?',
         answer:
-          'For most lifters, there is no need to test a true 1RM regularly. It is fatiguing, carries injury risk, and the estimated value from a submaximal set is accurate enough for programming purposes. If you do want to test, make sure you have a spotter, warm up thoroughly, and only attempt it when you are well-rested and injury-free. Competition powerlifters should test, but recreational lifters generally should not.',
+          'For most lifters, there is no need to test a true 1RM regularly. It is fatiguing, carries injury risk, and a submaximal estimate is accurate enough for programming. The <a href="https://www.nsca.com/" target="_blank" rel="noopener">NSCA</a> recommends testing only when well-rested with a spotter. Competition powerlifters should test; recreational lifters generally should not.',
       },
       {
         question: 'Why are the weights rounded to 2.5 lbs?',
         answer:
-          'Standard weight plates come in increments that allow 2.5 lb jumps (adding a 1.25 lb plate to each side). Rounding to the nearest 2.5 lbs gives you a number you can actually load on a barbell in a real gym. There is no point in knowing your theoretical 1RM is 237.6 lbs when the closest loadable weight is 237.5 lbs.',
+          'Standard weight plates allow 2.5 lb jumps (a 1.25 lb plate on each side). Rounding gives you a number you can actually load on a barbell. Use our <a href="/barbell-plate-loading-calculator">Barbell Plate Loading Calculator</a> to see the exact plate-by-plate breakdown for any weight.',
       },
     ],
     relatedTools: ['body-fat-calculator', 'tdee-calculator', 'protein-macro-calculator'],

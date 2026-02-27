@@ -254,24 +254,24 @@ export const faceShapeAnalyzerConfig: QuizConfig = {
   ],
   supportingContent: {
     intro:
-      'Your face shape is the foundation of your personal style. Knowing whether you have an oval, round, square, heart, oblong, or diamond face shape helps you choose hairstyles, beard styles, and glasses that complement your features. This quick quiz analyzes your facial proportions to determine your shape.',
+      'Wondering how to find your face shape? It is the foundation of every style decision you make. Knowing whether you have an oval, round, square, heart, oblong, or diamond face helps you pick the best hairstyles, beard styles, and glasses for your features. This quiz analyzes your facial proportions using the same method barbers and stylists rely on. Once you know your shape, pair the results with our <a href="/beard-style-selector">Beard Style Selector</a> and <a href="/color-season-analyzer">Color Season Analyzer</a> for a complete style profile.',
     howToUse:
-      'Answer each question honestly while looking in a mirror. Pull your hair back so you can clearly see your hairline, jawline, and cheekbones. If you are between two answers, pick the one that feels closest. Your result will include specific hairstyle, glasses, and grooming recommendations.',
+      'Answer each question honestly while looking in a mirror. Pull your hair back so you can clearly see your hairline, jawline, and cheekbones. If you are between two answers, pick the closest one. Your result includes specific hairstyle, glasses, and grooming recommendations tailored to your face shape for men.',
     faq: [
       {
         question: 'How accurate is this face shape quiz?',
         answer:
-          'This quiz is based on the same proportional analysis used by barbers and stylists. While a professional consultation can offer more nuance, this quiz accurately identifies your primary face shape in the vast majority of cases. For best results, answer while looking in a mirror with your hair pulled back.',
+          'This quiz uses the same proportional analysis that barbers and stylists apply in person. According to <a href="https://en.wikipedia.org/wiki/Face" target="_blank" rel="noopener">facial proportion research</a>, most faces fit clearly into one of six categories. While a professional consultation offers more nuance, this quiz accurately identifies your primary face shape in the vast majority of cases. For best results, answer while looking in a mirror with your hair pulled back.',
       },
       {
         question: 'Can my face shape change over time?',
         answer:
-          'Your underlying bone structure does not change, but weight gain or loss, aging, and facial hair can alter the appearance of your face shape. If your weight or grooming changes significantly, it is worth retaking the quiz to see if your styling recommendations should be updated.',
+          'Your underlying bone structure stays the same, but weight changes, aging, and facial hair can alter your face shape appearance. If your body or grooming changes significantly, retake the quiz to update your styling recommendations. You can also use our <a href="/beard-style-selector">Beard Style Selector</a> to see how different beard styles reshape your look.',
       },
       {
         question: 'What if I am between two face shapes?',
         answer:
-          'Many men have a blend of two face shapes (for example, oval-round or square-oblong). If your result does not feel like a perfect match, read the tips for both the primary and secondary shapes and combine recommendations that resonate with you.',
+          'Many men have a blend of two face shapes, such as oval-round or square-oblong. If your result does not feel like a perfect match, read the tips for both the primary and secondary shapes and combine the recommendations that work for you. Our <a href="/outfit-builder">Outfit Builder</a> can help you put together a look once you know your strengths.',
       },
     ],
     relatedTools: [

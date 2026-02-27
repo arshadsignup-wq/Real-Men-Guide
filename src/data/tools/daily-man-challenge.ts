@@ -466,24 +466,24 @@ export const dailyManChallengeConfig: GeneratorConfig = {
   ],
   supportingContent: {
     intro:
-      'The Daily Man Challenge generates a single, actionable challenge for you to complete today. Each challenge is designed to push you outside your comfort zone and build the habits, skills, and mindset of a well-rounded man. Challenges span fitness, social skills, style, mindset, practical skills, and random acts of growth. Hit generate, accept the challenge, and prove to yourself that you can handle it.',
+      'Looking for daily challenges for self improvement? The Daily Man Challenge generates a single, actionable challenge for you to complete today. Each challenge is designed to push you outside your comfort zone and build the habits, skills, and mindset of a well-rounded man. Challenges span fitness, social skills, style, mindset, practical skills, and random acts of growth. Research on <a href="https://en.wikipedia.org/wiki/Habit" target="_blank" rel="noopener">habit formation</a> shows that small daily actions compound into lasting change. Hit generate, accept the challenge, and prove to yourself you can handle it.',
     howToUse:
-      'Choose a category and difficulty level, or leave both on "All" for a truly random challenge. Hit generate to receive your challenge for the day. Read the description to understand why it matters and how to do it. Complete the challenge before midnight. Share your result to challenge your friends. Come back tomorrow for a new one.',
+      'Choose a category and difficulty level, or leave both on "All" for a truly random daily challenge. Hit generate to receive your challenge for the day. Read the description to understand why it matters and how to do it. Complete the challenge before midnight, then share your result to challenge your friends. Want to see how you are doing overall? Take the <a href="/life-audit-score">Life Audit Score</a> to track your progress across all areas of life.',
     faq: [
       {
         question: 'Can I skip a challenge and generate a new one?',
         answer:
-          'You can, but we encourage you to push through your initial resistance. The challenges that make you uncomfortable are usually the ones that create the most growth. If a challenge is truly impossible due to circumstances (like a fitness challenge when injured), then generate a new one. But if you are just avoiding it because it is hard, that is exactly why you should do it.',
+          'You can, but we encourage you to push through your initial resistance. <a href="https://www.psychologytoday.com/us/basics/comfort-zone" target="_blank" rel="noopener">Psychology Today</a> confirms that the challenges making you uncomfortable are usually the ones that create the most growth. If a challenge is truly impossible due to circumstances (like a fitness challenge when injured), generate a new one. But if you are avoiding it because it is hard, that is exactly why you should do it.',
       },
       {
         question: 'How are the difficulty levels determined?',
         answer:
-          'Easy challenges can be completed by anyone with minimal discomfort and usually take less than 15 minutes. Medium challenges require more effort, time, or social courage. Hard challenges push you significantly outside your comfort zone and may take sustained effort throughout the day. Start with Easy if you are new and work your way up.',
+          'Easy challenges can be completed by anyone with minimal discomfort and usually take less than 15 minutes. Medium challenges require more effort, time, or social courage. Hard challenges push you significantly outside your comfort zone and may take sustained effort throughout the day. Start with Easy if you are new to daily self improvement challenges and work your way up.',
       },
       {
         question: 'Can I do multiple challenges in one day?',
         answer:
-          'Absolutely. If you complete your daily challenge and want more, generate another. Some men stack a fitness, mindset, and social challenge every single day as part of their growth routine. The key is consistency - doing one challenge every day is better than doing five challenges once and then quitting.',
+          'Absolutely. If you complete your daily challenge and want more, generate another one. Some men stack a fitness, mindset, and social challenge every single day as part of their growth routine. Pair this with the <a href="/man-archetype-quiz">Man Archetype Quiz</a> to discover which challenge categories align with your personality. Consistency is key — one challenge every day beats five in one day followed by quitting.',
       },
     ],
     relatedTools: [

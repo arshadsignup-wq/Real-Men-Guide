@@ -284,24 +284,24 @@ export const barberInstructionGeneratorConfig: BuilderConfig = {
   },
   supportingContent: {
     intro:
-      'Most guys dread the moment the barber asks "what do you want?" and end up mumbling something vague, then hoping for the best. This tool builds a clear, copy-paste barber script based on your exact preferences so you walk in with confidence and walk out with the cut you actually wanted. No more miscommunication, no more disappointment.',
+      'Most guys dread the moment the barber asks "what do you want?" This barber instruction generator builds a clear, copy-paste script based on your exact preferences so you walk in with confidence and walk out with the haircut you actually wanted. Not sure which guard size you need? Check our <a href="/hair-clipper-guard-converter">Hair Clipper Guard Converter</a> first.',
     howToUse:
-      'Select your haircut type, desired sides length, top style, and blend preference across four steps. The generator will produce a natural-language script you can read to your barber or show on your phone, a technical breakdown with exact guard numbers and lengths, and pro tips for communicating effectively at the barbershop. Screenshot your results before your next appointment.',
+      'Select your haircut type, sides length, top style, and blend preference across four steps. The generator produces a natural-language barber script, technical breakdown with guard numbers, and pro tips. Use our <a href="/haircut-frequency-calculator">Haircut Frequency Calculator</a> to know when to schedule your next appointment.',
     faq: [
       {
         question: 'What if my barber does not understand the instructions?',
         answer:
-          'If the script does not land verbally, show the technical details section on your phone. Guard numbers and inch measurements are universal barber language. If that still does not work, reference photos are your best backup. Save two or three photos that show the style from front, side, and back angles. A great barber will be able to work from either words or pictures.',
+          'Show the technical details on your phone. Guard numbers and inch measurements are universal barber language. Reference photos are your best backup - save two or three that show front, side, and back angles. Our <a href="/hair-clipper-guard-converter">Hair Clipper Guard Converter</a> can help you explain lengths in both millimeters and inches.',
       },
       {
         question: 'Should I bring reference photos even with these instructions?',
         answer:
-          'Absolutely. Reference photos and verbal instructions work together, not as replacements for each other. The photos show the end result, and the instructions communicate the technical details. Together, they eliminate almost all miscommunication. Save photos to your phone camera roll so you are not searching Instagram in the chair.',
+          'Absolutely. Photos and verbal instructions work together, not as replacements. The photos show the end result and the instructions communicate technical details. Together they eliminate miscommunication. Save photos to your camera roll so you are not searching Instagram in the chair. <a href="https://www.menshealth.com/grooming/a19534014/how-to-talk-to-your-barber/" target="_blank" rel="noopener">Men\'s Health</a> calls this combo the gold standard for barber communication.',
       },
       {
         question: 'How much should I tip my barber?',
         answer:
-          'The standard tip for a barber is 15-20% of the total service cost. If your barber goes above and beyond, gives you styling advice, or spends extra time getting details right, tip 20-25%. If you are a regular and your barber remembers your preferences and holds your usual time slot, a holiday tip equivalent to one full haircut cost is a solid gesture that ensures you always get priority treatment.',
+          'The standard tip is 15-20% of the service cost. If your barber goes above and beyond with styling advice or extra detail work, tip 20-25%. For regulars, a holiday tip equivalent to one full haircut cost ensures priority treatment year-round. Budget your tipping into the annual cost shown by our <a href="/haircut-frequency-calculator">Haircut Frequency Calculator</a>.',
       },
     ],
     relatedTools: [

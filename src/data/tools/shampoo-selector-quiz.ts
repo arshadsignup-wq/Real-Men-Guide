@@ -358,24 +358,24 @@ export const shampooSelectorQuizConfig: QuizConfig = {
   ],
   supportingContent: {
     intro:
-      'Most guys grab whatever shampoo is cheapest or closest on the shelf and never think about it again. But using the wrong shampoo for your hair type is like wearing the wrong size shoes - it technically works, but it creates problems you did not need to have. This quiz matches your hair type, scalp condition, concerns, and lifestyle to the exact type of shampoo that will keep your hair looking its best.',
+      'Choosing the best shampoo for men starts with understanding your hair type and scalp. Most guys grab whatever is cheapest on the shelf, but the wrong shampoo creates problems you did not need. This quiz matches your hair type, scalp condition, and lifestyle to the right shampoo category. Not sure how often to wash? Take our <a href="/hair-wash-schedule-quiz">Hair Wash Schedule Quiz</a> first.',
     howToUse:
-      'Answer six questions about your hair type, scalp concerns, hair concerns, wash frequency, budget, and scent preference. The quiz will recommend a specific shampoo category with detailed advice on what to look for on the label, how to use it properly, and how to get the most out of every wash. Your result includes actionable tips you can use on your next drugstore or online shopping run.',
+      'Answer six questions about your hair type, scalp, hair concerns, wash frequency, budget, and scent preference. The quiz recommends a shampoo category with label advice and usage tips. Pair the result with our <a href="/hair-wash-schedule-quiz">Hair Wash Schedule Quiz</a> for a complete hair care plan.',
     faq: [
       {
         question: 'What does sulfate-free actually mean and does it matter?',
         answer:
-          'Sulfates, specifically sodium lauryl sulfate (SLS) and sodium laureth sulfate (SLES), are the detergents that create the lather in most shampoos. They are highly effective cleansers but can be too aggressive for some hair types, stripping natural oils and causing dryness, irritation, and frizz. Sulfate-free shampoos use gentler cleansing agents that clean effectively without over-stripping. If you have curly, coily, dry, color-treated, or sensitive hair, sulfate-free is strongly recommended. If you have straight, oily hair, sulfates are generally fine.',
+          'Sulfates (SLS and SLES) are detergents that create lather but can strip natural oils. <a href="https://www.aad.org/public/everyday-care/hair-scalp-care/hair/healthy-hair-tips" target="_blank" rel="noopener">Dermatologists recommend</a> sulfate-free formulas for curly, coily, dry, or sensitive hair. Sulfate-free shampoos use gentler cleansing agents that clean without over-stripping. If you have straight, oily hair, sulfates are generally fine.',
       },
       {
         question: 'How much shampoo should I actually use?',
         answer:
-          'Far less than most guys think. For short hair, a dime-sized amount is enough. For medium-length hair, use a nickel-sized amount. For long hair, a quarter-sized amount. The shampoo should be worked into a lather on your scalp with your fingertips, not piled on top of your head. If you are using more than a quarter-sized amount, you are wasting product and potentially leaving residue that weighs your hair down.',
+          'Far less than most guys think. A dime-sized amount for short hair, nickel-sized for medium, quarter-sized for long. Work it into a lather on your scalp with your fingertips. Using more wastes product and can leave residue. Our <a href="/hair-wash-schedule-quiz">Hair Wash Schedule Quiz</a> helps you figure out the right frequency so you are not overwashing either.',
       },
       {
         question: 'Should I rotate between different shampoos?',
         answer:
-          'Yes, rotating shampoos can be beneficial. Your hair does not technically "get used to" a shampoo, but different formulas address different needs. A practical approach is to have two shampoos: your primary daily or regular shampoo, and a secondary one for specific needs like a clarifying shampoo for weekly deep cleaning or an anti-dandruff shampoo when flaking flares up. This rotation ensures your hair gets consistent care while also addressing periodic issues.',
+          'Yes, rotation can be beneficial. Have your primary shampoo and a secondary one for specific needs, like a clarifying shampoo for weekly deep cleaning or anti-dandruff when flaking flares up. Your hair does not technically "get used to" a product, but different formulas address different needs. Our <a href="/skincare-routine-builder">Skincare Routine Builder</a> takes a similar targeted approach for your face.',
       },
     ],
     relatedTools: [

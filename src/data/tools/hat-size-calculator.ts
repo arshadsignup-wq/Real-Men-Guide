@@ -146,24 +146,24 @@ export const hatSizeCalculatorConfig: CalculatorConfig = {
   },
   supportingContent: {
     intro:
-      'Finding the right hat size can be surprisingly tricky. A hat that is too tight gives you a headache, and one that is too loose blows off in the wind or sits awkwardly high on your head. This calculator converts your head circumference into US, UK, and EU hat sizes, plus maps you to the correct S/M/L/XL generic size so you can buy fitted caps, snapbacks, fedoras, or beanies with confidence.',
+      'Finding your hat size can be surprisingly tricky. A hat that is too tight gives you a headache; too loose and it blows off. This men\'s hat size calculator converts your head circumference into US, UK, and EU sizes plus the correct S/M/L/XL generic size. Buying a hat to match your face? Our <a href="/face-shape-analyzer">Face Shape Analyzer</a> helps you pick the most flattering hat styles too.',
     howToUse:
-      'Use a soft measuring tape (or a string you can measure against a ruler) to measure around the widest part of your head. That is typically about one inch above your eyebrows and ears, across the mid-forehead. Keep the tape snug but not tight. Enter the measurement and select inches or centimeters. The calculator instantly shows your US/UK fitted hat size, your generic size letter, and both metric and imperial circumferences.',
+      'Measure around the widest part of your head about one inch above your eyebrows using a soft tape or string. Keep it snug but not tight. Enter the measurement in inches or centimeters. The calculator shows fitted hat size, generic size letter, and both metric and imperial circumferences. For glasses fit, try our <a href="/glasses-frame-size-calculator">Glasses Frame Size Calculator</a> next.',
     faq: [
       {
         question: 'How do I measure my head for a hat?',
         answer:
-          'Wrap a soft measuring tape around your head about one inch above your eyebrows and ears, crossing at the widest point on the back of your head. Keep it level all the way around and snug without squeezing. If you do not have a measuring tape, use a piece of string, mark where it meets, and measure the length against a ruler. Measure twice for accuracy.',
+          'Wrap a soft tape about one inch above your eyebrows and ears, crossing at the widest point on the back of your head. Keep it level and snug without squeezing. No tape? Use string, mark the overlap, and measure against a ruler. Measure twice for accuracy. This same measurement can help with our <a href="/glasses-frame-size-calculator">Glasses Frame Size Calculator</a>.',
       },
       {
         question: 'Do hats break in and stretch over time?',
         answer:
-          'Yes, most hats will break in slightly with wear. Wool felt hats and fitted baseball caps typically stretch about a quarter size over the first few weeks. If you are between sizes, go with the smaller size for these materials. Straw hats and synthetic materials stretch less, so go with the larger size if you are between sizes for those.',
+          'Yes. Wool felt hats and fitted baseball caps stretch about a quarter size over the first few weeks. If between sizes, go smaller for wool and fitted caps. Straw and synthetic materials stretch less, so go larger for those. <a href="https://en.wikipedia.org/wiki/Baseball_cap" target="_blank" rel="noopener">Fitted baseball caps</a> from brands like New Era are sized in 1/8-inch increments for precision.',
       },
       {
         question: 'Should I buy an adjustable hat or a fitted hat?',
         answer:
-          'Fitted hats give the cleanest, most tailored look and are preferred for baseball caps and dress hats. Adjustable hats (snapback, strapback, buckle) offer flexibility and are more forgiving if your size is between standard increments. If you plan to wear a hat frequently, invest in a properly fitted one. For casual or occasional wear, adjustable styles are more practical.',
+          'Fitted hats give the cleanest look and are preferred for baseball caps and dress hats. Adjustable hats (snapback, strapback) offer flexibility for sizes between standard increments. If you wear a hat frequently, invest in fitted. For casual or occasional wear, adjustable is more practical. Our <a href="/outfit-builder">Outfit Builder</a> can suggest hat styles that match your overall look.',
       },
     ],
     relatedTools: [
