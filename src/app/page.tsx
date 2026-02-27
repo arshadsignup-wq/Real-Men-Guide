@@ -37,53 +37,76 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Categories */}
-      <section className="mx-auto max-w-6xl px-4 py-16">
-        <h2 className="mb-8 text-center text-2xl font-bold md:text-3xl">Explore by Category</h2>
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+      {/* Quick Jump Categories */}
+      <section className="mx-auto max-w-6xl px-4 py-12">
+        <h2 className="mb-6 text-center text-2xl font-bold md:text-3xl">Explore by Category</h2>
+        <div className="flex flex-wrap justify-center gap-3">
           {categories.map((cat) => (
-            <Link
+            <a
               key={cat.slug}
-              href={`/category/${cat.slug}`}
-              className="tool-card-glow rounded-xl border border-border bg-surface p-6 transition-all hover:border-accent/30"
+              href={`#${cat.slug}`}
+              className="rounded-full border border-border bg-surface px-5 py-2.5 text-sm font-medium transition-all hover:border-accent/50 hover:text-accent"
             >
-              <span className="text-3xl">{cat.emoji}</span>
-              <h3 className="mt-3 font-bold">{cat.title}</h3>
-              <p className="mt-1 text-sm text-muted">{cat.description}</p>
-              <p className="mt-3 text-sm text-accent">
-                {toolsRegistry.filter((t) => t.category === cat.slug).length} tools →
-              </p>
-            </Link>
+              {cat.emoji} {cat.title}
+              <span className="ml-1.5 text-muted">
+                ({toolsRegistry.filter((t) => t.category === cat.slug).length})
+              </span>
+            </a>
           ))}
         </div>
       </section>
 
-      {/* All Tools Grid */}
-      <section className="border-t border-border bg-surface">
-        <div className="mx-auto max-w-6xl px-4 py-16">
-          <h2 className="mb-8 text-center text-2xl font-bold md:text-3xl">All Tools</h2>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {toolsRegistry.map((tool) => (
-              <Link
-                key={tool.slug}
-                href={`/${tool.slug}`}
-                className="tool-card-glow group rounded-xl border border-border bg-background p-5 transition-all hover:border-accent/30"
-              >
-                <div className="flex items-start gap-3">
-                  <span className="text-2xl">{tool.emoji}</span>
-                  <div>
-                    <h3 className="font-medium group-hover:text-accent">{tool.shortTitle}</h3>
-                    <p className="mt-1 text-sm text-muted line-clamp-2">{tool.description}</p>
-                    <span className="mt-2 inline-block rounded-full bg-accent/10 px-2 py-0.5 text-xs text-accent">
-                      {tool.engine}
-                    </span>
-                  </div>
+      {/* Tools by Category */}
+      {categories.map((cat, index) => {
+        const catTools = toolsRegistry.filter((t) => t.category === cat.slug);
+        return (
+          <section
+            key={cat.slug}
+            id={cat.slug}
+            className={index % 2 === 0 ? 'border-t border-border bg-surface' : 'border-t border-border'}
+          >
+            <div className="mx-auto max-w-6xl px-4 py-16">
+              <div className="mb-8 flex items-center justify-between">
+                <div>
+                  <h2 className="text-2xl font-bold md:text-3xl">
+                    <span className="mr-2">{cat.emoji}</span>{cat.title}
+                  </h2>
+                  <p className="mt-1 text-muted">{cat.description}</p>
                 </div>
+                <Link
+                  href={`/category/${cat.slug}`}
+                  className="hidden text-sm text-accent hover:text-accent-hover md:block"
+                >
+                  View all →
+                </Link>
+              </div>
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {catTools.map((tool) => (
+                  <Link
+                    key={tool.slug}
+                    href={`/${tool.slug}`}
+                    className="tool-card-glow group rounded-xl border border-border bg-background p-5 transition-all hover:border-accent/30"
+                  >
+                    <div className="flex items-start gap-3">
+                      <span className="text-2xl">{tool.emoji}</span>
+                      <div>
+                        <h3 className="font-medium group-hover:text-accent">{tool.shortTitle}</h3>
+                        <p className="mt-1 text-sm text-muted line-clamp-2">{tool.description}</p>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+              <Link
+                href={`/category/${cat.slug}`}
+                className="mt-6 block text-center text-sm text-accent hover:text-accent-hover md:hidden"
+              >
+                View all {cat.title} tools →
               </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+            </div>
+          </section>
+        );
+      })}
 
       {/* Email CTA */}
       <section className="mx-auto max-w-2xl px-4 py-16">
