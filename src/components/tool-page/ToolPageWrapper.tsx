@@ -46,13 +46,13 @@ export default function ToolPageWrapper({ tool, supportingContent, children }: T
         {/* Intro */}
         <div>
           <h2 className="mb-3 text-xl font-bold">About This Tool</h2>
-          <div className="text-muted leading-relaxed [&_a]:text-accent [&_a]:underline [&_a]:underline-offset-2 hover:[&_a]:text-accent-hover" dangerouslySetInnerHTML={{ __html: supportingContent.intro }} />
+          <div className="text-muted leading-relaxed break-words [&_a]:text-accent [&_a]:underline [&_a]:underline-offset-2 hover:[&_a]:text-accent-hover" dangerouslySetInnerHTML={{ __html: supportingContent.intro }} />
         </div>
 
         {/* How to use */}
         <div>
           <h2 className="mb-3 text-xl font-bold">How to Use</h2>
-          <div className="text-muted leading-relaxed [&_a]:text-accent [&_a]:underline [&_a]:underline-offset-2 hover:[&_a]:text-accent-hover" dangerouslySetInnerHTML={{ __html: supportingContent.howToUse }} />
+          <div className="text-muted leading-relaxed break-words [&_a]:text-accent [&_a]:underline [&_a]:underline-offset-2 hover:[&_a]:text-accent-hover" dangerouslySetInnerHTML={{ __html: supportingContent.howToUse }} />
         </div>
 
         {/* FAQ */}
@@ -65,7 +65,7 @@ export default function ToolPageWrapper({ tool, supportingContent, children }: T
                   <summary className="cursor-pointer p-4 font-medium transition-colors hover:text-accent">
                     {faq.question}
                   </summary>
-                  <div className="px-4 pb-4 text-sm text-muted [&_a]:text-accent [&_a]:underline [&_a]:underline-offset-2 hover:[&_a]:text-accent-hover" dangerouslySetInnerHTML={{ __html: faq.answer }} />
+                  <div className="px-4 pb-4 text-sm text-muted break-words [&_a]:text-accent [&_a]:underline [&_a]:underline-offset-2 hover:[&_a]:text-accent-hover" dangerouslySetInnerHTML={{ __html: faq.answer }} />
                 </details>
               ))}
             </div>

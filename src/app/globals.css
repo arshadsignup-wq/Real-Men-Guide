@@ -14,6 +14,11 @@
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
 }
 
+/* Prevent horizontal overflow on mobile */
+html, body {
+  overflow-x: hidden;
+}
+
 /* Base styles */
 body {
   background: var(--color-background);

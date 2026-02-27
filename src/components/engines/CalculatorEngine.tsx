@@ -169,7 +169,7 @@ export default function CalculatorEngine({ config, tool }: CalculatorEngineProps
                 return (
                   <div
                     key={output.id}
-                    className={`flex items-center justify-between rounded-lg ${
+                    className={`flex flex-col gap-1 rounded-lg sm:flex-row sm:items-center sm:justify-between ${
                       output.highlight ? 'bg-accent/10 p-3' : 'border-b border-border pb-3 last:border-0'
                     }`}
                   >
@@ -181,7 +181,7 @@ export default function CalculatorEngine({ config, tool }: CalculatorEngineProps
                         <p className="text-xs text-muted">{output.description}</p>
                       )}
                     </div>
-                    <p className={`font-mono text-lg ${output.highlight ? 'font-bold text-accent' : 'text-foreground'}`}>
+                    <p className={`font-mono text-lg shrink-0 ${output.highlight ? 'font-bold text-accent' : 'text-foreground'}`}>
                       {formatOutput(value, output.format)}
                     </p>
                   </div>

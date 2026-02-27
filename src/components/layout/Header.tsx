@@ -44,7 +44,7 @@ export default function Header() {
             </button>
 
             {toolsOpen && (
-              <div className="absolute right-0 top-full mt-2 w-[720px] rounded-xl border border-border bg-background p-6 shadow-2xl">
+              <div className="absolute right-0 top-full mt-2 w-[calc(100vw-2rem)] max-w-[720px] rounded-xl border border-border bg-background p-6 shadow-2xl">
                 <div className="grid grid-cols-2 gap-6">
                   {categories.map((cat) => {
                     const catTools = toolsRegistry.filter((t) => t.category === cat.slug);

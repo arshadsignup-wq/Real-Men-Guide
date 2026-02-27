@@ -123,16 +123,16 @@ export default function HomePage() {
             className={index % 2 === 0 ? 'border-t border-border bg-surface' : 'border-t border-border'}
           >
             <div className="mx-auto max-w-6xl px-4 py-16">
-              <div className="mb-8 flex items-center justify-between">
+              <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
                 <div>
                   <h2 className="text-2xl font-bold md:text-3xl">
                     <span className="mr-2">{cat.emoji}</span>{cat.title}
                   </h2>
-                  <p className="mt-1 text-muted">{cat.description}</p>
+                  <p className="mt-1 text-sm text-muted md:text-base">{cat.description}</p>
                 </div>
                 <Link
                   href={`/category/${cat.slug}`}
-                  className="hidden text-sm text-accent hover:text-accent-hover md:block"
+                  className="hidden shrink-0 text-sm text-accent hover:text-accent-hover md:block"
                 >
                   View all →
                 </Link>
