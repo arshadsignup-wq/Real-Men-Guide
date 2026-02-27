@@ -1,7 +1,7 @@
 'use client';
 
 import { getToolBySlug } from '@/data/tools-registry';
-import { generateToolJsonLd, generateFaqJsonLd } from '@/lib/seo';
+import { generateToolJsonLd, generateFaqJsonLd, generateBreadcrumbJsonLd } from '@/lib/seo';
 import ToolPageWrapper from '@/components/tool-page/ToolPageWrapper';
 import QuizEngine from '@/components/engines/QuizEngine';
 import { beardStyleSelectorConfig } from '@/data/tools/beard-style-selector';
@@ -13,6 +13,7 @@ export default function BeardStyleSelectorPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateToolJsonLd(tool)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateFaqJsonLd(beardStyleSelectorConfig.supportingContent.faq)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateBreadcrumbJsonLd(tool)) }} />
       <ToolPageWrapper tool={tool} supportingContent={beardStyleSelectorConfig.supportingContent}>
         <QuizEngine config={beardStyleSelectorConfig} tool={tool} />
       </ToolPageWrapper>

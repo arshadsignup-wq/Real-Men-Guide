@@ -1,7 +1,7 @@
 'use client';
 
 import { getToolBySlug } from '@/data/tools-registry';
-import { generateToolJsonLd, generateFaqJsonLd } from '@/lib/seo';
+import { generateToolJsonLd, generateFaqJsonLd, generateBreadcrumbJsonLd } from '@/lib/seo';
 import ToolPageWrapper from '@/components/tool-page/ToolPageWrapper';
 import CalculatorEngine from '@/components/engines/CalculatorEngine';
 import { cologneBottleLifespanCalculatorConfig } from '@/data/tools/cologne-bottle-lifespan-calculator';
@@ -13,6 +13,7 @@ export default function CologneBottleLifespanCalculatorPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateToolJsonLd(tool)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateFaqJsonLd(cologneBottleLifespanCalculatorConfig.supportingContent.faq)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateBreadcrumbJsonLd(tool)) }} />
       <ToolPageWrapper tool={tool} supportingContent={cologneBottleLifespanCalculatorConfig.supportingContent}>
         <CalculatorEngine config={cologneBottleLifespanCalculatorConfig} tool={tool} />
       </ToolPageWrapper>

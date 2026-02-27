@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { toolsRegistry, getFeaturedTools } from '@/data/tools-registry';
 import { categories } from '@/lib/site-config';
+import { generateOrganizationJsonLd, generateWebSiteJsonLd } from '@/lib/seo';
 import EmailCapture from '@/components/email/EmailCapture';
 
 export default function HomePage() {
@@ -8,6 +9,10 @@ export default function HomePage() {
 
   return (
     <div>
+      {/* Structured Data */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateOrganizationJsonLd()) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateWebSiteJsonLd()) }} />
+
       {/* Hero */}
       <section className="border-b border-border bg-surface">
         <div className="mx-auto max-w-6xl px-4 py-16 text-center md:py-24">
