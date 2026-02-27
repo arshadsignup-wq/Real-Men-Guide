@@ -16,43 +16,37 @@ export default function HomePage() {
       {/* Hero */}
       <section className="border-b border-border bg-surface">
         <div className="mx-auto max-w-6xl px-4 py-16 text-center md:py-24">
+          <div className="mb-4 inline-block rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5 text-sm font-medium text-accent">
+            {toolsRegistry.length} Free Tools — No Sign-Up Required
+          </div>
           <h1 className="text-4xl font-bold tracking-tight md:text-6xl">
             Free Tools to <span className="text-accent">Level Up</span> Your Life
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted">
-            Interactive tools for style, grooming, fitness, and life skills.
-            No sign-up required. 100% free.
+            Calculators, quizzes, and builders for style, grooming, fitness, dating, and more. 100% free, works instantly.
           </p>
-          <div className="mt-8 flex flex-wrap justify-center gap-3">
-            {featured.slice(0, 4).map((tool) => (
-              <Link
-                key={tool.slug}
-                href={`/${tool.slug}`}
-                className="rounded-lg bg-accent px-5 py-2.5 font-medium text-background transition-colors hover:bg-accent-hover"
-              >
-                {tool.emoji} {tool.shortTitle}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
 
-      {/* Quick Jump Categories */}
-      <section className="mx-auto max-w-6xl px-4 py-12">
-        <h2 className="mb-6 text-center text-2xl font-bold md:text-3xl">Explore by Category</h2>
-        <div className="flex flex-wrap justify-center gap-3">
-          {categories.map((cat) => (
-            <a
-              key={cat.slug}
-              href={`#${cat.slug}`}
-              className="rounded-full border border-border bg-surface px-5 py-2.5 text-sm font-medium transition-all hover:border-accent/50 hover:text-accent"
-            >
-              {cat.emoji} {cat.title}
-              <span className="ml-1.5 text-muted">
-                ({toolsRegistry.filter((t) => t.category === cat.slug).length})
-              </span>
-            </a>
-          ))}
+          {/* Category Cards */}
+          <div className="mx-auto mt-10 grid max-w-4xl gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {categories.map((cat) => {
+              const count = toolsRegistry.filter((t) => t.category === cat.slug).length;
+              return (
+                <a
+                  key={cat.slug}
+                  href={`#${cat.slug}`}
+                  className="group rounded-xl border border-border bg-background p-5 text-left transition-all hover:border-accent/50 hover:shadow-lg"
+                >
+                  <span className="text-3xl">{cat.emoji}</span>
+                  <h2 className="mt-2 font-bold group-hover:text-accent">{cat.title}</h2>
+                  <p className="mt-1 text-sm text-accent">{count} tools</p>
+                </a>
+              );
+            })}
+          </div>
+
+          <p className="mt-6 text-sm text-muted">
+            Scroll down to browse all {toolsRegistry.length} tools or pick a category above
+          </p>
         </div>
       </section>
 
