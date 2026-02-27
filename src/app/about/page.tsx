@@ -4,7 +4,7 @@ import { generatePageMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = generatePageMetadata(
   'About',
-  'Real Men Guide is a free resource hub with 25+ interactive tools for style, grooming, fitness, and life skills.',
+  'Real Men Guide is a free resource hub with interactive tools for style, grooming, fitness, and life skills.',
   '/about'
 );
 
@@ -18,7 +18,7 @@ export default function AboutPage() {
           Real Men Guide is a free collection of interactive tools designed to help men
           look better, feel better, and live better. From calculating your body fat
           percentage to finding the perfect beard style for your face shape, we&apos;ve
-          built 25+ tools that give you actionable, personalized advice in minutes.
+          built tools that give you actionable, personalized advice in minutes.
         </p>
 
         <p>

@@ -20,7 +20,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'Real Men Guide - Free Tools for Style, Fitness & Life',
   description:
-    'Free interactive tools for men. Body fat calculator, TDEE calculator, face shape analyzer, outfit builder, and 20+ more tools to help you level up.',
+    'Free interactive tools for men. Body fat calculator, TDEE calculator, face shape analyzer, outfit builder, and more tools to help you level up.',
   keywords: ['men tools', 'style guide men', 'fitness calculator', 'grooming tips', 'self improvement men'],
   metadataBase: new URL('https://realmenguide.com'),
 };

@@ -15,7 +15,7 @@ export default function HomePage() {
             Free Tools to <span className="text-accent">Level Up</span> Your Life
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted">
-            25+ interactive tools for style, grooming, fitness, and life skills.
+            Interactive tools for style, grooming, fitness, and life skills.
             No sign-up required. 100% free.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
@@ -56,7 +56,7 @@ export default function HomePage() {
       {/* All Tools Grid */}
       <section className="border-t border-border bg-surface">
         <div className="mx-auto max-w-6xl px-4 py-16">
-          <h2 className="mb-8 text-center text-2xl font-bold md:text-3xl">All 25 Tools</h2>
+          <h2 className="mb-8 text-center text-2xl font-bold md:text-3xl">All Tools</h2>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {toolsRegistry.map((tool) => (
               <Link
