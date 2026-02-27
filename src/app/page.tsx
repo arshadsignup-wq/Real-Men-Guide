@@ -29,9 +29,6 @@ export default function HomePage() {
       {/* Hero */}
       <section className="border-b border-border bg-surface">
         <div className="mx-auto max-w-6xl px-4 py-16 text-center md:py-24">
-          <div className="mb-4 inline-block rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5 text-sm font-medium text-accent">
-            {toolsRegistry.length} Free Tools — No Sign-Up Required
-          </div>
           <h1 className="text-4xl font-bold tracking-tight md:text-6xl">
             Free Tools to <span className="text-accent">Level Up</span> Your Life
           </h1>
