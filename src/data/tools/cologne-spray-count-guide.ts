@@ -1,0 +1,237 @@
+import type { CalculatorConfig } from '@/lib/types';
+
+export const cologneSprayCountGuideConfig: CalculatorConfig = {
+  fields: [
+    {
+      id: 'concentration',
+      label: 'Fragrance Concentration',
+      type: 'select',
+      defaultValue: 'eau_de_parfum',
+      options: [
+        { label: 'Eau de Cologne (EDC)', value: 'eau_de_cologne' },
+        { label: 'Eau de Toilette (EDT)', value: 'eau_de_toilette' },
+        { label: 'Eau de Parfum (EDP)', value: 'eau_de_parfum' },
+        { label: 'Parfum (Extrait)', value: 'parfum' },
+      ],
+      helpText: 'Higher concentrations are stronger and require fewer sprays.',
+    },
+    {
+      id: 'occasion',
+      label: 'Occasion',
+      type: 'select',
+      defaultValue: 'casual',
+      options: [
+        { label: 'Office / Work', value: 'office' },
+        { label: 'Casual / Everyday', value: 'casual' },
+        { label: 'Date Night', value: 'date' },
+        { label: 'Club / Night Out', value: 'club' },
+        { label: 'Outdoor / Active', value: 'outdoor' },
+      ],
+      helpText: 'Conservative settings call for fewer sprays; social settings allow more.',
+    },
+    {
+      id: 'season',
+      label: 'Season',
+      type: 'select',
+      defaultValue: 'spring_fall',
+      options: [
+        { label: 'Summer', value: 'summer' },
+        { label: 'Spring / Fall', value: 'spring_fall' },
+        { label: 'Winter', value: 'winter' },
+      ],
+      helpText: 'Heat amplifies fragrance, so use fewer sprays in warm weather.',
+    },
+    {
+      id: 'skin_type',
+      label: 'Skin Type',
+      type: 'select',
+      defaultValue: 'normal',
+      options: [
+        { label: 'Dry', value: 'dry' },
+        { label: 'Normal', value: 'normal' },
+        { label: 'Oily', value: 'oily' },
+      ],
+      helpText: 'Dry skin causes fragrance to fade faster; oily skin holds scent longer.',
+    },
+  ],
+  outputs: [
+    {
+      id: 'recommended_sprays',
+      label: 'Recommended Sprays',
+      highlight: true,
+      description: 'The ideal number of sprays for your situation.',
+    },
+    {
+      id: 'spray_locations',
+      label: 'Where to Spray',
+      description: 'Best pulse points and body areas for application.',
+    },
+    {
+      id: 'longevity_hours',
+      label: 'Estimated Longevity',
+      unit: 'hours',
+      description: 'How long you can expect the fragrance to last.',
+    },
+    {
+      id: 'dos_and_donts',
+      label: 'Tips',
+      description: 'Quick dos and don\'ts for your specific combo.',
+    },
+  ],
+  calculate: (inputs: Record<string, number | string>): Record<string, number | string> => {
+    const concentration = String(inputs.concentration);
+    const occasion = String(inputs.occasion);
+    const season = String(inputs.season);
+    const skinType = String(inputs.skin_type);
+
+    // Base spray ranges by concentration (using midpoint)
+    let baseSpraysMid: number;
+    let baseLongevity: number;
+    switch (concentration) {
+      case 'eau_de_cologne':
+        baseSpraysMid = 6;  // 5-7 range, mid = 6
+        baseLongevity = 2;
+        break;
+      case 'eau_de_toilette':
+        baseSpraysMid = 4;  // 3-5 range, mid = 4
+        baseLongevity = 4;
+        break;
+      case 'eau_de_parfum':
+        baseSpraysMid = 3;  // 2-4 range, mid = 3
+        baseLongevity = 6;
+        break;
+      case 'parfum':
+        baseSpraysMid = 2;  // 1-2 range, mid ~1.5 rounded to 2
+        baseLongevity = 8;
+        break;
+      default:
+        baseSpraysMid = 3;
+        baseLongevity = 5;
+    }
+
+    // Occasion adjustment
+    let occasionAdj = 0;
+    let occasionNote = '';
+    switch (occasion) {
+      case 'office':
+        occasionAdj = -1;
+        occasionNote = 'Keep it subtle at work. Less is always more in professional settings.';
+        break;
+      case 'casual':
+        occasionAdj = 0;
+        occasionNote = 'Standard application works great for everyday wear.';
+        break;
+      case 'date':
+        occasionAdj = 0;
+        occasionNote = 'Apply to pulse points so the scent unfolds naturally as you get closer.';
+        break;
+      case 'club':
+        occasionAdj = 1;
+        occasionNote = 'You can go a bit heavier since clubs are louder environments with competing scents.';
+        break;
+      case 'outdoor':
+        occasionAdj = 0;
+        occasionNote = 'Open air dissipates fragrance quickly. Focus sprays on clothing for outdoor events.';
+        break;
+      default:
+        occasionAdj = 0;
+        occasionNote = 'Standard application is a safe bet.';
+    }
+
+    // Season adjustment
+    let seasonAdj = 0;
+    switch (season) {
+      case 'summer':
+        seasonAdj = -1;
+        baseLongevity -= 1;
+        break;
+      case 'spring_fall':
+        seasonAdj = 0;
+        break;
+      case 'winter':
+        seasonAdj = 1;
+        baseLongevity += 1;
+        break;
+    }
+
+    // Skin type adjustment
+    let skinAdj = 0;
+    switch (skinType) {
+      case 'dry':
+        skinAdj = 1;
+        baseLongevity -= 1;
+        break;
+      case 'normal':
+        skinAdj = 0;
+        break;
+      case 'oily':
+        skinAdj = 0;
+        baseLongevity += 1;
+        break;
+    }
+
+    // Calculate total and clamp to 1-8
+    let totalSprays = baseSpraysMid + occasionAdj + seasonAdj + skinAdj;
+    totalSprays = Math.max(1, Math.min(8, totalSprays));
+
+    // Ensure longevity stays reasonable
+    baseLongevity = Math.max(1, Math.min(12, baseLongevity));
+
+    // Determine spray locations based on count
+    let sprayLocations: string;
+    if (totalSprays <= 2) {
+      sprayLocations = 'Neck (one side), one wrist';
+    } else if (totalSprays <= 4) {
+      sprayLocations = 'Both sides of neck, both wrists';
+    } else if (totalSprays <= 6) {
+      sprayLocations = 'Both sides of neck, both wrists, chest';
+    } else {
+      sprayLocations = 'Both sides of neck, both wrists, chest, behind ears';
+    }
+
+    // Build tips string
+    let tips = occasionNote;
+    if (skinType === 'dry') {
+      tips += ' Apply unscented moisturizer before spraying to help the scent last longer.';
+    }
+    if (season === 'summer') {
+      tips += ' Avoid rubbing your wrists together; it breaks down the top notes.';
+    }
+
+    return {
+      recommended_sprays: `${totalSprays} sprays`,
+      spray_locations: sprayLocations,
+      longevity_hours: `${baseLongevity} - ${baseLongevity + 2}`,
+      dos_and_donts: tips,
+    };
+  },
+  supportingContent: {
+    intro:
+      'The difference between smelling great and clearing a room comes down to how many times you press that nozzle. This cologne spray count guide calculates the ideal number of sprays based on your fragrance concentration, the occasion, the season, and your skin type. No more guessing, no more overspraying.',
+    howToUse:
+      'Select your fragrance concentration type (check the bottle label if you are unsure), choose the occasion, the current season, and your skin type. The calculator will tell you exactly how many sprays to apply and where to place them for maximum effect without overwhelming anyone around you.',
+    faq: [
+      {
+        question: 'What are pulse points and why should I spray there?',
+        answer:
+          'Pulse points are areas where blood vessels sit close to the skin surface, generating warmth that helps diffuse fragrance throughout the day. The main pulse points for men are the sides of the neck, the inner wrists, the chest, and behind the ears. Spraying on these spots projects the scent naturally as your body heat activates the fragrance molecules. The neck and chest are the most effective for projecting to people nearby.',
+      },
+      {
+        question: 'Can I reapply cologne during the day?',
+        answer:
+          'Yes, but be strategic. Eau de Cologne and Eau de Toilette concentrations are designed for reapplication after 2-4 hours. Carry a travel atomizer (10ml or less) for a midday refresh. Apply only 1-2 sprays when reapplying. Do not reapply Eau de Parfum or Parfum concentrations unless the scent has completely faded, as the base notes may still be working even if you can no longer smell them yourself (nose blindness).',
+      },
+      {
+        question: 'Does layering fragrances change how many sprays I need?',
+        answer:
+          'Layering (wearing a scented body wash, deodorant, or balm with your cologne) amplifies overall scent presence, so you should reduce your spray count by 1-2 when layering. Stick to products in the same fragrance family to avoid clashing. Many brands sell layering sets for this exact purpose. If you use a strongly scented deodorant, count that as replacing one spray location.',
+      },
+    ],
+    relatedTools: [
+      'cologne-bottle-lifespan-calculator',
+      'cologne-sprays-per-ml-converter',
+      'fragrance-finder',
+      'skincare-routine-builder',
+    ],
+  },
+};
